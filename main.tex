@@ -51,6 +51,8 @@
 
 \newcommand{\facciatabianca}{\newpage\shipout\null}
 
+\lstset{defaultdialect=[Visual]Basic}
+
 \allowdisplaybreaks
 
 \begin{document}
@@ -68,7 +70,6 @@
 		\medskip   
 		\rule{10cm}{.4pt}\\
 		\medskip\begin{Large}
-			{}\\    % Eventualmente Classe Umanistica
 			\medskip
 			\vspace{\stretch{0.6}}
 			Tesi di Laurea Triennale in Informatica\end{Large}\\
@@ -557,7 +558,7 @@ CREATE TYPE qualifica_persona AS ENUM (
 
 CREATE TABLE persona (
     numero_tessera text PRIMARY KEY, -- Text = varchar(inf)
-    id_partecipante int NOT NULL, -- Come chiave esterna, un serial diventa int | Il vincolo UNIQUE è controllato dal trigger apposito
+    id_partecipante int NOT NULL, -- Come chiave esterna, un serial diventa int | Il vincolo UNIQUE e' controllato dal trigger apposito
     codice_fiscale text NOT NULL UNIQUE, -- Era una chiave candidata
     nome text NOT NULL,
     cognome text NOT NULL,
@@ -573,7 +574,7 @@ CREATE TABLE persona (
 );
 
 CREATE TABLE persona_esterna (
-    id_partecipante int PRIMARY KEY, -- Il vincolo UNIQUE è controllato dal trigger apposito
+    id_partecipante int PRIMARY KEY, -- Il vincolo UNIQUE e' controllato dal trigger apposito
     nome text NOT NULL,
     cognome text NOT NULL,
     telefono text NOT NULL,
@@ -593,14 +594,14 @@ CREATE TABLE ha_abilitazione (
 
 \begin{lstlisting}[language=SQL, caption=Esempio di implementazione di indici]
 CREATE INDEX idx_attivita_inizio ON attivita(timestamp_inizio_previsto, timestamp_fine_previsto);
-CREATE INDEX idx_attivita_completata_inizio ON attivita_completata(timestamp_inizio_effettivo, timestamp_fine_effettivo); -- Per quantità stimata di attrezzaura consumabile
+CREATE INDEX idx_attivita_completata_inizio ON attivita_completata(timestamp_inizio_effettivo, timestamp_fine_effettivo); -- Per quantita' stimata di attrezzaura consumabile
 CREATE INDEX idx_persona_partecipante ON persona(id_partecipante);
 \end{lstlisting}
 
 \paragraph{} Mediante la codifica di opportuni \emph{trigger}\footnote{I \emph{trigger} sono particolari script eseguibili all'interno di un dbms, a seguito della modifica dei suoi contenuti.} in linguaggio \emph{plpgsql}, abbiamo realizzato i principali controlli di integrità non verificabili dal dbms tramite i soli \emph{constraints}. Inoltre, trigger aggiuntivi sono stati aggiunti per facilitare l'inserimento di alcuni dati.
 
 \begin{lstlisting}[language=SQL, caption=Esempio di implementazione di trigger]
--- Vincolo di esclusività attrezzatura (no duplicati) in inserimento
+-- Vincolo di esclusivita' attrezzatura (no duplicati) in inserimento
 CREATE OR REPLACE FUNCTION check_id_attrezzatura()
 RETURNS TRIGGER
 LANGUAGE plpgsql AS $$
@@ -616,7 +617,7 @@ BEGIN
 END;
 $$;
 
-DROP TRIGGER IF EXISTS trigger_02_insert_consumabile ON attrezzatura_consumabile; -- Il '02' nel nome serve perché i trigger su una tabella sono controllati in ordine alfabetico
+DROP TRIGGER IF EXISTS trigger_02_insert_consumabile ON attrezzatura_consumabile; -- Il '02' nel nome serve perche' i trigger su una tabella sono controllati in ordine alfabetico
 CREATE TRIGGER trigger_02_insert_consumabile
     BEFORE INSERT ON attrezzatura_consumabile
     FOR EACH ROW
@@ -636,7 +637,7 @@ CREATE TRIGGER trigger_insert_non_consumabile
 
 \paragraph{} L'immagine scelta è \emph{postgres}, a cui basta passare le credenziali di amministrazione tramite environment. 
 
-\begin{lstlisting}[language=YAML, caption=Configurazione di docker compose per postgres]
+\begin{lstlisting}[caption=Configurazione di docker compose per postgres]
 postgres:
     container_name: protezionecivile_pg
     image: postgres
@@ -1006,7 +1007,7 @@ def generate_get(table, query=None, prefix="/api"):
         def f(cursor):
             cursor.execute(query)
 
-            #nel caso la query ritorni una sola riga, è comunque contenuta in una lista unitaria [row1]
+            #nel caso la query ritorni una sola riga, e' comunque contenuta in una lista unitaria [row1]
             #lista vuota [] nel caso in cui la query non ritorni alcuna riga
             return cursor.fetchall()
 
@@ -1267,7 +1268,7 @@ generate_crsd("categoria_attrezzatura", ["nome_categoria"], auth="cms")
 
 \paragraph{} Il logout è effettuabile mediante l'endpoint \emph{do\_logout}. L'unico parametro richiesto è il token da eliminare. 
 
-\begin{lstlisting}[language=Python, caption=POST do\logout]
+\begin{lstlisting}[language=Python, caption=POST do\_logout]
 @app.route("/api/do_logout", methods=["POST"])
 def doLogout():
     token = request.headers.get("Authorization")
@@ -1294,7 +1295,7 @@ def doLogout():
 
 \paragraph{} All'interno del link viene generato un token univoco, associato all'utente. Esso è a tutti gli effetti un access token legato alla email specificata, con cui il proprietario può modificare la password o effettuare altre operazioni.  
 
-\begin{lstlisting}[language=Python, caption=endpoint richiedi_recupera_pw]
+\begin{lstlisting}[language=Python, caption=endpoint richiedi\_recupera\_pw]
 @app.route("/api/richiedi_recupera_pw", methods=["POST"])
 def get_recuperaPw():
     data = getDataSettingNull()
@@ -1408,14 +1409,14 @@ def do_recuperaPw():
 
 \paragraph{} Per creare il container, è necessario partire da un'immagine contenente python3+gunicorn, installare le librerie necessarie e copiare i sorgenti.
 
-\begin{lstlisting}[language=yaml, caption=Dockerfile]
+\begin{lstlisting}[caption=Dockerfile]
 FROM tiangolo/meinheld-gunicorn:python3.7
 COPY requirements.txt /
 RUN pip install -r /requirements.txt
 COPY . /app
 \end{lstlisting}
 
-\begin{lstlisting}[language=yaml, caption=File di configurazione per Docker compose]
+\begin{lstlisting}[caption=File di configurazione per Docker compose]
 web:
     container_name: protezionecivile_web
     image: protezionecivile_web
@@ -2413,7 +2414,7 @@ Risk management
 \\\url{https://searchcompliance.techtarget.com/definition/risk-management}
 
 \bibitem{prog_architetturale}
-Software Architecture & Design
+Software Architecture \& Design
 \\\url{https://www.tutorialspoint.com/software_architecture_design/index.htm}
 
 \bibitem{rest}
