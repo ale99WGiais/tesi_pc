@@ -116,7 +116,7 @@
 
 \section{Introduzione}
 
-\paragraph{} La Protezione Civile del comune di San Vito al Tagliamento attualmente utilizza esclusivamente moduli cartacei per la gestione delle proprie attività, il tracciamento della partecipazione delle squadre e il mantenimento delle informazioni riguardanti il proprio inventario. 
+\paragraph{} La Protezione Civile del comune di San Vito al Tagliamento \cite{protezionecivile} attualmente utilizza esclusivamente moduli cartacei per la gestione delle proprie attività, il tracciamento della partecipazione delle squadre e il mantenimento delle informazioni riguardanti il proprio inventario. 
 
 \paragraph{} Lo scopo di questo progetto è la realizzazione di un sistema informatico che possa contribuire a migliorare l'efficienza, la sicurezza e la semplicità di gestione della parte burocratica. Inoltre, un'integrazione automatica dei dati e delle richieste migliora le capacità organizzative, in quanto semplifica la comunicazione tra i membri, rimuove l'onere dei capisquadra di ricordare precisamente tutte le informazioni necessarie (come l'elenco delle presenze e dei materiali) e fornisce una dashboard unica in cui è possibile visualizzare tutte le informazioni di cui si può aver bisogno. 
 
@@ -196,7 +196,7 @@
 
 \section{Pianificazione iniziale}
 
-\paragraph{} Per iniziare a lavorare sul progetto, è fondamentare decidere fin da subito quale sarà il modello di sviluppo adottato, in quanto esso ci dà gli stumenti per dividere il lavoro in task, organizzarli gerarchicamente e metterli in relazione tra loro. 
+\paragraph{} Per iniziare a lavorare sul progetto, è fondamentare decidere fin da subito quale sarà il modello di sviluppo adottato, in quanto esso ci dà gli stumenti per dividere il lavoro in task, organizzarli gerarchicamente e metterli in relazione tra loro  \cite{modelli_sviluppo, agile_manifesto}. 
 
 \paragraph{} Le principali tipologie di modello sono: \emph{waterfall} e \emph{iterativo}. Nel modello \emph{waterfall} il processo di sviluppo si divide in fasi (requirements, specification, design, implementation, testing...) che vengono svolte in un ordine ben preciso, e gli output di una fase costituiscono l'input della sucessiva. Per dare inizio ad una fase bisogna attendere il completamento della precedente. Nei modelli \emph{iterativi} le fasi sono molto brevi e vengono ripetute iterativamente, in modo da aggiungere un po' alla volta nuove caratteristiche e funzionalità. Il modello waterfall fornisce migliori garanzie per quanto riguarda la prevedibilità, ma necessita di conoscere fin dall'inizio in modo preciso tutti i requisiti e pone molte difficoltà nel caso di cambiamenti in corso d'opera.
 
@@ -225,7 +225,7 @@
 
 \section{Raccolta dei requisiti}
 
-\paragraph{} La raccolta dei requisiti si prefigge di elencare \emph{precisamente} tutte le caratteristiche \emph {funzionali} e \emph{non funzionali}\footnote{Le caratteristiche funzionali legano gli input del sistema ai suoi output (ciò che il sistema fa). Le caratteristiche non funzionali sono molto più generiche e possono includere sia caratteristiche del sistema (ad esempio: tempi di risposta, tolleranza agli errori), sia vincoli esterni (ad esempio: legislativi, amministrativi, finanziari).} che il sistema dovrà avere. Questa fase serve per avere un'idea il più chiara possibile di quello che il committente vuole, in modo da \emph{minimizzare il rischio}\footnote{Si riferisce all'attività di \emph{risk management}} di produrre un sistema che non incontri le sue aspettative.
+\paragraph{} La raccolta dei requisiti \cite{req_analysis} si prefigge di elencare \emph{precisamente} tutte le caratteristiche \emph {funzionali} e \emph{non funzionali}\footnote{Le caratteristiche funzionali legano gli input del sistema ai suoi output (ciò che il sistema fa). Le caratteristiche non funzionali sono molto più generiche e possono includere sia caratteristiche del sistema (ad esempio: tempi di risposta, tolleranza agli errori), sia vincoli esterni (ad esempio: legislativi, amministrativi, finanziari).} che il sistema dovrà avere. Questa fase serve per avere un'idea il più chiara possibile di quello che il committente vuole, in modo da \emph{minimizzare il rischio}\footnote{Si riferisce all'attività di \emph{risk management}} di produrre un sistema che non incontri le sue aspettative.
 
 \subsection{Raccolta e analisi dei requisiti}
 
@@ -248,7 +248,7 @@
 
 \paragraph{} Alla scrittura di requisiti di qualità viene spesso data poca importanza, in quanto vista come perdita di tempo poco utile ai fini dell'implementazione. Al contrario, il documento dei requisiti è il fulcro di tutta l'attività di sviluppo; infatti viene usato in ogni fase per capire cosa il committente \emph{vuole esattamente} dal sistema in produzione. 
 
-\paragraph{} Il documento dei requisiti è l'input primario per la fase di definizione delle specifiche. Viene poi usato in fase di progettazione per sviluppare il sistema che meglio si adatta al committente e al contesto. È fondamentale per identificare le \emph{caratteristiche della qualità} importanti nel contesto di utilizzo. È utilizzato in fase di verifica per assicurarsi che il sistema faccia tutto ciò che deve (o non deve). Infine, può risultare tra i documenti legalmente vincolanti più influenti su cui si basa il contratto tra committente e sviluppatore. 
+\paragraph{} Il documento dei requisiti \cite{req_document} è l'input primario per la fase di definizione delle specifiche. Viene poi usato in fase di progettazione per sviluppare il sistema che meglio si adatta al committente e al contesto. È fondamentale per identificare le \emph{caratteristiche della qualità} importanti nel contesto di utilizzo. È utilizzato in fase di verifica per assicurarsi che il sistema faccia tutto ciò che deve (o non deve). Infine, può risultare tra i documenti legalmente vincolanti più influenti su cui si basa il contratto tra committente e sviluppatore. 
 
 \paragraph{} Risulta quindi necessario avere un criterio oggettivo e sistematico per la creazione di requisiti di qualità. Un buon documento dei requisiti ha le seguenti caratteristiche:
 \begin{itemize}
@@ -280,7 +280,7 @@
 
 \subsubsection{Approfondimento: Risk management}
 
-\paragraph{} L'attività di \emph{risk management} si occupa di identificare i rischi e ideare piani per evitarli.
+\paragraph{} L'attività di \emph{risk management} \cite{risk_management} si occupa di identificare i rischi e ideare piani per evitarli.
 
 \paragraph{} Un \emph{rischio} è una probabilità dell'avvenimento di un evento negativo. Esso quindi è naturalmente caratterizzato da una \emph{probability} (very low < low < medium < high < very high) e da una \emph{severity} (insignificant < tolerable < serious < catastrophic). I rischi riguardano tutti gli aspetti del progetto: sia quelli strettamente legati all'implementazione, sia quelli interni al gruppo di lavoro, sia quelli esterni (legati al committente o indipendenti da esso). 
 
@@ -307,7 +307,7 @@
 
 \paragraph{} È importante valutare tradeoff ottimali in modo che le azioni intraprese contro i rischi non abbiano controindicazioni peggiori dei rischi stessi (ad esempio, per minimizzare il rischio di produrre codice di bassa qualità si finisce per dilazionare troppo i tempi di implementazione e conseguentemente concludere in ritardo). 
 
-\paragraph{} Il \emph{metodo a spirale} è un particolare metodo iterativo che basa le azioni da intraprendere sulla continua valutazione e minimizzazione dei rischi. 
+\paragraph{} Il \emph{metodo a spirale} \cite{modelli_sviluppo} è un particolare metodo iterativo che basa le azioni da intraprendere sulla continua valutazione e minimizzazione dei rischi. 
 
 \begin{figure}[H]
     \centering
@@ -320,7 +320,7 @@
 
 \section{Progettazione architetturale}
 
-\paragraph{} Una volta raggiunto un documento dei requisiti soddisfacente, ha inizio una nuova fase: la \emph{progettazione architetturale}. 
+\paragraph{} Una volta raggiunto un documento dei requisiti soddisfacente, ha inizio una nuova fase: la \emph{progettazione architetturale} \cite{prog_architetturale}. 
 
 \paragraph{} In questa fase si scompone il sistema in \emph{subsytems}, che poi verranno integrati per formare il sistema originale nella sua interezza. Questa scomposizione permette di concentrarsi su sottosistemi più semplici, riducendo quindi la complessità del problema. 
 
@@ -344,7 +344,7 @@
 
 \paragraph{} Il browser ottiene le pagine web da un server web (statiche). All'interno delle pagine sono presenti degli \emph{script}\footnote{Gli \emph{script} sono piccoli programmi eseguibili, solitamente scritti in linguaggio JavaScript, che vengono eseguiti all'interno del browser e permettono la creazione di pagine web dinamiche.} che richiedono e inviano i dati all'API web. 
 
-\paragraph{} Di seguito un \emph{diagramma di contesto}\footnote{I \emph{Data Flow Diagrams} sono particolari diagrammi, molto semplici ed intuitivi, utilizzati per spiegare con un approccio strutturato e funzionale quelli che sono i processi e i flussi di dati tra di essi. In particolare i DFD di livello 0 sono anche chiamati DFD di contesto.} che mostra i flussi di comunicazione e controllo tra i sottosistemi.
+\paragraph{} Di seguito un \emph{diagramma di contesto}\footnote{I \emph{Data Flow Diagrams} sono particolari diagrammi, molto semplici ed intuitivi, utilizzati per spiegare con un approccio strutturato e funzionale quelli che sono i processi e i flussi di dati tra di essi. In particolare i DFD di livello 0 sono anche chiamati DFD di contesto.} \cite{dfd0} che mostra i flussi di comunicazione e controllo tra i sottosistemi.
 
 \begin{figure}[H]
     \centering
@@ -355,7 +355,7 @@
 
 \subsubsection{Approfondimento: Architettura REST e formato JSON}
 
-\paragraph{} Il protocollo \emph{REST} (Representational state transfer) è uno tra i più usati nella costruzione di \emph{web services}. 
+\paragraph{} Il protocollo \emph{REST} \cite{rest} (Representational state transfer) è uno tra i più usati nella costruzione di \emph{web services}. 
 
 \paragraph{} Esso sfrutta il protocollo \emph{HTTP}. Si basa sul concetto di \emph{risorsa}, identificata mediante un \emph{URI}, e di operazione, identificata da un tipo. Ad esempio, una richiesta \emph{"DELETE /persona/1234"} richiede la rimozione della persona con identificativo "1234".
 
@@ -367,7 +367,7 @@
     \caption{Struttura dell'architettura REST}
 \end{figure}
 
-\paragraph{} Il formato \emph{JSON} (JavaScript Object Notation) è uno tra i più usati per l'encoding di dati non primitivi. È estremamente semplice da leggere e scrivere, sia per l'umano che per un software. È molto più compatto di XML, rendendolo preferibile per l'utilizzo umano. È il formato usato per rappresentare gli oggetti nel linguaggio \emph{JavaScript}, e per questo risulta particolarmente familiare agli sviluppatori web. 
+\paragraph{} Il formato \emph{JSON} \cite{json} (JavaScript Object Notation) è uno tra i più usati per l'encoding di dati non primitivi. È estremamente semplice da leggere e scrivere, sia per l'umano che per un software. È molto più compatto di XML, rendendolo preferibile per l'utilizzo umano. È il formato usato per rappresentare gli oggetti nel linguaggio \emph{JavaScript}, e per questo risulta particolarmente familiare agli sviluppatori web. 
 
 \begin{figure}[H]
     \centering
@@ -402,7 +402,7 @@
 
 \section{Qualità del software}
 
-\paragraph{} Una nota particolare merita approfondimento: la qualità del software. Essa non ha una definizione universale, ma va specificata di volta in volta.
+\paragraph{} Una nota particolare merita approfondimento: la qualità del software \cite{quality}. Essa non ha una definizione universale, ma va specificata di volta in volta.
 
 \paragraph{} La qualità del software dipende dalle capacità degli sviluppatori e dalle caratteristiche del progetto. Per ottenere una maggiore qualità, risulta quindi necessario affidare il progetto a sviluppatori maggiormente specializzati e/o porre maggiore sforzo nello sviluppo. Il tutto si traduce in un aumento generale dei costi di sviluppo. 
 
@@ -460,7 +460,7 @@
 
 \subsubsection{Approfondimento: Testing}
 
-\paragraph{} Per valutare le caratteristiche della qualità, nonché per verificare il corretto funzionamento del sistema, lo strumento principale utilizzato è il testing. 
+\paragraph{} Per valutare le caratteristiche della qualità, nonché per verificare il corretto funzionamento del sistema, lo strumento principale utilizzato è il testing \cite{testing}. 
 
 \paragraph{} Esso permette di \emph{verificare} e \emph{valutare}\footnote{La \emph{verifica} è il processo che compara il software con le specifiche, in modo da individuare errori di programmazione e controllare che il software faccia \emph{quanto stabilito} ("stiamo costruendo bene il sistema richiesto?"). La \emph{validazione} invece controlla che il software incontri davvero le \emph{necessità del committente}, anche se esse dovessero discostarsi dai requisiti ("stiamo costruento il sistema giusto per il committente?").} il sistema durante tutte le fasi, dalla progettazione alla consegna. 
 
@@ -492,7 +492,7 @@
 
 \section{Database}
 
-\paragraph{} In questa sezione verrà presentato lo sviluppo del database, prima azione compiuta a seguito della progettazione architetturale. Tutti gli altri sottosistemi dipendono da esso, quindi durante la progettazione è stato necessario tenere in considerazione le esigenze di essi.
+\paragraph{} In questa sezione verrà presentato lo sviluppo del database \cite{db}, prima azione compiuta a seguito della progettazione architetturale. Tutti gli altri sottosistemi dipendono da esso, quindi durante la progettazione è stato necessario tenere in considerazione le esigenze di essi.
 
 \subsection{Progettazione concettuale}
 
@@ -546,7 +546,7 @@
 
 \subsection{Progettazione fisica e implementazione}
 
-\paragraph{} Volendo sfruttare l'occasione del corso di laboratorio di Basi di Bati, a cui tutti i membri del gruppo di lavoro fanno parte, abbiamo deciso di procedere all'implementazione con il database relazionale \emph{PostgreSQL}. 
+\paragraph{} Volendo sfruttare l'occasione del corso di laboratorio di Basi di Bati, a cui tutti i membri del gruppo di lavoro fanno parte, abbiamo deciso di procedere all'implementazione con il database relazionale \emph{PostgreSQL} \cite{postgre}. 
 
 \paragraph{} L'implementazione delle entità e relazioni risulta naturale traducendo direttamente in SQL il contenuto dello schema ER ristrutturato. 
 
@@ -654,7 +654,7 @@ postgres:
 
 \subsubsection{Approfondimento: Utilizzo di Docker}
 
-\paragraph{} \emph{Docker} è una piattaforma software che permette di creare, testare e distribuire applicazioni in modo semplice e sicuro.\footnote{https://aws.amazon.com/it/docker/} 
+\paragraph{} \emph{Docker} \cite{docker} è una piattaforma software che permette di creare, testare e distribuire applicazioni in modo semplice e sicuro.\footnote{https://aws.amazon.com/it/docker/} 
 
 \paragraph{} Esso raccoglie il software in unità standardizzate chiamate \emph{container}, le quali offrono tutto il necessario per la loro corretta esecuzione, incluse librerie, strumenti di sistema, codice e runtime. 
 
@@ -675,7 +675,7 @@ postgres:
 
 \subsection{Testing}
 
-\paragraph{} Per interfacciarsi con il postgres, si è scelto di usare la GUI \emph{pgAdmin4}.
+\paragraph{} Per interfacciarsi con il postgres, si è scelto di usare la GUI \emph{pgAdmin4} \cite{pgadmin}.
 
 \paragraph{} Un primo testing è stato effettuato inserendo manualmente query in modo da popolare il database con pochi dati, effettuare ricerche e modificarne il contenuto. Per ogni vincolo di integrità, è stata eseguita almeno una query che andasse a verificare il comportamento. 
 
@@ -691,7 +691,7 @@ postgres:
 
 \section{API web}
 
-\paragraph{} Una volta concluso lo sviluppo del database, è stato affrontata la progettazione e sviluppo dell'API web.
+\paragraph{} Una volta concluso lo sviluppo del database, è stato affrontata la progettazione e sviluppo dell'API web \cite{restapi}.
 
 \subsection{Progettazione}
 
@@ -699,13 +699,13 @@ postgres:
 
 \paragraph{} Per avere una migliore modularizzazione del codice, viene inizialmente costruita una libreria di supporto. Essa permette di effettuare in modo agevole le operazioni più comuni, come l'accesso al database e la formattazione della risposta. 
 
-\paragraph{} La cache, implementata con \emph{Redis}, permette di velocizzare le operazioni di recupero dei dati in lettura. Infatti, con essa non è necessario che il database e il server API ricalcolino la risposta ad ogni chiamata, ma possono inviare direttamente la risposta, se presente in cache.
+\paragraph{} La cache, implementata con \emph{Redis} \cite{redis}, permette di velocizzare le operazioni di recupero dei dati in lettura. Infatti, con essa non è necessario che il database e il server API ricalcolino la risposta ad ogni chiamata, ma possono inviare direttamente la risposta, se presente in cache.
 
-\paragraph{} Per l'implementazione, si è scelto di usare il linguaggio \emph{Python 3} tramite framework \emph{Flask}. Esso dispone nativamente di un server di sviluppo.  
+\paragraph{} Per l'implementazione, si è scelto di usare il linguaggio \emph{Python 3} \cite{python} tramite framework \emph{Flask} \cite{flask}. Esso dispone nativamente di un server di sviluppo.  
 
 \subsubsection{Approfondimento: Utilizzo di git per lo sviluppo incrementale}
 
-\paragraph{} I sistemi di \emph{version control} sono sistemi specializzati nella gestione dei cambiamenti dei file. Uno dei sistemi di version control maggiormente utilizzati nell'ambito della produzione e manutenzione di software è il \emph{Git}.
+\paragraph{} I sistemi di \emph{version control} sono sistemi specializzati nella gestione dei cambiamenti dei file. Uno dei sistemi di version control maggiormente utilizzati nell'ambito della produzione e manutenzione di software è il \emph{Git} \cite{git}.
 
 \paragraph{} Il contenuto di un file in un certo istante viene chiamato \emph{versione}. Ad ogni versione è associato un \emph{timestamp}, e opzionalmente un identificativo. L'identificativo spesso è composto da un nome o da un codice. 
 
@@ -746,7 +746,7 @@ postgres:
 
 \subsubsection{Approfondimento: WSGI}
 
-\paragraph{} La \emph{Web Server Gateway Interface (WSGI)} è una calling convention seguita dai server web per inoltrare le richieste ad applicazioni web o framework scritti in Python. 
+\paragraph{} La \emph{Web Server Gateway Interface (WSGI)} \cite{wsgi} è una calling convention seguita dai server web per inoltrare le richieste ad applicazioni web o framework scritti in Python. 
 
 \paragraph{} In precedenza, i webserver si interfacciavano con le webapp utilizzando una grande varietà di protocolli, a volte persino sviluppati ad hoc. L'adozione dell'interfaccia comune WSGI promuove la scrittura di codice portabile, riutilizzabile e standardizzato.
 
@@ -1106,7 +1106,7 @@ def get_persona_dettagli():
 
 \subsection{Autenticazione}
 
-\paragraph{} L'autenticazione dell'utente avviene tramite credenziali. Per poter essere riconosciuto dal sistema, l'utente deve fornire una coppia \emph{username, password} valida. 
+\paragraph{} L'autenticazione dell'utente avviene tramite credenziali \cite{password}. Per poter essere riconosciuto dal sistema, l'utente deve fornire una coppia \emph{username, password} valida. 
 
 \paragraph{} Per avere un discreto livello di sicurezza, è bene richiedere l'utilizzo di password prive di significato, con lunghezza congrua (almeno 8-10 caratteri) e non utilizzate altrove. 
 
@@ -1382,7 +1382,7 @@ def do_recuperaPw():
 
 \paragraph{} Il testing è immediato da eseguire: Flask mette a disposizione un suo server di test, richiamabile includendo all'interno dello script la funzione \emph{run}. La funzione di debug permette di leggere agevolmente i log e risalire ai punti in cui vengono lanciate delle eccezioni.
 
-\paragraph{} Per poter interfacciarsi con il server è consigliabile utilizzare un \emph{client REST}. Quello scelto dallo sviluppatore è \emph{Insomnia}.
+\paragraph{} Per poter interfacciarsi con il server è consigliabile utilizzare un \emph{client REST}. Quello scelto dallo sviluppatore è \emph{Insomnia} \cite{insomnia}.
 
 \paragraph{} Nel caso specifico, il testing è stato eseguito provando a richiamare ogni endpoint e passando diverse combinazioni di dati, sia validi che non, verificando che i risultati fossero congrui alle specifiche.
 
@@ -1451,7 +1451,7 @@ web:
 
 \paragraph{} Lo sviluppo dell'app è una delle parti più ostiche. Oltre alle difficoltà di programmazione, è importante anche andare incontro ai gusti degli utilizzatori, per fornire una buona estetica ed usabilità. 
 
-\paragraph{} In questa sezione verrà affrontato l'intero processo di sviluppo dell'app, che quindi conterrà anche una parte meno "tecnica", ma altrettanto necessaria: il \emph{design}.
+\paragraph{} In questa sezione verrà affrontato l'intero processo di sviluppo dell'app, che quindi conterrà anche una parte meno "tecnica", ma altrettanto necessaria: il \emph{design} \cite{design}.
 
 \subsection{Design} 
 
@@ -1574,7 +1574,7 @@ Conferma l'inserimento della nuova attivita'
 
 \subsubsection{Approfondimento: User-centered design}
 
-\paragraph{} Lo \emph{user-centered design} è una particolare filosofia di design che incentra la sua attenzione sugli utenti.
+\paragraph{} Lo \emph{user-centered design} \cite{ucd} è una particolare filosofia di design che incentra la sua attenzione sugli utenti.
 
 \paragraph{} Un punto chiave è il \emph{design partecipato}: gli utilizzatori vengono chiamati a partecipare al processo di design e sviluppo, in modo da dare il loro massimo contributo. Per produrre un'interfaccia che piaccia ad una persona non c'è modo migliore che chiedere a lei stessa!
 
@@ -1598,7 +1598,7 @@ Conferma l'inserimento della nuova attivita'
 
 \subsection{Progettazione}
 
-\paragraph{} Come piattaforma di sviluppo è stato scelto di utilizzare il framework \emph{React Native}. Esso permette di codificare una volta sola per ottenere contemporaneamente una versione adatta ad \emph{Android} e una ad \emph{iOS}. 
+\paragraph{} Come piattaforma di sviluppo è stato scelto di utilizzare il framework \emph{React Native} \cite{react_n}. Esso permette di codificare una volta sola per ottenere contemporaneamente una versione adatta ad \emph{Android} e una ad \emph{iOS}. 
 
 \paragraph{} L'unità principale di sviluppo con React Native è il \emph{componente}. In genere, ad ogni schermata dell'app corrisponde un componente diverso. In più, la singola schermata può essere suddivisa gerarchicamente in componenti: una lista di attività, un elemento di questa lista, un'immagine, ecc \dots
 
@@ -1680,7 +1680,7 @@ Conferma l'inserimento della nuova attivita'
 
 \subsection{Testing}
 
-\paragraph{} Il testing dell'app è stato effettuato tramite la piattaforma Expo. Essa permette di mettere in comunicazione il dispositivo mobile con il server di sviluppo, caricando automaticamente tutte le modifiche \emph{on-the-fly} e gestendo il \emph{logging/debugging}.
+\paragraph{} Il testing dell'app è stato effettuato tramite la piattaforma Expo \cite{expo}. Essa permette di mettere in comunicazione il dispositivo mobile con il server di sviluppo, caricando automaticamente tutte le modifiche \emph{on-the-fly} e gestendo il \emph{logging/debugging}.
 
 \paragraph{} La connessione può avvenire sia su rete locale, sia da remoto (tramite tunnel pubblico creato da Expo verso il dispositivo di sviluppo). In questo modo è possibile eseguire ed esaminare il comportamento dell'app direttamente sul dispositivo del committente o di un tester specializzato.  
 
@@ -1715,17 +1715,17 @@ Conferma l'inserimento della nuova attivita'
 
 \subsection{Struttura}
 
-\paragraph{} Il website è stato ulteriormente diviso in due parti: \emph{frontend} e \emph{backend}. 
+\paragraph{} Il website è stato ulteriormente diviso in due parti: \emph{frontend} e \emph{backend} \cite{frontend_vs_backend}. 
 
 \paragraph{} Il \emph{backend} viene eseguito da un server web e si occupa di inviare al client le pagine da esso richieste. 
 
 \paragraph{} Il \emph{frontend} viene eseguito all'interno del browser. Esso è composto da un sorgente di pagina (HTML), da un documento di stile (CSS) e da un insieme di script (JavaScript). 
 
-\paragraph{} Nel caso di questo progetto, il backend genera soltanto la struttura della pagina, mentre i dati vengono richiesti alle API dal frontend (mediante \emph{Ajax}). Questo per alleggerire il carico del server, che si limita a servire pagine statiche, e sfruttare le API già scritte per l'utilizzo da parte dell'App. 
+\paragraph{} Nel caso di questo progetto, il backend genera soltanto la struttura della pagina, mentre i dati vengono richiesti alle API dal frontend (mediante \emph{Ajax} \cite{ajax}). Questo per alleggerire il carico del server, che si limita a servire pagine statiche, e sfruttare le API già scritte per l'utilizzo da parte dell'App. 
 
-\paragraph{} La libreria utilizzata per gestire la grafica è \emph{Bootstrap}. Essa è una tra le più attualmente utilizzate e supportate dalla community.
+\paragraph{} La libreria utilizzata per gestire la grafica è \emph{Bootstrap} \cite{bootstrap}. Essa è una tra le più attualmente utilizzate e supportate dalla community.
 
-\paragraph{} La libreria \emph{jQuery} invece è ottima per implementare la parte dinamica della pagina, permettendo di effettuare richieste ajax e manipolare il \emph{DOM}\footnote{Il \emph{Document Object Model} è un'interfaccia ad albero che, all'interno di un browser web, permette l'interazione con i contenuti della pagina.}.
+\paragraph{} La libreria \emph{jQuery} \cite{jquery} invece è ottima per implementare la parte dinamica della pagina, permettendo di effettuare richieste ajax e manipolare il \emph{DOM}\footnote{Il \emph{Document Object Model} è un'interfaccia ad albero che, all'interno di un browser web, permette l'interazione con i contenuti della pagina.}.
 
 
 \subsection{Design}
@@ -1773,7 +1773,7 @@ Conferma l'inserimento della nuova attivita'
 
 \subsection{Implementazione}
 
-\paragraph{} Per modularizzare il backend, è risultato conveniente sfruttare il \emph{template engine} di Flask, \emph{jinja 2}. In questo modo è possibile modificare i contenuti in un solo file per cambiarli in tutte le pagine che lo includono.
+\paragraph{} Per modularizzare il backend, è risultato conveniente sfruttare il \emph{template engine} di Flask, \emph{jinja 2} \cite{jinja}. In questo modo è possibile modificare i contenuti in un solo file per cambiarli in tutte le pagine che lo includono.
 
 \paragraph{} Il template base è quello da cui derivano tutte le pagine. Esso è diviso in moduli: \emph{title} per il titolo della pagina, \emph{includes} per gli script e stylesheet esterni alla pagina, \emph{content} per il contenuto principale della pagina, \emph{scripts} per gli script interni. 
 
@@ -2139,7 +2139,7 @@ Conferma l'inserimento della nuova attivita'
 
 \subsubsection{Approfondimento: Template con jinja 2}
 
-\paragraph{} \emph{Jinja 2} è un famoso template engine, utilizzato da framework come Flask e Django.
+\paragraph{} \emph{Jinja 2} \cite{jinja} è un famoso template engine, utilizzato da framework come Flask e Django.
 
 \paragraph{} Un \emph{template engine} è una libreria che si occupa di elaborare particolari file, detti \emph{template}, in modo da produrre un documento risultato. 
 
@@ -2269,7 +2269,7 @@ Conferma l'inserimento della nuova attivita'
 
 \paragraph{} Per il deploy si è scelto di utilizzare \emph{Google Cloud (GCP)}. 
 
-\paragraph{} \emph{GCP} è la piattaforma cloud offerta da Google. Essa contiene una lunga lista di servizi, che riguardano tutti gli aspetti principali dello sviluppo in cloud.  
+\paragraph{} \emph{GCP} \cite{gcp} è la piattaforma cloud offerta da Google. Essa contiene una lunga lista di servizi, che riguardano tutti gli aspetti principali dello sviluppo in cloud.  
 
 \paragraph{} Le principali categorie di servizi sono le seguenti:
 \begin{itemize}
@@ -2342,20 +2342,189 @@ expo build:android -t app-bundle
 \end{lstlisting}
 
 \paragraph{} Una volta terminato il build e relativi test, è sufficiente accedere al profilo personale degli store e caricare quanto necessario. 
- 
-%\section{Validazione}
-%\paragraph{} todo validazione
 
-\section{Sviluppi futuri}
 
+\section{Conclusioni e sviluppi futuri}
+
+\paragraph{} Svolgere questo progetto è stato particolarmente interessante perchè esso racchiude l'applicazione di conoscenze maturate nel corso dell'intero percorso di studi triennale. 
+
+\paragraph{} Le discipline maggiormente utilizzate sono:
+\begin{itemize}
+    \item \emph{Ingegneria del sotfware}: ciclo di vita del software, raccolta ed analisi dei requisiti, diagrammi di progettazione, architettura del sistema, politica di qualità, testing;
+    \item \emph{Interazione uomo-macchina}: design ux/ui, user-centered design;
+    \item \emph{Basi di dati}: sviluppo del database;
+    \item \emph{Reti di calcolatori}: scambio di dati in rete, autenticazione e sicurezza;
+    \item \emph{Programmazione}: strutturazione del codice, implementazione delle soluzioni;
+    \item \emph{Sistemi operativi}: configurazione ed utilizzo di server linux-based.
+\end{itemize}
+
+\paragraph{} Il risultato è particolarmente soddisfacente, non tanto per la mera implementazione, ma per essere riusciti a portare avanti un progetto coerente e ben strutturato, nonostante la complessità non indifferente. 
+
+\paragraph{} Parte del progetto è stato svolto in team. Ciò ha permesso un dialogo costruttivo, in particolare nelle scelte più cruciali in fase di progettazione, ma ha anche mostrato le difficoltà e divergenze del lavoro di squadra. 
+
+\paragraph{} L'interazione con il committente è stata particolarmente positiva, con una forte propositività e disponibilità. 
+
+\paragraph{} Allo stato attuale:
+\begin{itemize}
+    \item il \emph{database} è implementato, completamente testato e funzionante;
+    \item l'\emph{API} è implementata e funzionante. Necessità di ulteriori test, in particolare riguardo la sicurezza;
+    \item il \emph{website} è implementato e in fase di testing. Necessita della validazione conclusiva da parte del committente e di piccole correzioni di bug;  
+    \item l'\emph{app} è completamente progettata ma ancora in fase di sviluppo. 
+\end{itemize}
+
+\paragraph{} Ci sono stati alcuni ritardi ma, considerando gli impegni universitari e lavorativi dei membri del gruppo, oltre che la natura totalmente gratuita del progetto, il grado di sviluppo raggiunto è valutato soddisfacente da parte di tutti. In un tempo non troppo lungo sarà possibile consegnare al committente una versione completa. 
+
+\paragraph{} Altri possibili sviluppi, realizzabili a seguito del completamento delle attività, sono:
 \begin{itemize}
     \item Utilizzare lo strumento \emph{query insights} di GCP SQL per ottimizzare le query su database;
     \item Implementare l'utilizzo di Redis sulle API;
-    \item Implementare le funzionalità mancanti dell'app;
+    \item Progettare ed implementare le funzionalità mancanti dell'app;
     \item Migliorare la grafica del sito web;
     \item Effettuare ulteriori test, in particolare per quanto riguarda la sicurezza;
     \item Eseguire test di profiling per individuare i bottleneck e ridurre i tempi di risposta;
     \item Progettare test automatizzati per le future release.
 \end{itemize} 
+
+
+\begin{thebibliography}{99}
+
+\bibitem{protezionecivile}
+Sito web Protezione Civile San Vito al Tagliamento 
+\\\url{https://www.protezionecivile.fvg.it/it/comune/san-vito-al-tagliamento}
+
+\bibitem{modelli_sviluppo}
+Software Development Life Cycle
+\\\url{https://www.tutorialspoint.com/sdlc/index.htm}
+
+\bibitem{agile_manifesto}
+Agile Manifesto
+\\\url{https://agilemanifesto.org/}
+
+\bibitem{req_analysis}
+What Is Requirement Analysis: Overview, Applications, Techniques and Top Tools Used
+\\\url{https://www.simplilearn.com/what-is-requirement-analysis-article}
+
+\bibitem{req_document}
+Build Better Requirements Documentation: Why, Who, and How
+\\\url{https://www.uxbooth.com/articles/build-better-requirements-documentation-why-who-and-how/}
+
+\bibitem{risk_management}
+Risk management
+\\\url{https://searchcompliance.techtarget.com/definition/risk-management}
+
+\bibitem{prog_architetturale}
+Software Architecture & Design
+\\\url{https://www.tutorialspoint.com/software_architecture_design/index.htm}
+
+\bibitem{rest}
+RESTful Web Services
+\\\url{https://www.tutorialspoint.com/restful/index.htm}
+
+\bibitem{json}
+What is JSON? A better format for data exchange
+\\\url{https://www.infoworld.com/article/3222851/what-is-json-a-better-format-for-data-exchange.html}
+
+\bibitem{dfd0}
+The Context Diagram and Data Flow Diagram
+\\\url{https://www.tasstudent.com/2015/10/15/the-context-diagram-and_data_flow_diagram/}
+
+\bibitem{quality}
+Software quality
+\\\url{https://en.wikipedia.org/wiki/Software_quality}
+
+\bibitem{testing}
+Software testing
+\\\url{https://en.wikipedia.org/wiki/Software_testing}
+
+\bibitem{db}
+Database Design – 2nd Edition
+\\\url{https://opentextbc.ca/dbdesign01/}
+
+\bibitem{postgre}
+PostgreSQL: The World's Most Advanced Open Source Relational Database
+\\\url{https://www.postgresql.org/}
+
+\bibitem{docker}
+Docker
+\\\url{https://www.docker.com/}
+
+\bibitem{pgadmin}
+pgAdmin
+\\\url{https://www.pgadmin.org/}
+
+\bibitem{restapi}
+Understanding And Using REST APIs
+\\\url{https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/}
+
+\bibitem{redis}
+Redis
+\\\url{https://redis.io/}
+
+\bibitem{python}
+Python
+\\\url{https://www.python.org/}
+
+\bibitem{git}
+Git
+\\\url{https://git-scm.com/}
+
+\bibitem{wsgi}
+Web Server Gateway Interface
+\\\url{https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface}
+
+\bibitem{flask}
+Flask
+\\\url{https://flask.palletsprojects.com/en/2.0.x/}
+
+\bibitem{password}
+Password Authentication: Avoiding 4 Common Vulnerabilities
+\\\url{https://swoopnow.com/password-authentication/}
+
+\bibitem{insomnia}
+Insomnia
+\\\url{https://insomnia.rest/}
+
+\bibitem{design}
+App Design Process: How to Design a Great Mobile App
+\\\url{https://www.iteratorshq.com/blog/app-design-process-design-a-great-mobile-app/}
+
+\bibitem{ucd}
+User-Centered Design: Process and Benefits
+\\\url{https://uxplanet.org/user-centered-design-process-and-benefits-fd9e431eb5a9}
+
+\bibitem{react_n}
+React Native
+\\\url{https://reactnative.dev/}
+
+\bibitem{expo}
+Expo
+\\\url{https://expo.io/}
+
+\bibitem{frontend_vs_backend}
+What's The Difference Between Frontend And Backend Web Development?
+\\\url{https://careerfoundry.com/en/blog/web-development/whats-the-difference-between-frontend-and-backend/}
+
+\bibitem{jinja}
+Jinja
+\\\url{https://jinja.palletsprojects.com/en/3.0.x/}
+
+\bibitem{ajax}
+Ajax calls
+\\\url{https://en.wikipedia.org/wiki/Ajax_(programming)}
+
+\bibitem{bootstrap}
+Boostrap
+\\\url{https://getbootstrap.com/}
+
+\bibitem{jquery}
+jQuery
+\\\url{https://jquery.com/}
+
+\bibitem{gcp}
+Google Cloud Platform
+\\\url{https://cloud.google.com/}
+
+
+\end{thebibliography}
 
 \end{document}
