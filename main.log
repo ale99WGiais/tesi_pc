@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  5 JUN 2021 10:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  5 JUN 2021 10:22
 entering extended mode
 **./main.tex
 (main.tex
@@ -1093,39 +1093,52 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
 ))
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 58
+(C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box120
+\beforetitleunit=\skip87
+\aftertitleunit=\skip88
+\ttl@plus=\dimen321
+\ttl@minus=\dimen322
+\ttl@toksa=\toks46
+\titlewidth=\dimen323
+\titlewidthlast=\dimen324
+\titlewidthfirst=\dimen325
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 59
 .
- (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+
+(C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
-\l__pdf_internal_box=\box120
+\l__pdf_internal_box=\box121
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Info: Redefining \it@ocap on input line 58.
-LaTeX Info: Redefining \it@ccap on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Info: Redefining \it@ocap on input line 59.
+LaTeX Info: Redefining \it@ccap on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1166,16 +1179,16 @@ LaTeX Info: Redefining \it@ccap on input line 58.
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count349
-\scratchdimen=\dimen321
-\scratchbox=\box121
+\scratchdimen=\dimen326
+\scratchbox=\box122
 \nofMPsegments=\count350
 \nofMParguments=\count351
-\everyMPshowfont=\toks46
+\everyMPshowfont=\toks47
 \MPscratchCnt=\count352
-\MPscratchDim=\dimen322
+\MPscratchDim=\dimen327
 \MPnumerator=\count353
 \makeMPintoPDFobject=\count354
-\everyMPtoPDFconversion=\toks47
+\everyMPtoPDFconversion=\toks48
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1187,10 +1200,10 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 58.
+ on input line 59.
 
 \c@lstlisting=\count355
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 59.
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1203,21 +1216,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 58.
+LaTeX Info: Redefining \showhyphens on input line 59.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1234,51 +1247,51 @@ Package epstopdf Info: Source file: <img/polloPallido.eps>
 (epstopdf)                    size: 47239 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/polloPallido-eps-conver
 ted-to.pdf img/polloPallido.eps>
-(epstopdf)             \includegraphics on input line 65.
+(epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/polloPallido-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/polloPallido-eps-converted-to.pdf, id=226, 406.51875pt x 406.51875pt>
+<img/polloPallido-eps-converted-to.pdf, id=225, 406.51875pt x 406.51875pt>
 File: img/polloPallido-eps-converted-to.pdf Graphic file (type pdf)
 <use img/polloPallido-eps-converted-to.pdf>
 Package pdftex.def Info: img/polloPallido-eps-converted-to.pdf  used on input l
-ine 65.
+ine 66.
 (pdftex.def)             Requested size: 388.97285pt x 388.98814pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-9.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
+0.
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-9.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
+0.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-69.
+70.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-69.
+70.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 69.
+(Font)              <14.4> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 69.
+(Font)              <10> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 69.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
+(Font)              <7> on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1287,7 +1300,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
 
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1297,13 +1310,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 78.
+(Font)              <17.28> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 78.
+(Font)              <12> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 82.
+(Font)              <8> on input line 83.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 82.
+(Font)              <6> on input line 83.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1318,376 +1331,381 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.A}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 ...ion}{\numberline {10}App}{49}{section.10}
+l.205 ...ion}{\numberline {10}App}{50}{section.10}
                                                   % [1])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [2]
+ [2] [1]pdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.129 \newpage
+               [1]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 139.
- [1]
+ [2]
 
 pdfTeX warning: pdflatex.exe (file ./img/analisi_esplorativa.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<img/analisi_esplorativa.pdf, id=322, 845.1575pt x 597.23125pt>
+<img/analisi_esplorativa.pdf, id=321, 845.1575pt x 597.23125pt>
 File: img/analisi_esplorativa.pdf Graphic file (type pdf)
 <use img/analisi_esplorativa.pdf>
 Package pdftex.def Info: img/analisi_esplorativa.pdf  used on input line 152.
 (pdftex.def)             Requested size: 418.25368pt x 295.56203pt.
-[2]
+[3 <./img/analisi_esplorativa.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 67.
- (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+
+(C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[3 <./img/analisi_esplorativa.pdf>] [4]
-<img/waterfall_vs_iterativo.jpeg, id=360, 858.95906pt x 258.21469pt>
+) [4]
+<img/waterfall_vs_iterativo.jpeg, id=339, 858.95906pt x 258.21469pt>
 File: img/waterfall_vs_iterativo.jpeg Graphic file (type jpg)
 <use img/waterfall_vs_iterativo.jpeg>
 Package pdftex.def Info: img/waterfall_vs_iterativo.jpeg  used on input line 20
 6.
 (pdftex.def)             Requested size: 418.25368pt x 125.73434pt.
-<img/prototyping.jpg, id=361, 376.40625pt x 282.05376pt>
+<img/prototyping.jpg, id=340, 376.40625pt x 282.05376pt>
 File: img/prototyping.jpg Graphic file (type jpg)
 <use img/prototyping.jpg>
 Package pdftex.def Info: img/prototyping.jpg  used on input line 214.
 (pdftex.def)             Requested size: 167.2989pt x 125.36504pt.
-<img/pianificazione iniziale.png, id=362, 924.45375pt x 292.09125pt>
+
+[5 <./img/waterfall_vs_iterativo.jpeg>]
+<img/pianificazione iniziale.png, id=348, 924.45375pt x 292.09125pt>
 File: img/pianificazione iniziale.png Graphic file (type png)
 <use img/pianificazione iniziale.png>
 Package pdftex.def Info: img/pianificazione iniziale.png  used on input line 22
 2.
 (pdftex.def)             Requested size: 418.25368pt x 132.15294pt.
- [5 <./img/waterfall_vs_iterativo.jpeg> <./img/prototyping.jpg>]
+ [6 <./img/prototyping.jpg> <./img/pianificazione iniziale.png>]
 
 pdfTeX warning: pdflatex.exe (file ./img/requisiti_dominio.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<img/requisiti_dominio.pdf, id=376, 847.9381pt x 517.56093pt>
+<img/requisiti_dominio.pdf, id=360, 847.9381pt x 517.56093pt>
 File: img/requisiti_dominio.pdf Graphic file (type pdf)
 <use img/requisiti_dominio.pdf>
 Package pdftex.def Info: img/requisiti_dominio.pdf  used on input line 242.
 (pdftex.def)             Requested size: 292.77629pt x 178.70876pt.
-[6 <./img/pianificazione iniziale.png>] [7 <./img/requisiti_dominio.pdf>]
-<img/data_dictionary.png, id=401, 1019.81pt x 451.01833pt>
+[7 <./img/requisiti_dominio.pdf>]
+<img/data_dictionary.png, id=371, 1019.81pt x 451.01833pt>
 File: img/data_dictionary.png Graphic file (type png)
 <use img/data_dictionary.png>
 Package pdftex.def Info: img/data_dictionary.png  used on input line 271.
 (pdftex.def)             Requested size: 334.60422pt x 147.98314pt.
-
-[8 <./img/data_dictionary.png>]
-<img/risk_management.jpg, id=415, 501.875pt x 471.7625pt>
+ [8] [9 <./img/data_dictionary.png>]
+<img/risk_management.jpg, id=389, 501.875pt x 471.7625pt>
 File: img/risk_management.jpg Graphic file (type jpg)
 <use img/risk_management.jpg>
 Package pdftex.def Info: img/risk_management.jpg  used on input line 305.
 (pdftex.def)             Requested size: 250.95476pt x 235.90225pt.
-<img/modello_spirale.png, id=417, 1094.0875pt x 615.29875pt>
+<img/modello_spirale.png, id=391, 1094.0875pt x 615.29875pt>
 File: img/modello_spirale.png Graphic file (type png)
 <use img/modello_spirale.png>
 Package pdftex.def Info: img/modello_spirale.png  used on input line 315.
 (pdftex.def)             Requested size: 418.25368pt x 235.22426pt.
- [9 <./img/risk_management.jpg>] [10 <./img/modello_spirale.png>]
-<img/architettura.png, id=452, 743.77875pt x 251.94125pt>
+ [10 <./img/risk_management.jpg>] [11 <./img/modello_spirale.png>] [12]
+<img/architettura.png, id=420, 743.77875pt x 251.94125pt>
 File: img/architettura.png Graphic file (type png)
 <use img/architettura.png>
 Package pdftex.def Info: img/architettura.png  used on input line 352.
 (pdftex.def)             Requested size: 418.25368pt x 141.67815pt.
- [11]
-<img/rest.png, id=468, 671.50874pt x 286.06876pt>
+<img/rest.png, id=422, 671.50874pt x 286.06876pt>
 File: img/rest.png Graphic file (type png)
 <use img/rest.png>
 Package pdftex.def Info: img/rest.png  used on input line 367.
 (pdftex.def)             Requested size: 334.60422pt x 142.54514pt.
-<img/json.jpeg, id=470, 426.62613pt x 373.00645pt>
+ [13 <./img/architettura.png>]
+<img/json.jpeg, id=434, 426.62613pt x 373.00645pt>
 File: img/json.jpeg Graphic file (type jpg)
 <use img/json.jpeg>
 Package pdftex.def Info: img/json.jpeg  used on input line 375.
 (pdftex.def)             Requested size: 250.95476pt x 219.41167pt.
- [12 <./img/architettura.png> <./img/rest.png>] [13 <./img/json.jpeg>] [14]
+ [14 <./img/rest.png> <./img/json.jpeg>] [15] [16]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 428.
 
-[15]
-<img/iso_9126.png, id=520, 1204.5pt x 1204.5pt>
+[17]
+<img/iso_9126.png, id=464, 1204.5pt x 1204.5pt>
 File: img/iso_9126.png Graphic file (type png)
 <use img/iso_9126.png>
 Package pdftex.def Info: img/iso_9126.png  used on input line 455.
 (pdftex.def)             Requested size: 334.60422pt x 334.6111pt.
- [16] [17 <./img/iso_9126.png>]
-<img/verifica_validazione.jpg, id=546, 552.0625pt x 305.14pt>
+ [18 <./img/iso_9126.png>] [19]
+<img/verifica_validazione.jpg, id=481, 552.0625pt x 305.14pt>
 File: img/verifica_validazione.jpg Graphic file (type jpg)
 <use img/verifica_validazione.jpg>
 Package pdftex.def Info: img/verifica_validazione.jpg  used on input line 488.
 (pdftex.def)             Requested size: 334.60422pt x 184.95247pt.
- [18]
-<img/er-schema.png, id=562, 2109.8825pt x 2144.01pt>
+ [20 <./img/verifica_validazione.jpg>]
+<img/er-schema.png, id=488, 2109.8825pt x 2144.01pt>
 File: img/er-schema.png Graphic file (type png)
 <use img/er-schema.png>
 Package pdftex.def Info: img/er-schema.png  used on input line 504.
 (pdftex.def)             Requested size: 418.25368pt x 424.99948pt.
- [19 <./img/verifica_validazione.jpg>]
-<img/junction_table.png, id=571, 499.8675pt x 113.42375pt>
+
+[21]
+<img/junction_table.png, id=495, 499.8675pt x 113.42375pt>
 File: img/junction_table.png Graphic file (type png)
 <use img/junction_table.png>
 Package pdftex.def Info: img/junction_table.png  used on input line 516.
 (pdftex.def)             Requested size: 334.60422pt x 75.92601pt.
-
-[20 <./img/er-schema.png>]
-<img/tab_frequenze.png, id=582, 616.3025pt x 275.0275pt>
+ [22 <./img/er-schema.png>]
+<img/tab_frequenze.png, id=504, 616.3025pt x 275.0275pt>
 File: img/tab_frequenze.png Graphic file (type png)
 <use img/tab_frequenze.png>
 Package pdftex.def Info: img/tab_frequenze.png  used on input line 524.
 (pdftex.def)             Requested size: 250.95476pt x 111.98982pt.
-<img/tab_volumi.png, id=583, 570.13pt x 388.11667pt>
+<img/tab_volumi.png, id=505, 570.13pt x 388.11667pt>
 File: img/tab_volumi.png Graphic file (type png)
 <use img/tab_volumi.png>
 Package pdftex.def Info: img/tab_volumi.png  used on input line 530.
 (pdftex.def)             Requested size: 250.95476pt x 170.83699pt.
-<img/tabella_accessi.png, id=584, 440.64626pt x 541.02126pt>
+<img/tabella_accessi.png, id=506, 440.64626pt x 541.02126pt>
 File: img/tabella_accessi.png Graphic file (type png)
 <use img/tabella_accessi.png>
 Package pdftex.def Info: img/tabella_accessi.png  used on input line 536.
 (pdftex.def)             Requested size: 250.95476pt x 308.12114pt.
- [21 <./img/junction_table.png> <./img/tab_frequenze.png> <./img/tab_volumi.png
+ [23 <./img/junction_table.png> <./img/tab_frequenze.png> <./img/tab_volumi.png
 >]
-<img/er-ristrutturato.png, id=598, 2506.36375pt x 2348.775pt>
+<img/er-ristrutturato.png, id=519, 2506.36375pt x 2348.775pt>
 File: img/er-ristrutturato.png Graphic file (type png)
 <use img/er-ristrutturato.png>
 Package pdftex.def Info: img/er-ristrutturato.png  used on input line 544.
 (pdftex.def)             Requested size: 334.60422pt x 313.55869pt.
- [22 <./img/tabella_accessi.png>]
+ [24 <./img/tabella_accessi.png>]
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[23 <./img/er-ristrutturato.png>] [24] [25]
-<img/docker.png, id=710, 939.17542pt x 541.69041pt>
+[25 <./img/er-ristrutturato.png>] [26] [27]
+<img/docker.png, id=624, 939.17542pt x 541.69041pt>
 File: img/docker.png Graphic file (type png)
 <use img/docker.png>
 Package pdftex.def Info: img/docker.png  used on input line 672.
 (pdftex.def)             Requested size: 334.60422pt x 192.99161pt.
- [26]
-<img/query_esempio.png, id=730, 574.81416pt x 281.71916pt>
+ [28]
+<img/query_esempio.png, id=638, 574.81416pt x 281.71916pt>
 File: img/query_esempio.png Graphic file (type png)
 <use img/query_esempio.png>
 Package pdftex.def Info: img/query_esempio.png  used on input line 687.
 (pdftex.def)             Requested size: 334.60422pt x 163.99043pt.
- [27 <./img/docker.png> <./img/query_esempio.png>]
-<img/git-history.png, id=748, 349.305pt x 145.54375pt>
+ [29 <./img/docker.png> <./img/query_esempio.png>]
+<img/git-history.png, id=653, 349.305pt x 145.54375pt>
 File: img/git-history.png Graphic file (type png)
 <use img/git-history.png>
 Package pdftex.def Info: img/git-history.png  used on input line 719.
 (pdftex.def)             Requested size: 292.77629pt x 121.99606pt.
- [28]
-<img/git-condiviso.png, id=768, 315.1775pt x 161.60374pt>
+ [30]
+<img/git-condiviso.png, id=663, 315.1775pt x 161.60374pt>
 File: img/git-condiviso.png Graphic file (type png)
 <use img/git-condiviso.png>
 Package pdftex.def Info: img/git-condiviso.png  used on input line 732.
 (pdftex.def)             Requested size: 250.95476pt x 128.67409pt.
-<img/git-ops.png, id=769, 1704.3675pt x 1597.97pt>
+<img/git-ops.png, id=664, 1704.3675pt x 1597.97pt>
 File: img/git-ops.png Graphic file (type png)
 <use img/git-ops.png>
 Package pdftex.def Info: img/git-ops.png  used on input line 741.
 (pdftex.def)             Requested size: 334.60422pt x 313.71202pt.
- [29 <./img/git-history.png> <./img/git-condiviso.png>] [30 <./img/git-ops.png>
+ [31 <./img/git-history.png> <./img/git-condiviso.png>] [32 <./img/git-ops.png>
 ]
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[31] [32] [33] [34] [35] [36] [37] [38] [39]
-<img/Login (success).png, id=1160, 804.00375pt x 759.83875pt>
+[33] [34] [35] [36] [37] [38] [39] [40] [41]
+<img/Login (success).png, id=1028, 804.00375pt x 759.83875pt>
 File: img/Login (success).png Graphic file (type png)
 <use img/Login (success).png>
 Package pdftex.def Info: img/Login (success).png  used on input line 1177.
 (pdftex.def)             Requested size: 334.60422pt x 316.21996pt.
- [40] [41 <./img/Login (success).png>] [42]
-<img/Operazione protetta (success).png, id=1246, 713.66624pt x 758.835pt>
+ [42] [43 <./img/Login (success).png>] [44]
+<img/Operazione protetta (success).png, id=1104, 713.66624pt x 758.835pt>
 File: img/Operazione protetta (success).png Graphic file (type png)
 <use img/Operazione protetta (success).png>
 Package pdftex.def Info: img/Operazione protetta (success).png  used on input l
 ine 1264.
 (pdftex.def)             Requested size: 334.60422pt x 355.78409pt.
- [43]
-<img/Logout (success).png, id=1271, 638.385pt x 583.17876pt>
+ [45]
+<img/Logout (success).png, id=1130, 638.385pt x 583.17876pt>
 File: img/Logout (success).png Graphic file (type png)
 <use img/Logout (success).png>
 Package pdftex.def Info: img/Logout (success).png  used on input line 1288.
 (pdftex.def)             Requested size: 334.60422pt x 305.66621pt.
- [44 <./img/Operazione protetta (success).png>] [45 <./img/Logout (success).png
+ [46 <./img/Operazione protetta (success).png>] [47 <./img/Logout (success).png
 >]
-<img/email_recupero.jpg, id=1309, 697.60625pt x 363.3575pt>
+<img/email_recupero.jpg, id=1164, 697.60625pt x 363.3575pt>
 File: img/email_recupero.jpg Graphic file (type jpg)
 <use img/email_recupero.jpg>
 Package pdftex.def Info: img/email_recupero.jpg  used on input line 1350.
 (pdftex.def)             Requested size: 250.95476pt x 130.71434pt.
- [46] [47 <./img/email_recupero.jpg>]
-<img/api_debug.png, id=1383, 864.89792pt x 277.36958pt>
+ [48] [49 <./img/email_recupero.jpg>]
+<img/api_debug.png, id=1234, 864.89792pt x 277.36958pt>
 File: img/api_debug.png Graphic file (type png)
 <use img/api_debug.png>
 Package pdftex.def Info: img/api_debug.png  used on input line 1393.
 (pdftex.def)             Requested size: 334.60422pt x 107.30608pt.
-<img/insomnia.png, id=1384, 1026.16708pt x 413.87958pt>
+<img/insomnia.png, id=1235, 1026.16708pt x 413.87958pt>
 File: img/insomnia.png Graphic file (type png)
 <use img/insomnia.png>
 Package pdftex.def Info: img/insomnia.png  used on input line 1400.
 (pdftex.def)             Requested size: 334.60422pt x 134.95132pt.
 
-Overfull \hbox (6.71602pt too wide) in paragraph at lines 1410--1411
- [][] \T1/lmr/m/n/10.95 (-20) Per crea-re il con-tai-ner, è ne-ces-sa-rio par-t
-i-re da un'im-ma-gi-ne con-te-nen-te py-thon3+gunicorn,
+Overfull \hbox (6.6539pt too wide) in paragraph at lines 1410--1411
+[] [][] \T1/lmr/m/n/10.95 (-20) Per crea-re il con-tai-ner, è ne-ces-sa-rio par
+-ti-re da un'im-ma-gi-ne con-te-nen-te py-thon3+gunicorn,
  []
 
-[48 <./img/api_debug.png> <./img/insomnia.png>] [49] [50]
-<img/concetti task app.png, id=1470, 1014.79124pt x 473.77pt>
+[50 <./img/api_debug.png> <./img/insomnia.png>] [51] [52] [53]
+<img/concetti task app.png, id=1305, 1014.79124pt x 473.77pt>
 File: img/concetti task app.png Graphic file (type png)
 <use img/concetti task app.png>
 Package pdftex.def Info: img/concetti task app.png  used on input line 1543.
 (pdftex.def)             Requested size: 334.60422pt x 156.21445pt.
- [51]
-<img/sidebar-example.png, id=1502, 676.5275pt x 907.39pt>
+ [54]
+<img/sidebar-example.png, id=1343, 676.5275pt x 907.39pt>
 File: img/sidebar-example.png Graphic file (type png)
 <use img/sidebar-example.png>
 Package pdftex.def Info: img/sidebar-example.png  used on input line 1562.
 (pdftex.def)             Requested size: 125.47737pt x 168.29373pt.
- [52 <./img/concetti task app.png> <./img/sidebar-example.png>]
+ [55 <./img/concetti task app.png> <./img/sidebar-example.png>]
 
 pdfTeX warning: pdflatex.exe (file ./img/wireframe app.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/wireframe app.pdf, id=1513, 572.22786pt x 713.44545pt>
+<img/wireframe app.pdf, id=1352, 572.22786pt x 713.44545pt>
 File: img/wireframe app.pdf Graphic file (type pdf)
 <use img/wireframe app.pdf>
 Package pdftex.def Info: img/wireframe app.pdf  used on input line 1570.
 (pdftex.def)             Requested size: 334.60422pt x 417.18428pt.
-[53 <./img/wireframe app.pdf>]
-<img/user-centered-design.png, id=1526, 673.76718pt x 319.94531pt>
+[56 <./img/wireframe app.pdf>]
+<img/user-centered-design.png, id=1363, 673.76718pt x 319.94531pt>
 File: img/user-centered-design.png Graphic file (type png)
 <use img/user-centered-design.png>
 Package pdftex.def Info: img/user-centered-design.png  used on input line 1596.
 
 (pdftex.def)             Requested size: 334.60422pt x 158.89334pt.
- [54]
-<img/componenti home.pdf, id=1539, 793.96625pt x 451.6875pt>
+ [57]
+<img/componenti home.pdf, id=1370, 793.96625pt x 451.6875pt>
 File: img/componenti home.pdf Graphic file (type pdf)
 <use img/componenti home.pdf>
 Package pdftex.def Info: img/componenti home.pdf  used on input line 1610.
 (pdftex.def)             Requested size: 334.60422pt x 190.3622pt.
- [55 <./img/user-centered-design.png>]
+ [58 <./img/user-centered-design.png>]
 
 pdfTeX warning: pdflatex.exe (file ./img/componenti home dati.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<img/componenti home dati.pdf, id=1550, 806.27223pt x 478.99953pt>
+<img/componenti home dati.pdf, id=1378, 806.27223pt x 478.99953pt>
 File: img/componenti home dati.pdf Graphic file (type pdf)
 <use img/componenti home dati.pdf>
 Package pdftex.def Info: img/componenti home dati.pdf  used on input line 1624.
 
 (pdftex.def)             Requested size: 334.60422pt x 198.7884pt.
-[56 <./img/componenti home.pdf, page is rotated 270 degrees>]
+[59 <./img/componenti home.pdf, page is rotated 270 degrees>]
 
 pdfTeX warning: pdflatex.exe (file ./img/navigation.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/navigation.pdf, id=1563, 806.61348pt x 373.51544pt>
+<img/navigation.pdf, id=1387, 806.61348pt x 373.51544pt>
 File: img/navigation.pdf Graphic file (type pdf)
 <use img/navigation.pdf>
 Package pdftex.def Info: img/navigation.pdf  used on input line 1634.
 (pdftex.def)             Requested size: 334.60422pt x 154.94331pt.
-[57 <./img/componenti home dati.pdf> <./img/navigation.pdf>]
-<img/app_1.jpeg, id=1581, 950.55125pt x 1606.0pt>
+[60 <./img/componenti home dati.pdf> <./img/navigation.pdf>]
+<img/app_1.jpeg, id=1402, 950.55125pt x 1606.0pt>
 File: img/app_1.jpeg Graphic file (type jpg)
 <use img/app_1.jpeg>
 Package pdftex.def Info: img/app_1.jpeg  used on input line 1654.
 (pdftex.def)             Requested size: 167.2989pt x 282.64708pt.
-<img/app_2.jpeg, id=1582, 952.55875pt x 1606.0pt>
+<img/app_2.jpeg, id=1403, 952.55875pt x 1606.0pt>
 File: img/app_2.jpeg Graphic file (type jpg)
 <use img/app_2.jpeg>
 Package pdftex.def Info: img/app_2.jpeg  used on input line 1664.
 (pdftex.def)             Requested size: 167.2989pt x 282.05894pt.
- [58 <./img/app_1.jpeg>]
-<img/app_3.jpeg, id=1595, 740.7675pt x 1606.0pt>
+ [61 <./img/app_1.jpeg>]
+<img/app_3.jpeg, id=1409, 740.7675pt x 1606.0pt>
 File: img/app_3.jpeg Graphic file (type jpg)
 <use img/app_3.jpeg>
 Package pdftex.def Info: img/app_3.jpeg  used on input line 1674.
 (pdftex.def)             Requested size: 167.2989pt x 362.70673pt.
- [59 <./img/app_2.jpeg>] [60 <./img/app_3.jpeg>]
-<img/debug_app_pc.png, id=1613, 1152.63959pt x 461.39041pt>
+ [62 <./img/app_2.jpeg>] [63 <./img/app_3.jpeg>]
+<img/debug_app_pc.png, id=1423, 1152.63959pt x 461.39041pt>
 File: img/debug_app_pc.png Graphic file (type png)
 <use img/debug_app_pc.png>
 Package pdftex.def Info: img/debug_app_pc.png  used on input line 1690.
 (pdftex.def)             Requested size: 376.42575pt x 150.67525pt.
-<img/debug_app_1.jpeg, id=1614, 740.7675pt x 1606.0pt>
+<img/debug_app_1.jpeg, id=1424, 740.7675pt x 1606.0pt>
 File: img/debug_app_1.jpeg Graphic file (type jpg)
 <use img/debug_app_1.jpeg>
 Package pdftex.def Info: img/debug_app_1.jpeg  used on input line 1698.
 (pdftex.def)             Requested size: 133.83963pt x 290.14577pt.
-<img/debug_app_2.jpeg, id=1615, 740.7675pt x 1606.0pt>
+<img/debug_app_2.jpeg, id=1425, 740.7675pt x 1606.0pt>
 File: img/debug_app_2.jpeg Graphic file (type jpg)
 <use img/debug_app_2.jpeg>
 Package pdftex.def Info: img/debug_app_2.jpeg  used on input line 1703.
 (pdftex.def)             Requested size: 133.83963pt x 290.14577pt.
- [61 <./img/debug_app_pc.png>] [62 <./img/debug_app_1.jpeg> <./img/debug_app_2.
-jpeg>]
-<img/bootstrap-sidebar.jpg, id=1638, 1368.11125pt x 987.69pt>
+ [64 <./img/debug_app_pc.png>] [65 <./img/debug_app_1.jpeg> <./img/debug_app_2.
+jpeg>] [66]
+<img/bootstrap-sidebar.jpg, id=1454, 1368.11125pt x 987.69pt>
 File: img/bootstrap-sidebar.jpg Graphic file (type jpg)
 <use img/bootstrap-sidebar.jpg>
-Package pdftex.def Info: img/bootstrap-sidebar.jpg  used on input line 1753.
+Package pdftex.def Info: img/bootstrap-sidebar.jpg  used on input line 1754.
 (pdftex.def)             Requested size: 334.60422pt x 241.55664pt.
- [63]
-<img/mockup_web_persone.pdf, id=1663, 845.1575pt x 597.23125pt>
+<img/mockup_web_persone.pdf, id=1455, 845.1575pt x 597.23125pt>
 File: img/mockup_web_persone.pdf Graphic file (type pdf)
 <use img/mockup_web_persone.pdf>
-Package pdftex.def Info: img/mockup_web_persone.pdf  used on input line 1763.
+Package pdftex.def Info: img/mockup_web_persone.pdf  used on input line 1764.
 (pdftex.def)             Requested size: 418.25368pt x 295.56203pt.
- [64 <./img/bootstrap-sidebar.jpg>]
+ [67 <./img/bootstrap-sidebar.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ./img/mockup_web_persone_2.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<img/mockup_web_persone_2.pdf, id=1673, 845.1575pt x 597.23125pt>
+<img/mockup_web_persone_2.pdf, id=1466, 845.1575pt x 597.23125pt>
 File: img/mockup_web_persone_2.pdf Graphic file (type pdf)
 <use img/mockup_web_persone_2.pdf>
-Package pdftex.def Info: img/mockup_web_persone_2.pdf  used on input line 1771.
+Package pdftex.def Info: img/mockup_web_persone_2.pdf  used on input line 1772.
 
 (pdftex.def)             Requested size: 418.25368pt x 295.56203pt.
-[65 <./img/mockup_web_persone.pdf, page is rotated 270 degrees>]
+[68 <./img/mockup_web_persone.pdf, page is rotated 270 degrees>]
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-[66 <./img/mockup_web_persone_2.pdf, page is rotated 270 degrees>] [67]
-[68] [69] [70] [71] [72] [73] [74]
-<img/prova_chrome.png, id=2102, 1121.18875pt x 534.99875pt>
+[69 <./img/mockup_web_persone_2.pdf, page is rotated 270 degrees>] [70]
+[71] [72] [73] [74] [75] [76] [77]
+<img/prova_chrome.png, id=1882, 1121.18875pt x 534.99875pt>
 File: img/prova_chrome.png Graphic file (type png)
 <use img/prova_chrome.png>
-Package pdftex.def Info: img/prova_chrome.png  used on input line 2228.
+Package pdftex.def Info: img/prova_chrome.png  used on input line 2229.
 (pdftex.def)             Requested size: 334.60422pt x 159.66002pt.
- [75]
-<img/persona.jpg, id=2137, 3811.23875pt x 1711.39375pt>
+ [78]
+<img/persona.jpg, id=1914, 3811.23875pt x 1711.39375pt>
 File: img/persona.jpg Graphic file (type jpg)
 <use img/persona.jpg>
-Package pdftex.def Info: img/persona.jpg  used on input line 2241.
+Package pdftex.def Info: img/persona.jpg  used on input line 2242.
 (pdftex.def)             Requested size: 334.60422pt x 150.2323pt.
-<img/login.png, id=2138, 1284.8pt x 722.7pt>
+<img/login.png, id=1915, 1284.8pt x 722.7pt>
 File: img/login.png Graphic file (type png)
 <use img/login.png>
-Package pdftex.def Info: img/login.png  used on input line 2247.
+Package pdftex.def Info: img/login.png  used on input line 2248.
 (pdftex.def)             Requested size: 334.60422pt x 188.20633pt.
- [76 <./img/prova_chrome.png> <./img/persona.jpg>]
-<img/recupero_screen.jpg, id=2149, 1584.92125pt x 834.11626pt>
+ [79 <./img/prova_chrome.png> <./img/persona.jpg>]
+<img/recupero_screen.jpg, id=1923, 1584.92125pt x 834.11626pt>
 File: img/recupero_screen.jpg Graphic file (type jpg)
 <use img/recupero_screen.jpg>
-Package pdftex.def Info: img/recupero_screen.jpg  used on input line 2253.
+Package pdftex.def Info: img/recupero_screen.jpg  used on input line 2254.
 (pdftex.def)             Requested size: 334.60422pt x 176.08597pt.
-<img/new.png, id=2150, 1284.8pt x 722.7pt>
+<img/new.png, id=1924, 1284.8pt x 722.7pt>
 File: img/new.png Graphic file (type png)
 <use img/new.png>
-Package pdftex.def Info: img/new.png  used on input line 2259.
+Package pdftex.def Info: img/new.png  used on input line 2260.
 (pdftex.def)             Requested size: 334.60422pt x 188.20633pt.
- [77 <./img/login.png> <./img/recupero_screen.jpg>] [78 <./img/new.png>] [79] [
-80]
+ [80 <./img/login.png> <./img/recupero_screen.jpg>] [81 <./img/new.png>] [82] [
+83] [84] [85] [86]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-394.
+393.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1697,68 +1715,68 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2393--2395
+Underfull \hbox (badness 10000) in paragraph at lines 2392--2394
 []$\T1/lmtt/m/n/10.95 https : / / www . protezionecivile . fvg . it / it / comu
 ne /
  []
 
-[81]
-Overfull \hbox (118.24213pt too wide) in paragraph at lines 2409--2411
+
+Overfull \hbox (118.24213pt too wide) in paragraph at lines 2408--2410
 []$\T1/lmtt/m/n/10.95 https : / / www . uxbooth . com / articles / build-[]bett
 er-[]requirements-[]documentation-[]why-[]who-[]and-[]how/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2417--2419
+Underfull \hbox (badness 10000) in paragraph at lines 2416--2418
 []$\T1/lmtt/m/n/10.95 https : / / www . tutorialspoint . com / software _ archi
 tecture _ design / index .
  []
 
 
-Overfull \hbox (115.86775pt too wide) in paragraph at lines 2425--2427
+Overfull \hbox (115.86775pt too wide) in paragraph at lines 2424--2426
 []$\T1/lmtt/m/n/10.95 https : / / www . infoworld . com / article / 3222851 / w
 hat-[]is-[]json-[]a-[]better-[]format-[]for-[]data-[]exchange .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2431
+Underfull \hbox (badness 10000) in paragraph at lines 2428--2430
 []$\T1/lmtt/m/n/10.95 https : / / www . tasstudent . com / 2015 / 10 / 15 / the
 -[]context-[]diagram-[]and _ data _
  []
 
-[82]
-Overfull \hbox (7.01619pt too wide) in paragraph at lines 2457--2459
+[87]
+Overfull \hbox (7.01619pt too wide) in paragraph at lines 2456--2458
 []$\T1/lmtt/m/n/10.95 https : / / www . smashingmagazine . com / 2018 / 01 / un
 derstanding-[]using-[]rest-[]api/$[] 
  []
 
 
-Overfull \hbox (55.00606pt too wide) in paragraph at lines 2489--2491
+Overfull \hbox (55.00606pt too wide) in paragraph at lines 2488--2490
 []$\T1/lmtt/m/n/10.95 https : / / www . iteratorshq . com / blog / app-[]design
 -[]process-[]design-[]a-[]great-[]mobile-[]app/$[] 
  []
 
 
-Overfull \hbox (38.4096pt too wide) in paragraph at lines 2493--2495
+Overfull \hbox (38.4096pt too wide) in paragraph at lines 2492--2494
 []$\T1/lmtt/m/n/10.95 https : / / uxplanet . org / user-[]centered-[]design-[]p
 rocess-[]and-[]benefits-[]fd9e431eb5a9$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2505--2507
+Underfull \hbox (badness 10000) in paragraph at lines 2504--2506
 []$\T1/lmtt/m/n/10.95 https : / / careerfoundry . com / en / blog / web-[]devel
 opment /
  []
 
-[83] [84] (main.aux)
+[88] [89] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 51E47F5FE4E081046C862FC7C50AB3FC;9418.
+(rerunfilecheck)             Checksum: 021F5C290079F1A668D8C20EC3C8BEFC;9416.
  ) 
 Here is how much of TeX's memory you used:
- 41373 strings out of 479334
- 880745 string characters out of 2857085
- 1717519 words of memory out of 3000000
- 56247 multiletter control sequences out of 15000+200000
+ 41396 strings out of 479334
+ 881333 string characters out of 2857085
+ 1724441 words of memory out of 3000000
+ 56526 multiletter control sequences out of 15000+200000
  516231 words of font info for 248 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,8n,103p,890b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1781,9 +1799,9 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/aless/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/aless/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/aless/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (87 pages, 8619099 bytes).
+Output written on main.pdf (93 pages, 8589883 bytes).
 PDF statistics:
- 2651 PDF objects out of 2984 (max. 8388607)
- 1560 named destinations out of 1728 (max. 500000)
+ 2359 PDF objects out of 2487 (max. 8388607)
+ 1300 named destinations out of 1440 (max. 500000)
  62665 words of extra memory for PDF output out of 74296 (max. 10000000)
 
