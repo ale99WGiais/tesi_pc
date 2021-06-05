@@ -51,7 +51,8 @@
 
 \newcommand{\facciatabianca}{\newpage\shipout\null}
 
-\lstset{defaultdialect=[Visual]Basic}
+\usepackage{titlesec}
+\titleformat*{\section}{\LARGE\bfseries}
 
 \allowdisplaybreaks
 
@@ -113,8 +114,7 @@
 \newpage
 \pagenumbering{arabic}
 
-
-
+\facciatabianca
 \section{Introduzione}
 
 \paragraph{} La Protezione Civile del comune di San Vito al Tagliamento \cite{protezionecivile} attualmente utilizza esclusivamente moduli cartacei per la gestione delle proprie attività, il tracciamento della partecipazione delle squadre e il mantenimento delle informazioni riguardanti il proprio inventario. 
@@ -126,7 +126,7 @@
 
 
 
-
+\newpage
 \section{Primo approccio}
 
 \paragraph{} Il primo approccio consiste nella conoscenza reciproca tra committente e gruppo operativo. 
@@ -194,7 +194,7 @@
 
 
 
-
+\newpage
 \section{Pianificazione iniziale}
 
 \paragraph{} Per iniziare a lavorare sul progetto, è fondamentare decidere fin da subito quale sarà il modello di sviluppo adottato, in quanto esso ci dà gli stumenti per dividere il lavoro in task, organizzarli gerarchicamente e metterli in relazione tra loro  \cite{modelli_sviluppo, agile_manifesto}. 
@@ -223,7 +223,7 @@
     \caption{Pianificazione iniziale}
 \end{figure}
 
-
+\newpage
 \section{Raccolta dei requisiti}
 
 \paragraph{} La raccolta dei requisiti \cite{req_analysis} si prefigge di elencare \emph{precisamente} tutte le caratteristiche \emph {funzionali} e \emph{non funzionali}\footnote{Le caratteristiche funzionali legano gli input del sistema ai suoi output (ciò che il sistema fa). Le caratteristiche non funzionali sono molto più generiche e possono includere sia caratteristiche del sistema (ad esempio: tempi di risposta, tolleranza agli errori), sia vincoli esterni (ad esempio: legislativi, amministrativi, finanziari).} che il sistema dovrà avere. Questa fase serve per avere un'idea il più chiara possibile di quello che il committente vuole, in modo da \emph{minimizzare il rischio}\footnote{Si riferisce all'attività di \emph{risk management}} di produrre un sistema che non incontri le sue aspettative.
@@ -318,7 +318,7 @@
 
 
 
-
+\newpage
 \section{Progettazione architetturale}
 
 \paragraph{} Una volta raggiunto un documento dei requisiti soddisfacente, ha inizio una nuova fase: la \emph{progettazione architetturale} \cite{prog_architetturale}. 
@@ -400,7 +400,7 @@
 
 \paragraph{} Questo aggiornamento è stato subito comunicato al committente, per ragioni di trasparenza. 
 
-
+\newpage
 \section{Qualità del software}
 
 \paragraph{} Una nota particolare merita approfondimento: la qualità del software \cite{quality}. Essa non ha una definizione universale, ma va specificata di volta in volta.
@@ -490,7 +490,7 @@
 \end{figure}
 
 
-
+\newpage
 \section{Database}
 
 \paragraph{} In questa sezione verrà presentato lo sviluppo del database \cite{db}, prima azione compiuta a seguito della progettazione architetturale. Tutti gli altri sottosistemi dipendono da esso, quindi durante la progettazione è stato necessario tenere in considerazione le esigenze di essi.
@@ -689,7 +689,7 @@ postgres:
 \end{figure}
 
 
-
+\newpage
 \section{API web}
 
 \paragraph{} Una volta concluso lo sviluppo del database, è stato affrontata la progettazione e sviluppo dell'API web \cite{restapi}.
@@ -1432,7 +1432,7 @@ web:
 \end{lstlisting}
 
 
-
+\newpage
 \section{Suddivisione dei compiti tra app e website}
 
 \paragraph{} Applicazione e sito web sono complementari. Per questo sorge spontanea una domanda: per ogni funzionalità, dove metterla? 
@@ -1447,7 +1447,7 @@ web:
 
 
 
-
+\newpage
 \section{App}
 
 \paragraph{} Lo sviluppo dell'app è una delle parti più ostiche. Oltre alle difficoltà di programmazione, è importante anche andare incontro ai gusti degli utilizzatori, per fornire una buona estetica ed usabilità. 
@@ -1708,6 +1708,7 @@ Conferma l'inserimento della nuova attivita'
 
 \paragraph{} Sempre utilizzando Expo, è possibile pubblicare i propri progetti sul web. Basta compilare un breve form contenente nome dell'app e dati dello sviluppatore affinché Expo metta a disposizione automaticamente uno spazio in cloud. 
 
+\newpage
 \section{Website}
 
 \paragraph{} Questo capitolo si occuperà del processo di sviluppo del sito web. 
@@ -2261,11 +2262,7 @@ Conferma l'inserimento della nuova attivita'
 \end{figure}
 
 
-%\section{Analisi dei dati}
-%todo analisi dei dati
-
-
-
+\newpage
 \section{Deploy}
 
 \paragraph{} Per il deploy si è scelto di utilizzare \emph{Google Cloud (GCP)}. 
@@ -2345,6 +2342,7 @@ expo build:android -t app-bundle
 \paragraph{} Una volta terminato il build e relativi test, è sufficiente accedere al profilo personale degli store e caricare quanto necessario. 
 
 
+\newpage
 \section{Conclusioni e sviluppi futuri}
 
 \paragraph{} Svolgere questo progetto è stato particolarmente interessante perchè esso racchiude l'applicazione di conoscenze maturate nel corso dell'intero percorso di studi triennale. 
@@ -2387,6 +2385,7 @@ expo build:android -t app-bundle
 \end{itemize} 
 
 
+\newpage
 \begin{thebibliography}{99}
 
 \bibitem{protezionecivile}
