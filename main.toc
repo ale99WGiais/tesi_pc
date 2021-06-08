@@ -1,320 +1,320 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
-\contentsline {section}{\numberline {1}Introduzione}{1}{section.1}%
-\contentsline {paragraph}{}{1}{section.1}%
-\contentsline {paragraph}{}{1}{section.1}%
-\contentsline {paragraph}{}{1}{section.1}%
-\contentsline {section}{\numberline {2}Primo approccio}{2}{section.2}%
-\contentsline {paragraph}{}{2}{section.2}%
-\contentsline {paragraph}{}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Raccolta dei requisiti esplorativa}{2}{subsection.2.1}%
-\contentsline {paragraph}{}{2}{subsection.2.1}%
-\contentsline {paragraph}{}{2}{subsection.2.1}%
-\contentsline {paragraph}{}{2}{subsection.2.1}%
-\contentsline {paragraph}{}{2}{subsection.2.1}%
-\contentsline {paragraph}{}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Studio di fattibilità}{3}{subsection.2.2}%
-\contentsline {paragraph}{}{3}{subsection.2.2}%
-\contentsline {paragraph}{}{3}{subsection.2.2}%
-\contentsline {paragraph}{}{4}{subsection.2.2}%
-\contentsline {paragraph}{}{4}{subsection.2.2}%
-\contentsline {paragraph}{}{4}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Approfondimento: Come si valuta il successo?}{4}{subsubsection.2.2.1}%
-\contentsline {paragraph}{}{4}{subsubsection.2.2.1}%
-\contentsline {paragraph}{}{4}{subsubsection.2.2.1}%
-\contentsline {paragraph}{}{4}{subsubsection.2.2.1}%
-\contentsline {paragraph}{}{4}{subsubsection.2.2.1}%
-\contentsline {section}{\numberline {3}Pianificazione iniziale}{5}{section.3}%
-\contentsline {paragraph}{}{5}{section.3}%
-\contentsline {paragraph}{}{5}{section.3}%
-\contentsline {paragraph}{}{5}{figure.caption.2}%
-\contentsline {paragraph}{}{6}{figure.caption.3}%
-\contentsline {section}{\numberline {4}Raccolta dei requisiti}{7}{section.4}%
-\contentsline {paragraph}{}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Raccolta e analisi dei requisiti}{7}{subsection.4.1}%
-\contentsline {paragraph}{}{7}{subsection.4.1}%
-\contentsline {paragraph}{}{7}{subsection.4.1}%
-\contentsline {paragraph}{}{7}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Approfondimento: Requisiti di qualità}{8}{subsubsection.4.1.1}%
-\contentsline {paragraph}{}{8}{subsubsection.4.1.1}%
-\contentsline {paragraph}{}{8}{subsubsection.4.1.1}%
-\contentsline {paragraph}{}{8}{subsubsection.4.1.1}%
-\contentsline {paragraph}{}{8}{subsubsection.4.1.1}%
-\contentsline {paragraph}{}{9}{figure.caption.6}%
-\contentsline {paragraph}{}{9}{figure.caption.6}%
-\contentsline {subsubsection}{\numberline {4.1.2}Approfondimento: Risk management}{9}{subsubsection.4.1.2}%
-\contentsline {paragraph}{}{9}{subsubsection.4.1.2}%
-\contentsline {paragraph}{}{9}{subsubsection.4.1.2}%
-\contentsline {paragraph}{}{9}{subsubsection.4.1.2}%
-\contentsline {paragraph}{}{10}{Item.4}%
-\contentsline {paragraph}{}{10}{figure.caption.7}%
-\contentsline {paragraph}{}{10}{figure.caption.7}%
-\contentsline {section}{\numberline {5}Progettazione architetturale}{12}{section.5}%
-\contentsline {paragraph}{}{12}{section.5}%
-\contentsline {paragraph}{}{12}{section.5}%
-\contentsline {paragraph}{}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Architettura del sistema}{12}{subsection.5.1}%
-\contentsline {paragraph}{}{12}{subsection.5.1}%
-\contentsline {paragraph}{}{12}{subsection.5.1}%
-\contentsline {paragraph}{}{12}{subsection.5.1}%
-\contentsline {paragraph}{}{12}{subsection.5.1}%
-\contentsline {paragraph}{}{13}{subsection.5.1}%
-\contentsline {paragraph}{}{13}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Approfondimento: Architettura REST e formato JSON}{13}{subsubsection.5.1.1}%
-\contentsline {paragraph}{}{13}{subsubsection.5.1.1}%
-\contentsline {paragraph}{}{13}{subsubsection.5.1.1}%
-\contentsline {paragraph}{}{13}{subsubsection.5.1.1}%
-\contentsline {paragraph}{}{14}{figure.caption.10}%
-\contentsline {subsection}{\numberline {5.2}Metodologia di lavoro}{14}{subsection.5.2}%
-\contentsline {paragraph}{}{14}{subsection.5.2}%
-\contentsline {paragraph}{}{15}{subsection.5.2}%
-\contentsline {paragraph}{}{15}{subsection.5.2}%
-\contentsline {paragraph}{}{15}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Stima dei tempi, costi e risorse}{15}{subsection.5.3}%
-\contentsline {paragraph}{}{15}{subsection.5.3}%
-\contentsline {paragraph}{}{15}{subsection.5.3}%
-\contentsline {paragraph}{}{15}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Qualità del software}{16}{section.6}%
-\contentsline {paragraph}{}{16}{section.6}%
-\contentsline {paragraph}{}{16}{section.6}%
-\contentsline {paragraph}{}{16}{section.6}%
-\contentsline {paragraph}{}{16}{section.6}%
-\contentsline {paragraph}{}{16}{section.6}%
-\contentsline {subsubsection}{\numberline {6.0.1}Approfondimento: Qualità del software}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{17}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{18}{subsubsection.6.0.1}%
-\contentsline {paragraph}{}{18}{figure.caption.12}%
-\contentsline {subsubsection}{\numberline {6.0.2}Approfondimento: Testing}{18}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{18}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{19}{subsubsection.6.0.2}%
-\contentsline {paragraph}{}{20}{subsubsection.6.0.2}%
-\contentsline {section}{\numberline {7}Database}{21}{section.7}%
-\contentsline {paragraph}{}{21}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Progettazione concettuale}{21}{subsection.7.1}%
-\contentsline {paragraph}{}{21}{subsection.7.1}%
-\contentsline {paragraph}{}{22}{figure.caption.14}%
-\contentsline {subsection}{\numberline {7.2}Progettazione logica}{22}{subsection.7.2}%
-\contentsline {paragraph}{}{22}{subsection.7.2}%
-\contentsline {paragraph}{}{23}{figure.caption.15}%
-\contentsline {paragraph}{}{24}{figure.caption.18}%
-\contentsline {subsection}{\numberline {7.3}Progettazione fisica e implementazione}{25}{subsection.7.3}%
-\contentsline {paragraph}{}{25}{subsection.7.3}%
-\contentsline {paragraph}{}{25}{subsection.7.3}%
-\contentsline {paragraph}{}{26}{lstnumber.1.36}%
-\contentsline {paragraph}{}{26}{lstnumber.2.3}%
-\contentsline {subsection}{\numberline {7.4}Deploy locale}{27}{subsection.7.4}%
-\contentsline {paragraph}{}{27}{subsection.7.4}%
-\contentsline {paragraph}{}{27}{subsection.7.4}%
-\contentsline {subsubsection}{\numberline {7.4.1}Approfondimento: Utilizzo di Docker}{28}{subsubsection.7.4.1}%
-\contentsline {paragraph}{}{28}{subsubsection.7.4.1}%
-\contentsline {paragraph}{}{28}{subsubsection.7.4.1}%
-\contentsline {paragraph}{}{28}{subsubsection.7.4.1}%
-\contentsline {paragraph}{}{28}{subsubsection.7.4.1}%
-\contentsline {paragraph}{}{28}{subsubsection.7.4.1}%
-\contentsline {paragraph}{}{28}{subsubsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.5}Testing}{29}{subsection.7.5}%
-\contentsline {paragraph}{}{29}{subsection.7.5}%
-\contentsline {paragraph}{}{29}{subsection.7.5}%
-\contentsline {paragraph}{}{29}{subsection.7.5}%
-\contentsline {section}{\numberline {8}API web}{30}{section.8}%
-\contentsline {paragraph}{}{30}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Progettazione}{30}{subsection.8.1}%
-\contentsline {paragraph}{}{30}{subsection.8.1}%
-\contentsline {paragraph}{}{30}{subsection.8.1}%
-\contentsline {paragraph}{}{30}{subsection.8.1}%
-\contentsline {paragraph}{}{30}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Approfondimento: Utilizzo di git per lo sviluppo incrementale}{30}{subsubsection.8.1.1}%
-\contentsline {paragraph}{}{30}{subsubsection.8.1.1}%
-\contentsline {paragraph}{}{30}{subsubsection.8.1.1}%
-\contentsline {paragraph}{}{30}{subsubsection.8.1.1}%
-\contentsline {paragraph}{}{30}{subsubsection.8.1.1}%
-\contentsline {paragraph}{}{31}{figure.caption.22}%
-\contentsline {paragraph}{}{31}{figure.caption.22}%
-\contentsline {paragraph}{}{31}{figure.caption.22}%
-\contentsline {paragraph}{}{31}{figure.caption.23}%
-\contentsline {paragraph}{}{32}{figure.caption.24}%
-\contentsline {subsubsection}{\numberline {8.1.2}Approfondimento: WSGI}{32}{subsubsection.8.1.2}%
-\contentsline {paragraph}{}{32}{subsubsection.8.1.2}%
-\contentsline {paragraph}{}{32}{subsubsection.8.1.2}%
-\contentsline {paragraph}{}{33}{subsubsection.8.1.2}%
-\contentsline {paragraph}{}{33}{subsubsection.8.1.2}%
-\contentsline {paragraph}{}{33}{subsubsection.8.1.2}%
-\contentsline {paragraph}{}{33}{lstnumber.5.6}%
-\contentsline {paragraph}{}{34}{lstnumber.6.24}%
-\contentsline {subsection}{\numberline {8.2}Inizializzazione del contesto}{34}{subsection.8.2}%
-\contentsline {paragraph}{}{34}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Costruzione libreria di supporto}{35}{subsection.8.3}%
-\contentsline {paragraph}{}{35}{subsection.8.3}%
-\contentsline {paragraph}{}{35}{subsection.8.3}%
-\contentsline {paragraph}{}{35}{lstnumber.11.14}%
-\contentsline {paragraph}{}{36}{lstnumber.12.50}%
-\contentsline {paragraph}{}{36}{lstnumber.12.50}%
-\contentsline {paragraph}{}{38}{lstnumber.13.93}%
-\contentsline {subsection}{\numberline {8.4}Implementazione API}{39}{subsection.8.4}%
-\contentsline {paragraph}{}{39}{subsection.8.4}%
-\contentsline {paragraph}{}{39}{subsection.8.4}%
-\contentsline {paragraph}{}{40}{lstnumber.15.27}%
-\contentsline {subsection}{\numberline {8.5}Autenticazione}{40}{subsection.8.5}%
-\contentsline {paragraph}{}{40}{subsection.8.5}%
-\contentsline {paragraph}{}{41}{subsection.8.5}%
-\contentsline {paragraph}{}{41}{subsection.8.5}%
-\contentsline {paragraph}{}{41}{subsection.8.5}%
-\contentsline {paragraph}{}{41}{subsection.8.5}%
-\contentsline {paragraph}{}{41}{lstnumber.17.17}%
-\contentsline {paragraph}{}{42}{lstnumber.17.17}%
-\contentsline {paragraph}{}{42}{lstnumber.17.17}%
-\contentsline {paragraph}{}{42}{lstnumber.17.17}%
-\contentsline {paragraph}{}{42}{lstnumber.17.17}%
-\contentsline {paragraph}{}{43}{figure.caption.25}%
-\contentsline {paragraph}{}{43}{figure.caption.25}%
-\contentsline {paragraph}{}{44}{lstnumber.19.10}%
-\contentsline {paragraph}{}{44}{lstnumber.19.10}%
-\contentsline {paragraph}{}{44}{lstnumber.20.22}%
-\contentsline {paragraph}{}{46}{figure.caption.26}%
-\contentsline {paragraph}{}{47}{figure.caption.27}%
-\contentsline {paragraph}{}{47}{figure.caption.27}%
-\contentsline {paragraph}{}{47}{figure.caption.27}%
-\contentsline {paragraph}{}{49}{figure.caption.28}%
-\contentsline {paragraph}{}{49}{figure.caption.28}%
-\contentsline {subsection}{\numberline {8.6}Testing}{49}{subsection.8.6}%
-\contentsline {paragraph}{}{49}{subsection.8.6}%
-\contentsline {paragraph}{}{50}{subsection.8.6}%
-\contentsline {paragraph}{}{50}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}Deploy locale}{50}{subsection.8.7}%
-\contentsline {paragraph}{}{50}{subsection.8.7}%
-\contentsline {paragraph}{}{50}{subsection.8.7}%
-\contentsline {section}{\numberline {9}Suddivisione dei compiti tra app e website}{52}{section.9}%
-\contentsline {paragraph}{}{52}{section.9}%
-\contentsline {paragraph}{}{52}{section.9}%
-\contentsline {paragraph}{}{52}{section.9}%
-\contentsline {paragraph}{}{52}{section.9}%
-\contentsline {section}{\numberline {10}App}{53}{section.10}%
-\contentsline {paragraph}{}{53}{section.10}%
-\contentsline {paragraph}{}{53}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Design}{53}{subsection.10.1}%
-\contentsline {paragraph}{}{53}{subsection.10.1}%
-\contentsline {paragraph}{}{53}{subsection.10.1}%
-\contentsline {paragraph}{}{53}{lstnumber.-1.13}%
-\contentsline {paragraph}{}{54}{lstnumber.-2.45}%
-\contentsline {paragraph}{}{54}{lstnumber.-2.45}%
-\contentsline {paragraph}{}{55}{figure.caption.31}%
-\contentsline {paragraph}{}{56}{figure.caption.32}%
-\contentsline {subsubsection}{\numberline {10.1.1}Approfondimento: User-centered design}{56}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{56}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{57}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{57}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{57}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{57}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{57}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{57}{subsubsection.10.1.1}%
-\contentsline {paragraph}{}{57}{subsubsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.2}Progettazione}{58}{subsection.10.2}%
-\contentsline {paragraph}{}{58}{subsection.10.2}%
-\contentsline {paragraph}{}{58}{subsection.10.2}%
-\contentsline {paragraph}{}{58}{subsection.10.2}%
-\contentsline {paragraph}{}{59}{figure.caption.35}%
-\contentsline {paragraph}{}{59}{figure.caption.35}%
-\contentsline {paragraph}{}{59}{figure.caption.35}%
-\contentsline {paragraph}{}{59}{figure.caption.35}%
-\contentsline {paragraph}{}{60}{figure.caption.36}%
-\contentsline {paragraph}{}{60}{figure.caption.36}%
-\contentsline {subsection}{\numberline {10.3}Implementazione}{60}{subsection.10.3}%
-\contentsline {paragraph}{}{60}{subsection.10.3}%
-\contentsline {paragraph}{}{61}{subsection.10.3}%
-\contentsline {paragraph}{}{61}{subsection.10.3}%
-\contentsline {paragraph}{}{61}{subsection.10.3}%
-\contentsline {paragraph}{}{61}{subsection.10.3}%
-\contentsline {paragraph}{}{61}{figure.caption.38}%
-\contentsline {paragraph}{}{61}{figure.caption.38}%
-\contentsline {paragraph}{}{62}{figure.caption.39}%
-\contentsline {paragraph}{}{62}{figure.caption.39}%
-\contentsline {paragraph}{}{63}{figure.caption.40}%
-\contentsline {paragraph}{}{63}{figure.caption.40}%
-\contentsline {subsection}{\numberline {10.4}Testing}{63}{subsection.10.4}%
-\contentsline {paragraph}{}{63}{subsection.10.4}%
-\contentsline {paragraph}{}{64}{subsection.10.4}%
-\contentsline {paragraph}{}{65}{figure.caption.42}%
-\contentsline {section}{\numberline {11}Website}{66}{section.11}%
-\contentsline {paragraph}{}{66}{section.11}%
-\contentsline {paragraph}{}{66}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Struttura}{66}{subsection.11.1}%
-\contentsline {paragraph}{}{66}{subsection.11.1}%
-\contentsline {paragraph}{}{66}{subsection.11.1}%
-\contentsline {paragraph}{}{66}{subsection.11.1}%
-\contentsline {paragraph}{}{66}{subsection.11.1}%
-\contentsline {paragraph}{}{66}{subsection.11.1}%
-\contentsline {paragraph}{}{66}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Design}{66}{subsection.11.2}%
-\contentsline {paragraph}{}{66}{subsection.11.2}%
-\contentsline {paragraph}{}{66}{subsection.11.2}%
-\contentsline {paragraph}{}{67}{Item.14}%
-\contentsline {paragraph}{}{67}{Item.14}%
-\contentsline {paragraph}{}{67}{figure.caption.43}%
-\contentsline {paragraph}{}{67}{figure.caption.43}%
-\contentsline {paragraph}{}{68}{figure.caption.44}%
-\contentsline {subsection}{\numberline {11.3}Implementazione}{69}{subsection.11.3}%
-\contentsline {paragraph}{}{69}{subsection.11.3}%
-\contentsline {paragraph}{}{69}{subsection.11.3}%
-\contentsline {paragraph}{}{69}{subsection.11.3}%
-\contentsline {paragraph}{}{73}{lstnumber.27.175}%
-\contentsline {paragraph}{}{73}{lstnumber.28.15}%
-\contentsline {paragraph}{}{73}{lstnumber.28.15}%
-\contentsline {subsubsection}{\numberline {11.3.1}Approfondimento: Template con jinja 2}{76}{subsubsection.11.3.1}%
-\contentsline {paragraph}{}{76}{subsubsection.11.3.1}%
-\contentsline {paragraph}{}{77}{subsubsection.11.3.1}%
-\contentsline {paragraph}{}{77}{subsubsection.11.3.1}%
-\contentsline {paragraph}{}{77}{subsubsection.11.3.1}%
-\contentsline {paragraph}{}{77}{subsubsection.11.3.1}%
-\contentsline {paragraph}{}{77}{subsubsection.11.3.1}%
-\contentsline {paragraph}{}{77}{lstnumber.32.3}%
-\contentsline {subsection}{\numberline {11.4}Testing}{78}{subsection.11.4}%
-\contentsline {paragraph}{}{78}{subsection.11.4}%
-\contentsline {paragraph}{}{78}{subsection.11.4}%
-\contentsline {paragraph}{}{78}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Deploy locale}{79}{subsection.11.5}%
-\contentsline {paragraph}{}{79}{subsection.11.5}%
-\contentsline {paragraph}{}{79}{subsection.11.5}%
-\contentsline {section}{\numberline {12}Deploy}{82}{section.12}%
-\contentsline {paragraph}{}{82}{section.12}%
-\contentsline {paragraph}{}{82}{section.12}%
-\contentsline {paragraph}{}{82}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Deploy del database}{82}{subsection.12.1}%
-\contentsline {paragraph}{}{82}{subsection.12.1}%
-\contentsline {paragraph}{}{82}{subsection.12.1}%
-\contentsline {paragraph}{}{82}{subsection.12.1}%
-\contentsline {paragraph}{}{82}{subsection.12.1}%
-\contentsline {paragraph}{}{82}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Deploy delle API e website}{83}{subsection.12.2}%
-\contentsline {paragraph}{}{83}{subsection.12.2}%
-\contentsline {paragraph}{}{83}{subsection.12.2}%
-\contentsline {paragraph}{}{83}{subsection.12.2}%
-\contentsline {paragraph}{}{83}{subsection.12.2}%
-\contentsline {paragraph}{}{83}{lstnumber.35.1}%
-\contentsline {subsection}{\numberline {12.3}Pubblicazione dell'app}{83}{subsection.12.3}%
-\contentsline {paragraph}{}{83}{subsection.12.3}%
-\contentsline {paragraph}{}{83}{subsection.12.3}%
-\contentsline {paragraph}{}{84}{lstnumber.-4.3}%
-\contentsline {section}{\numberline {13}Conclusioni e sviluppi futuri}{85}{section.13}%
-\contentsline {paragraph}{}{85}{section.13}%
-\contentsline {paragraph}{}{85}{section.13}%
-\contentsline {paragraph}{}{85}{section.13}%
-\contentsline {paragraph}{}{85}{section.13}%
-\contentsline {paragraph}{}{85}{section.13}%
-\contentsline {paragraph}{}{85}{section.13}%
-\contentsline {paragraph}{}{85}{section.13}%
-\contentsline {paragraph}{}{86}{section.13}%
-\contentsline {section}{Bibliografia}{87}{section.13}%
+\contentsline {chapter}{\numberline {1}Introduzione}{1}{chapter.1}%
+\contentsline {paragraph}{}{1}{section*.2}%
+\contentsline {paragraph}{}{1}{section*.3}%
+\contentsline {paragraph}{}{1}{section*.4}%
+\contentsline {chapter}{\numberline {2}Primo approccio}{3}{chapter.2}%
+\contentsline {paragraph}{}{3}{section*.5}%
+\contentsline {paragraph}{}{3}{section*.6}%
+\contentsline {section}{\numberline {2.1}Raccolta dei requisiti esplorativa}{3}{section.2.1}%
+\contentsline {paragraph}{}{3}{section*.7}%
+\contentsline {paragraph}{}{3}{section*.8}%
+\contentsline {paragraph}{}{4}{section*.9}%
+\contentsline {paragraph}{}{4}{section*.10}%
+\contentsline {paragraph}{}{4}{section*.11}%
+\contentsline {section}{\numberline {2.2}Studio di fattibilità}{5}{section.2.2}%
+\contentsline {paragraph}{}{5}{section*.13}%
+\contentsline {paragraph}{}{5}{section*.14}%
+\contentsline {paragraph}{}{5}{section*.15}%
+\contentsline {paragraph}{}{6}{section*.16}%
+\contentsline {paragraph}{}{6}{section*.17}%
+\contentsline {subsection}{\numberline {2.2.1}Approfondimento: Come si valuta il successo?}{6}{subsection.2.2.1}%
+\contentsline {paragraph}{}{6}{section*.18}%
+\contentsline {paragraph}{}{6}{section*.19}%
+\contentsline {paragraph}{}{6}{section*.20}%
+\contentsline {paragraph}{}{7}{section*.21}%
+\contentsline {chapter}{\numberline {3}Pianificazione iniziale}{9}{chapter.3}%
+\contentsline {paragraph}{}{9}{section*.22}%
+\contentsline {paragraph}{}{9}{section*.23}%
+\contentsline {paragraph}{}{10}{section*.25}%
+\contentsline {paragraph}{}{10}{section*.27}%
+\contentsline {chapter}{\numberline {4}Raccolta dei requisiti}{11}{chapter.4}%
+\contentsline {paragraph}{}{11}{section*.29}%
+\contentsline {section}{\numberline {4.1}Raccolta e analisi dei requisiti}{11}{section.4.1}%
+\contentsline {paragraph}{}{11}{section*.30}%
+\contentsline {paragraph}{}{11}{section*.31}%
+\contentsline {paragraph}{}{11}{section*.32}%
+\contentsline {subsection}{\numberline {4.1.1}Approfondimento: Requisiti di qualità}{12}{subsection.4.1.1}%
+\contentsline {paragraph}{}{12}{section*.34}%
+\contentsline {paragraph}{}{12}{section*.35}%
+\contentsline {paragraph}{}{12}{section*.36}%
+\contentsline {paragraph}{}{13}{section*.37}%
+\contentsline {paragraph}{}{13}{section*.39}%
+\contentsline {paragraph}{}{13}{section*.40}%
+\contentsline {subsection}{\numberline {4.1.2}Approfondimento: Risk management}{14}{subsection.4.1.2}%
+\contentsline {paragraph}{}{14}{section*.41}%
+\contentsline {paragraph}{}{14}{section*.42}%
+\contentsline {paragraph}{}{14}{section*.43}%
+\contentsline {paragraph}{}{14}{section*.44}%
+\contentsline {paragraph}{}{15}{section*.46}%
+\contentsline {paragraph}{}{15}{section*.47}%
+\contentsline {chapter}{\numberline {5}Progettazione architetturale}{17}{chapter.5}%
+\contentsline {paragraph}{}{17}{section*.49}%
+\contentsline {paragraph}{}{17}{section*.50}%
+\contentsline {paragraph}{}{17}{section*.51}%
+\contentsline {section}{\numberline {5.1}Architettura del sistema}{17}{section.5.1}%
+\contentsline {paragraph}{}{17}{section*.52}%
+\contentsline {paragraph}{}{18}{section*.53}%
+\contentsline {paragraph}{}{18}{section*.54}%
+\contentsline {paragraph}{}{18}{section*.55}%
+\contentsline {paragraph}{}{18}{section*.56}%
+\contentsline {paragraph}{}{18}{section*.57}%
+\contentsline {subsection}{\numberline {5.1.1}Approfondimento: Architettura REST e formato JSON}{19}{subsection.5.1.1}%
+\contentsline {paragraph}{}{19}{section*.59}%
+\contentsline {paragraph}{}{19}{section*.60}%
+\contentsline {paragraph}{}{19}{section*.61}%
+\contentsline {paragraph}{}{19}{section*.63}%
+\contentsline {section}{\numberline {5.2}Metodologia di lavoro}{20}{section.5.2}%
+\contentsline {paragraph}{}{20}{section*.65}%
+\contentsline {paragraph}{}{20}{section*.66}%
+\contentsline {paragraph}{}{20}{section*.67}%
+\contentsline {paragraph}{}{21}{section*.68}%
+\contentsline {section}{\numberline {5.3}Stima dei tempi, costi e risorse}{21}{section.5.3}%
+\contentsline {paragraph}{}{21}{section*.69}%
+\contentsline {paragraph}{}{21}{section*.70}%
+\contentsline {paragraph}{}{21}{section*.71}%
+\contentsline {chapter}{\numberline {6}Qualità del software}{23}{chapter.6}%
+\contentsline {paragraph}{}{23}{section*.72}%
+\contentsline {paragraph}{}{23}{section*.73}%
+\contentsline {paragraph}{}{23}{section*.74}%
+\contentsline {paragraph}{}{23}{section*.75}%
+\contentsline {paragraph}{}{23}{section*.76}%
+\contentsline {subsection}{\numberline {6.0.1}Approfondimento: Qualità del software}{24}{subsection.6.0.1}%
+\contentsline {paragraph}{}{24}{section*.77}%
+\contentsline {paragraph}{}{24}{section*.78}%
+\contentsline {paragraph}{}{25}{section*.79}%
+\contentsline {paragraph}{}{25}{section*.80}%
+\contentsline {paragraph}{}{25}{section*.81}%
+\contentsline {paragraph}{}{25}{section*.82}%
+\contentsline {paragraph}{}{25}{section*.83}%
+\contentsline {paragraph}{}{25}{section*.84}%
+\contentsline {paragraph}{}{26}{section*.86}%
+\contentsline {subsection}{\numberline {6.0.2}Approfondimento: Testing}{26}{subsection.6.0.2}%
+\contentsline {paragraph}{}{26}{section*.87}%
+\contentsline {paragraph}{}{26}{section*.88}%
+\contentsline {paragraph}{}{27}{section*.89}%
+\contentsline {paragraph}{}{27}{section*.90}%
+\contentsline {paragraph}{}{27}{section*.91}%
+\contentsline {paragraph}{}{27}{section*.92}%
+\contentsline {paragraph}{}{27}{section*.93}%
+\contentsline {paragraph}{}{27}{section*.94}%
+\contentsline {paragraph}{}{27}{section*.95}%
+\contentsline {paragraph}{}{27}{section*.96}%
+\contentsline {paragraph}{}{28}{section*.97}%
+\contentsline {chapter}{\numberline {7}Database}{29}{chapter.7}%
+\contentsline {paragraph}{}{29}{section*.99}%
+\contentsline {section}{\numberline {7.1}Progettazione concettuale}{29}{section.7.1}%
+\contentsline {paragraph}{}{29}{section*.100}%
+\contentsline {paragraph}{}{30}{section*.102}%
+\contentsline {section}{\numberline {7.2}Progettazione logica}{30}{section.7.2}%
+\contentsline {paragraph}{}{30}{section*.103}%
+\contentsline {paragraph}{}{31}{section*.105}%
+\contentsline {paragraph}{}{32}{section*.109}%
+\contentsline {section}{\numberline {7.3}Progettazione fisica e implementazione}{33}{section.7.3}%
+\contentsline {paragraph}{}{33}{section*.111}%
+\contentsline {paragraph}{}{33}{section*.112}%
+\contentsline {paragraph}{}{34}{section*.113}%
+\contentsline {paragraph}{}{35}{section*.114}%
+\contentsline {section}{\numberline {7.4}Deploy locale}{36}{section.7.4}%
+\contentsline {paragraph}{}{36}{section*.115}%
+\contentsline {paragraph}{}{36}{section*.116}%
+\contentsline {subsection}{\numberline {7.4.1}Approfondimento: Utilizzo di Docker}{36}{subsection.7.4.1}%
+\contentsline {paragraph}{}{36}{section*.117}%
+\contentsline {paragraph}{}{36}{section*.118}%
+\contentsline {paragraph}{}{36}{section*.119}%
+\contentsline {paragraph}{}{37}{section*.120}%
+\contentsline {paragraph}{}{37}{section*.121}%
+\contentsline {paragraph}{}{37}{section*.122}%
+\contentsline {section}{\numberline {7.5}Testing}{37}{section.7.5}%
+\contentsline {paragraph}{}{37}{section*.124}%
+\contentsline {paragraph}{}{37}{section*.125}%
+\contentsline {paragraph}{}{38}{section*.126}%
+\contentsline {chapter}{\numberline {8}API web}{39}{chapter.8}%
+\contentsline {paragraph}{}{39}{section*.128}%
+\contentsline {section}{\numberline {8.1}Progettazione}{39}{section.8.1}%
+\contentsline {paragraph}{}{39}{section*.129}%
+\contentsline {paragraph}{}{39}{section*.130}%
+\contentsline {paragraph}{}{39}{section*.131}%
+\contentsline {paragraph}{}{39}{section*.132}%
+\contentsline {subsection}{\numberline {8.1.1}Approfondimento: Utilizzo di git per lo sviluppo incrementale}{40}{subsection.8.1.1}%
+\contentsline {paragraph}{}{40}{section*.133}%
+\contentsline {paragraph}{}{40}{section*.134}%
+\contentsline {paragraph}{}{40}{section*.135}%
+\contentsline {paragraph}{}{40}{section*.136}%
+\contentsline {paragraph}{}{40}{section*.138}%
+\contentsline {paragraph}{}{40}{section*.139}%
+\contentsline {paragraph}{}{41}{section*.140}%
+\contentsline {paragraph}{}{41}{section*.142}%
+\contentsline {paragraph}{}{42}{section*.144}%
+\contentsline {subsection}{\numberline {8.1.2}Approfondimento: WSGI}{42}{subsection.8.1.2}%
+\contentsline {paragraph}{}{42}{section*.145}%
+\contentsline {paragraph}{}{42}{section*.146}%
+\contentsline {paragraph}{}{43}{section*.147}%
+\contentsline {paragraph}{}{43}{section*.148}%
+\contentsline {paragraph}{}{43}{section*.149}%
+\contentsline {paragraph}{}{43}{section*.150}%
+\contentsline {paragraph}{}{44}{section*.151}%
+\contentsline {section}{\numberline {8.2}Inizializzazione del contesto}{44}{section.8.2}%
+\contentsline {paragraph}{}{44}{section*.152}%
+\contentsline {section}{\numberline {8.3}Costruzione libreria di supporto}{45}{section.8.3}%
+\contentsline {paragraph}{}{45}{section*.153}%
+\contentsline {paragraph}{}{45}{section*.154}%
+\contentsline {paragraph}{}{45}{section*.155}%
+\contentsline {paragraph}{}{47}{section*.156}%
+\contentsline {paragraph}{}{47}{section*.157}%
+\contentsline {paragraph}{}{49}{section*.158}%
+\contentsline {section}{\numberline {8.4}Implementazione API}{49}{section.8.4}%
+\contentsline {paragraph}{}{49}{section*.159}%
+\contentsline {paragraph}{}{50}{section*.160}%
+\contentsline {paragraph}{}{50}{section*.161}%
+\contentsline {section}{\numberline {8.5}Autenticazione}{52}{section.8.5}%
+\contentsline {paragraph}{}{52}{section*.162}%
+\contentsline {paragraph}{}{52}{section*.163}%
+\contentsline {paragraph}{}{52}{section*.164}%
+\contentsline {paragraph}{}{52}{section*.165}%
+\contentsline {paragraph}{}{52}{section*.166}%
+\contentsline {paragraph}{}{53}{section*.167}%
+\contentsline {paragraph}{}{53}{section*.168}%
+\contentsline {paragraph}{}{53}{section*.169}%
+\contentsline {paragraph}{}{53}{section*.170}%
+\contentsline {paragraph}{}{53}{section*.171}%
+\contentsline {paragraph}{}{54}{section*.173}%
+\contentsline {paragraph}{}{54}{section*.174}%
+\contentsline {paragraph}{}{55}{section*.175}%
+\contentsline {paragraph}{}{55}{section*.176}%
+\contentsline {paragraph}{}{56}{section*.177}%
+\contentsline {paragraph}{}{57}{section*.179}%
+\contentsline {paragraph}{}{58}{section*.181}%
+\contentsline {paragraph}{}{58}{section*.182}%
+\contentsline {paragraph}{}{58}{section*.183}%
+\contentsline {paragraph}{}{60}{section*.185}%
+\contentsline {paragraph}{}{60}{section*.186}%
+\contentsline {section}{\numberline {8.6}Testing}{61}{section.8.6}%
+\contentsline {paragraph}{}{61}{section*.187}%
+\contentsline {paragraph}{}{61}{section*.188}%
+\contentsline {paragraph}{}{61}{section*.189}%
+\contentsline {section}{\numberline {8.7}Deploy locale}{62}{section.8.7}%
+\contentsline {paragraph}{}{62}{section*.192}%
+\contentsline {paragraph}{}{62}{section*.193}%
+\contentsline {chapter}{\numberline {9}Suddivisione dei compiti tra app e website}{63}{chapter.9}%
+\contentsline {paragraph}{}{63}{section*.194}%
+\contentsline {paragraph}{}{63}{section*.195}%
+\contentsline {paragraph}{}{63}{section*.196}%
+\contentsline {paragraph}{}{63}{section*.197}%
+\contentsline {chapter}{\numberline {10}App}{65}{chapter.10}%
+\contentsline {paragraph}{}{65}{section*.198}%
+\contentsline {paragraph}{}{65}{section*.199}%
+\contentsline {section}{\numberline {10.1}Design}{65}{section.10.1}%
+\contentsline {paragraph}{}{65}{section*.200}%
+\contentsline {paragraph}{}{65}{section*.201}%
+\contentsline {paragraph}{}{66}{section*.202}%
+\contentsline {paragraph}{}{67}{section*.203}%
+\contentsline {paragraph}{}{67}{section*.204}%
+\contentsline {paragraph}{}{67}{section*.206}%
+\contentsline {paragraph}{}{68}{section*.208}%
+\contentsline {subsection}{\numberline {10.1.1}Approfondimento: User-centered design}{69}{subsection.10.1.1}%
+\contentsline {paragraph}{}{69}{section*.210}%
+\contentsline {paragraph}{}{69}{section*.211}%
+\contentsline {paragraph}{}{70}{section*.212}%
+\contentsline {paragraph}{}{70}{section*.213}%
+\contentsline {paragraph}{}{70}{section*.214}%
+\contentsline {paragraph}{}{70}{section*.215}%
+\contentsline {paragraph}{}{70}{section*.216}%
+\contentsline {paragraph}{}{70}{section*.217}%
+\contentsline {section}{\numberline {10.2}Progettazione}{71}{section.10.2}%
+\contentsline {paragraph}{}{71}{section*.219}%
+\contentsline {paragraph}{}{71}{section*.220}%
+\contentsline {paragraph}{}{71}{section*.221}%
+\contentsline {paragraph}{}{71}{section*.223}%
+\contentsline {paragraph}{}{71}{section*.224}%
+\contentsline {paragraph}{}{71}{section*.225}%
+\contentsline {paragraph}{}{72}{section*.226}%
+\contentsline {paragraph}{}{72}{section*.228}%
+\contentsline {paragraph}{}{72}{section*.229}%
+\contentsline {section}{\numberline {10.3}Implementazione}{73}{section.10.3}%
+\contentsline {paragraph}{}{73}{section*.231}%
+\contentsline {paragraph}{}{73}{section*.232}%
+\contentsline {paragraph}{}{73}{section*.233}%
+\contentsline {paragraph}{}{73}{section*.234}%
+\contentsline {paragraph}{}{73}{section*.235}%
+\contentsline {paragraph}{}{74}{section*.237}%
+\contentsline {paragraph}{}{74}{section*.238}%
+\contentsline {paragraph}{}{74}{section*.240}%
+\contentsline {paragraph}{}{74}{section*.241}%
+\contentsline {paragraph}{}{75}{section*.243}%
+\contentsline {paragraph}{}{75}{section*.244}%
+\contentsline {section}{\numberline {10.4}Testing}{75}{section.10.4}%
+\contentsline {paragraph}{}{75}{section*.245}%
+\contentsline {paragraph}{}{76}{section*.246}%
+\contentsline {paragraph}{}{77}{section*.249}%
+\contentsline {chapter}{\numberline {11}Website}{79}{chapter.11}%
+\contentsline {paragraph}{}{79}{section*.250}%
+\contentsline {paragraph}{}{79}{section*.251}%
+\contentsline {section}{\numberline {11.1}Struttura}{79}{section.11.1}%
+\contentsline {paragraph}{}{79}{section*.252}%
+\contentsline {paragraph}{}{79}{section*.253}%
+\contentsline {paragraph}{}{79}{section*.254}%
+\contentsline {paragraph}{}{79}{section*.255}%
+\contentsline {paragraph}{}{79}{section*.256}%
+\contentsline {paragraph}{}{80}{section*.257}%
+\contentsline {section}{\numberline {11.2}Design}{80}{section.11.2}%
+\contentsline {paragraph}{}{80}{section*.258}%
+\contentsline {paragraph}{}{80}{section*.259}%
+\contentsline {paragraph}{}{80}{section*.260}%
+\contentsline {paragraph}{}{80}{section*.261}%
+\contentsline {paragraph}{}{81}{section*.263}%
+\contentsline {paragraph}{}{81}{section*.264}%
+\contentsline {paragraph}{}{82}{section*.266}%
+\contentsline {section}{\numberline {11.3}Implementazione}{83}{section.11.3}%
+\contentsline {paragraph}{}{83}{section*.268}%
+\contentsline {paragraph}{}{83}{section*.269}%
+\contentsline {paragraph}{}{83}{section*.270}%
+\contentsline {paragraph}{}{87}{section*.271}%
+\contentsline {paragraph}{}{88}{section*.272}%
+\contentsline {paragraph}{}{88}{section*.273}%
+\contentsline {subsection}{\numberline {11.3.1}Approfondimento: Template con jinja 2}{91}{subsection.11.3.1}%
+\contentsline {paragraph}{}{91}{section*.274}%
+\contentsline {paragraph}{}{91}{section*.275}%
+\contentsline {paragraph}{}{92}{section*.276}%
+\contentsline {paragraph}{}{92}{section*.277}%
+\contentsline {paragraph}{}{92}{section*.278}%
+\contentsline {paragraph}{}{92}{section*.279}%
+\contentsline {paragraph}{}{92}{section*.280}%
+\contentsline {section}{\numberline {11.4}Testing}{93}{section.11.4}%
+\contentsline {paragraph}{}{93}{section*.281}%
+\contentsline {paragraph}{}{93}{section*.282}%
+\contentsline {paragraph}{}{93}{section*.283}%
+\contentsline {section}{\numberline {11.5}Deploy locale}{94}{section.11.5}%
+\contentsline {paragraph}{}{94}{section*.285}%
+\contentsline {paragraph}{}{94}{section*.286}%
+\contentsline {chapter}{\numberline {12}Deploy}{97}{chapter.12}%
+\contentsline {paragraph}{}{97}{section*.291}%
+\contentsline {paragraph}{}{97}{section*.292}%
+\contentsline {paragraph}{}{97}{section*.293}%
+\contentsline {section}{\numberline {12.1}Deploy del database}{97}{section.12.1}%
+\contentsline {paragraph}{}{97}{section*.294}%
+\contentsline {paragraph}{}{98}{section*.295}%
+\contentsline {paragraph}{}{98}{section*.296}%
+\contentsline {paragraph}{}{98}{section*.297}%
+\contentsline {paragraph}{}{98}{section*.298}%
+\contentsline {section}{\numberline {12.2}Deploy delle API e website}{98}{section.12.2}%
+\contentsline {paragraph}{}{98}{section*.299}%
+\contentsline {paragraph}{}{98}{section*.300}%
+\contentsline {paragraph}{}{98}{section*.301}%
+\contentsline {paragraph}{}{98}{section*.302}%
+\contentsline {paragraph}{}{98}{section*.303}%
+\contentsline {section}{\numberline {12.3}Pubblicazione dell'app}{99}{section.12.3}%
+\contentsline {paragraph}{}{99}{section*.304}%
+\contentsline {paragraph}{}{99}{section*.305}%
+\contentsline {paragraph}{}{99}{section*.306}%
+\contentsline {chapter}{\numberline {13}Conclusioni e sviluppi futuri}{101}{chapter.13}%
+\contentsline {paragraph}{}{101}{section*.307}%
+\contentsline {paragraph}{}{101}{section*.308}%
+\contentsline {paragraph}{}{101}{section*.309}%
+\contentsline {paragraph}{}{101}{section*.310}%
+\contentsline {paragraph}{}{102}{section*.311}%
+\contentsline {paragraph}{}{102}{section*.312}%
+\contentsline {paragraph}{}{102}{section*.313}%
+\contentsline {paragraph}{}{102}{section*.314}%
+\contentsline {chapter}{Bibliografia}{103}{chapter*.315}%

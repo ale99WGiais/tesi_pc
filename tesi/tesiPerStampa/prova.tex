@@ -1,0 +1,47 @@
+%!TEX TS-program = pdflatex
+%!TEX encoding = UTF-8 Unicode
+
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%			TESI DI LAUREA TRIENNALE DI INFORMATICA				%
+		%			  di MAGOGA GIOVANNI matricola #123778				%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%					Configurazione della tesi					%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[italian]{book}
+
+% Usare "oneside" invece di "twoside" nelle bozze, per risparmiare carta:
+% "twoside" produce diverse pagine bianche alla fine dei capitoli.
+
+\usepackage{graphicx}
+\graphicspath{{./figure/}}
+\usepackage[a-1b]{pdfx}
+%\usepackage{epstopdf}
+
+  \titolo{Studio delle pratiche DevOps\\ e la loro applicazione\\ in un software gestionale ERP​}
+\begin{document}
+
+\maketitle
+
+\includegraphics{polloPallido2.pdf}
+
+\includegraphics{polloPallido.pdf}
+\end{document}
+
+
+\tableofcontents
+\listoffigures
+\renewcommand{\thesection}{\arabic{section}}
+
+\input{introduzione}
+
+\mainmatter
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}%si torna alle formule numerate come da default
+\renewcommand{\thesection}{\thechapter.\arabic{section}}%si torna alle sezioni numerate come da default
+
+\input{capitolo1}
+
+
+\end{document}

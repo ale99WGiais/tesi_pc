@@ -1,12 +1,11 @@
 %!TEX TS-program = pdflatex
 %!TEX encoding = UTF-8 Unicode
-\documentclass[11pt,a4paper,english]{article}
+\documentclass[12pt,a4paper,twoside,english,italian]{book}
 
 \usepackage[utf8]{inputenc} %input chars
 \usepackage[italian]{babel} %language
 \usepackage[T1]{fontenc} %output chars
 \usepackage{lmodern} %font
-\usepackage{geometry} %page layout
 \usepackage{amsfonts} %math symbols
 \usepackage{amsmath} %math equations
 \usepackage{amssymb} %math symbols
@@ -27,6 +26,23 @@
 \usepackage{hyperref}
 \usepackage[utf8]{inputenc} 
 \usepackage{listings}
+\usepackage{uniudtesi}
+
+\usepackage{siunitx}
+% Il pacchetto uniudtesi carica in automatico anche il pacchetto
+% \usepackage[a-1b]{pdfx}
+
+% Il pacchetto indentfirst abolisce la fastidiosa convenzione
+% anglosassone di fa cominciare la prima riga di un
+% capitolo o sezione a margine sinistro, senza rientro:
+\usepackage{indentfirst}
+% Il pacchetto emptypage toglie la testatina dall'eventuale
+% pagina vuota fra la fine di un capitolo e l'inizio del successivo 
+\usepackage{emptypage}
+% \usepackage{graphicx} % gia' caricato da uniudtesi
+\graphicspath{{./img/}}
+%\usepackage{epstopdf}
+
 \makeatletter
 \newcommand{\HEADER}[1]{\ALC@it\underline{\textsc{#1}}\begin{ALC@g}}
 	\newcommand{\ENDHEADER}{\end{ALC@g}}
@@ -49,10 +65,7 @@
 \DeclareRobustCommand{\titlesc}[1]{\linespread{1.2}\LARGE{\textls[35]{\uppercase{#1}}\linespread{1}}}
 \DeclareRobustCommand{\namesc}[1]{\large\textsc{\textls[35]{#1}}} 
 
-\newcommand{\facciatabianca}{\newpage\shipout\null}
-
-\usepackage{titlesec}
-\titleformat*{\section}{\LARGE\bfseries}
+\newcommand{\facciatabianca}{\shipout\null}
 
 \allowdisplaybreaks
 
@@ -107,15 +120,14 @@
 	
 \end{titlepage}
 
-\newpage
+
 
 \tableofcontents
 
-\newpage
+\mainmatter
 \pagenumbering{arabic}
 
-\facciatabianca
-\section{Introduzione}
+\chapter{Introduzione}
 
 \paragraph{} La Protezione Civile del comune di San Vito al Tagliamento \cite{protezionecivile} attualmente utilizza esclusivamente moduli cartacei per la gestione delle proprie attività, il tracciamento della partecipazione delle squadre e il mantenimento delle informazioni riguardanti il proprio inventario. 
 
@@ -126,15 +138,15 @@
 
 
 
-\newpage
-\section{Primo approccio}
+
+\chapter{Primo approccio}
 
 \paragraph{} Il primo approccio consiste nella conoscenza reciproca tra committente e gruppo operativo. 
 
 \paragraph{} Questa è una delle fasi più critiche perché da essa si determina la volontà di iniziare il progetto: si stabiliscono, a grandi linee, i requisiti che la soluzione dovrà avere, per capire quale sia la strada migliore affinché il committente possa risolvere il suo problema. Infatti, mettendo al primo posto la soddisfazione del cliente, non è scontato che la costruzione di un sistema informatico sia la soluzione migliore, né è scontato che il gruppo di lavoro disponga delle conoscenze e risorse adeguate allo sviluppo di tale sistema. 
 
 
-\subsection{Raccolta dei requisiti esplorativa}
+\section{Raccolta dei requisiti esplorativa}
 
 \paragraph{} Lo scopo della raccolta dei requisiti esplorativa è presentare al gruppo di lavoro il dominio applicativo\footnote{Il \emph{dominio applicativo} è il contesto in cui il sistema opera.} e il problema che si intende affrontare. Non è importante scendere nei dettagli: quello che è importante in questa fase è capire quale sia la soluzione ottimale per raggiungere la soddisfazione del cliente. 
 
@@ -154,7 +166,7 @@
 \end{figure}
 
 
-\subsection{Studio di fattibilità}
+\section{Studio di fattibilità}
 
 \paragraph{} Una volta completato l'incontro, il responsabile per le relazioni esterne si riunisce con l'intero gruppo di lavoro e presenta a tutti il progetto. 
 
@@ -173,7 +185,7 @@
 \paragraph{} Una volta svolto lo studio di fattibilità il committente viene contattato per informarlo dell'esito e, nel caso sia positivo, si conferma la volontà reciproca di proseguire nel progetto.
 
 
-\subsubsection{Approfondimento: Come si valuta il successo?}
+\subsection{Approfondimento: Come si valuta il successo?}
 
 \paragraph{} Ci sono molti modi di definire il \emph{successo}. Ciò dipende sia dagli obiettivi personali, sia dal contesto in cui si parla. Alcuni esempi di caratteristiche del successo potrebbero essere: il profitto, la soddisfazione personale, il contributo ad una causa etica...
 
@@ -194,8 +206,8 @@
 
 
 
-\newpage
-\section{Pianificazione iniziale}
+
+\chapter{Pianificazione iniziale}
 
 \paragraph{} Per iniziare a lavorare sul progetto, è fondamentare decidere fin da subito quale sarà il modello di sviluppo adottato, in quanto esso ci dà gli stumenti per dividere il lavoro in task, organizzarli gerarchicamente e metterli in relazione tra loro  \cite{modelli_sviluppo, agile_manifesto}. 
 
@@ -223,12 +235,12 @@
     \caption{Pianificazione iniziale}
 \end{figure}
 
-\newpage
-\section{Raccolta dei requisiti}
+
+\chapter{Raccolta dei requisiti}
 
 \paragraph{} La raccolta dei requisiti \cite{req_analysis} si prefigge di elencare \emph{precisamente} tutte le caratteristiche \emph {funzionali} e \emph{non funzionali}\footnote{Le caratteristiche funzionali legano gli input del sistema ai suoi output (ciò che il sistema fa). Le caratteristiche non funzionali sono molto più generiche e possono includere sia caratteristiche del sistema (ad esempio: tempi di risposta, tolleranza agli errori), sia vincoli esterni (ad esempio: legislativi, amministrativi, finanziari).} che il sistema dovrà avere. Questa fase serve per avere un'idea il più chiara possibile di quello che il committente vuole, in modo da \emph{minimizzare il rischio}\footnote{Si riferisce all'attività di \emph{risk management}} di produrre un sistema che non incontri le sue aspettative.
 
-\subsection{Raccolta e analisi dei requisiti}
+\section{Raccolta e analisi dei requisiti}
 
 \paragraph{} La raccolta dei requisiti per il progetto è stata effettuata mediante una serie di incontri tra tutti i membri del gruppo di lavoro (in simultanea) e un membro responsabile/futuro utilizzatore del sistema per conto del committente. 
 
@@ -245,7 +257,7 @@
 
 
 
-\subsubsection{Approfondimento: Requisiti di qualità}
+\subsection{Approfondimento: Requisiti di qualità}
 
 \paragraph{} Alla scrittura di requisiti di qualità viene spesso data poca importanza, in quanto vista come perdita di tempo poco utile ai fini dell'implementazione. Al contrario, il documento dei requisiti è il fulcro di tutta l'attività di sviluppo; infatti viene usato in ogni fase per capire cosa il committente \emph{vuole esattamente} dal sistema in produzione. 
 
@@ -279,7 +291,7 @@
 
 
 
-\subsubsection{Approfondimento: Risk management}
+\subsection{Approfondimento: Risk management}
 
 \paragraph{} L'attività di \emph{risk management} \cite{risk_management} si occupa di identificare i rischi e ideare piani per evitarli.
 
@@ -302,7 +314,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{img/risk_management.jpg}
+    \includegraphics[width=0.4\textwidth]{img/risk_management.jpg}
     \caption{Processo di risk management}
 \end{figure}
 
@@ -318,8 +330,8 @@
 
 
 
-\newpage
-\section{Progettazione architetturale}
+
+\chapter{Progettazione architetturale}
 
 \paragraph{} Una volta raggiunto un documento dei requisiti soddisfacente, ha inizio una nuova fase: la \emph{progettazione architetturale} \cite{prog_architetturale}. 
 
@@ -327,7 +339,7 @@
 
 \paragraph{} Particolare attenzione in questa fase viene data al \emph{subsystem control and communication}. Esso consiste nella definizione delle strutture di controllo (chi controlla chi) e delle \emph{interfacce}\footnote{Un'\emph{interfaccia} è una definizione del "modo di comunicare" che ha un sistema. Solitamente è rappresentato da un insieme di metodi con relativa signature (nel paradigma a oggetti)} dei singoli sottosistemi.
 
-\subsection{Architettura del sistema}
+\section{Architettura del sistema}
 
 \paragraph{} Il nostro sistema si compone di quattro componenti:
 \begin{itemize}
@@ -354,7 +366,7 @@
 \end{figure}
 
 
-\subsubsection{Approfondimento: Architettura REST e formato JSON}
+\subsection{Approfondimento: Architettura REST e formato JSON}
 
 \paragraph{} Il protocollo \emph{REST} \cite{rest} (Representational state transfer) è uno tra i più usati nella costruzione di \emph{web services}. 
 
@@ -377,7 +389,7 @@
 \end{figure}
 
 
-\subsection{Metodologia di lavoro}
+\section{Metodologia di lavoro}
 
 \paragraph{} Una volta definita l'architettura del sistema, è necessario stabilire in che ordine e modo affrontare la progettazione e sviluppo dei singoli subsystems. 
 
@@ -387,7 +399,7 @@
 
 \paragraph{} Il committente verrà costantemente tenuto aggiornato rispetto agli sviluppi del progetto. Ad ogni iterazione del ciclo di sviluppo, gli verrà mostrato quanto prodotto per procedere alla validazione. I suoi commenti verranno utilizzati come base per la pianificazione dell'incremento successivo.
 
-\subsection{Stima dei tempi, costi e risorse}
+\section{Stima dei tempi, costi e risorse}
 
 \paragraph{} Avendo a disposizione molte più informazioni rispetto alla fase precedente, è possibile effettuare una migliore stima di tempi, costi e risorse. 
 
@@ -400,8 +412,8 @@
 
 \paragraph{} Questo aggiornamento è stato subito comunicato al committente, per ragioni di trasparenza. 
 
-\newpage
-\section{Qualità del software}
+
+\chapter{Qualità del software}
 
 \paragraph{} Una nota particolare merita approfondimento: la qualità del software \cite{quality}. Essa non ha una definizione universale, ma va specificata di volta in volta.
 
@@ -425,7 +437,7 @@
 \end{itemize}
 
 
-\subsubsection{Approfondimento: Qualità del software}
+\subsection{Approfondimento: Qualità del software}
 
 \paragraph{} Secondo la definizione \emph{ISO}\footnote{L'\emph{International Organization for Standardization} è un ente che si propone di formulare standard per l'utilizzo mondiale sulle materie più disparate.}:
 \begin{quote}
@@ -459,7 +471,7 @@
 \paragraph{} L'adozione di questi standard, anche senza disporre della certificazione, permette di avere strumenti oggettivi con cui valutare il proprio operato e poter fornire un prodotto di ottima qualità.
 
 
-\subsubsection{Approfondimento: Testing}
+\subsection{Approfondimento: Testing}
 
 \paragraph{} Per valutare le caratteristiche della qualità, nonché per verificare il corretto funzionamento del sistema, lo strumento principale utilizzato è il testing \cite{testing}. 
 
@@ -490,12 +502,12 @@
 \end{figure}
 
 
-\newpage
-\section{Database}
+
+\chapter{Database}
 
 \paragraph{} In questa sezione verrà presentato lo sviluppo del database \cite{db}, prima azione compiuta a seguito della progettazione architetturale. Tutti gli altri sottosistemi dipendono da esso, quindi durante la progettazione è stato necessario tenere in considerazione le esigenze di essi.
 
-\subsection{Progettazione concettuale}
+\section{Progettazione concettuale}
 
 \paragraph{} Il primo passaggio nella progettazione di una base di dati è la \emph{progettazione concettuale}. Essa si basa sui requisiti e produce una prima rappresentazione del contenuto della base di dati, svincolata dalla sua effettiva implementazione. Il suo risultato è lo \emph{schema Entità-Relazioni}. 
 
@@ -507,7 +519,7 @@
 
 \paragraph{} Per modellare la base di dati, si è scelto di utilizzare il modello \emph{relazionale}, in quanto la base di dati è fortemente strutturata.
 
-\subsection{Progettazione logica}
+\section{Progettazione logica}
 
 \paragraph{} Tutte le relazioni di tipo \emph{N a N}, non essendo direttamente rappresentabili nel modello relazionale, sono state reificate introducendo adeguate entità intermedie. Al termine di ciò, tutte le relazioni presenti sono di tipologia \emph{1 a N} oppure \emph{1 a 1}. 
 
@@ -545,7 +557,7 @@
     \caption{Schema ER ristrutturato}
 \end{figure}
 
-\subsection{Progettazione fisica e implementazione}
+\section{Progettazione fisica e implementazione}
 
 \paragraph{} Volendo sfruttare l'occasione del corso di laboratorio di Basi di Bati, a cui tutti i membri del gruppo di lavoro fanno parte, abbiamo deciso di procedere all'implementazione con il database relazionale \emph{PostgreSQL} \cite{postgre}. 
 
@@ -631,7 +643,7 @@ CREATE TRIGGER trigger_insert_non_consumabile
 \end{lstlisting}
 
 
-\subsection{Deploy locale}
+\section{Deploy locale}
 
 \paragraph{} Per effettuare il testing preliminare, è stato effettuato il deploy di un'istanza locale tramite docker. 
 
@@ -653,7 +665,7 @@ postgres:
 \end{lstlisting}
 
 
-\subsubsection{Approfondimento: Utilizzo di Docker}
+\subsection{Approfondimento: Utilizzo di Docker}
 
 \paragraph{} \emph{Docker} \cite{docker} è una piattaforma software che permette di creare, testare e distribuire applicazioni in modo semplice e sicuro.\footnote{https://aws.amazon.com/it/docker/} 
 
@@ -674,7 +686,7 @@ postgres:
 \end{figure}
 
 
-\subsection{Testing}
+\section{Testing}
 
 \paragraph{} Per interfacciarsi con il postgres, si è scelto di usare la GUI \emph{pgAdmin4} \cite{pgadmin}.
 
@@ -689,12 +701,12 @@ postgres:
 \end{figure}
 
 
-\newpage
-\section{API web}
+
+\chapter{API web}
 
 \paragraph{} Una volta concluso lo sviluppo del database, è stato affrontata la progettazione e sviluppo dell'API web \cite{restapi}.
 
-\subsection{Progettazione}
+\section{Progettazione}
 
 \paragraph{} Per lo sviluppo di questa parte è stato scelto un approccio di tipo incrementale. Il primo incremento contiene solamente il minimo indispensabile per eseguire un server. Ad ogni incremento successivo, vengono aggiunti e testati nuovi endpoint.
 
@@ -704,7 +716,7 @@ postgres:
 
 \paragraph{} Per l'implementazione, si è scelto di usare il linguaggio \emph{Python 3} \cite{python} tramite framework \emph{Flask} \cite{flask}. Esso dispone nativamente di un server di sviluppo.  
 
-\subsubsection{Approfondimento: Utilizzo di git per lo sviluppo incrementale}
+\subsection{Approfondimento: Utilizzo di git per lo sviluppo incrementale}
 
 \paragraph{} I sistemi di \emph{version control} sono sistemi specializzati nella gestione dei cambiamenti dei file. Uno dei sistemi di version control maggiormente utilizzati nell'ambito della produzione e manutenzione di software è il \emph{Git} \cite{git}.
 
@@ -745,7 +757,7 @@ postgres:
 
 \paragraph{} L'utilizzo di git si sposa con la metodologia dello \emph{sviluppo incrementale}. Infatti, è naturale associare ad ogni incremento un commit. Inoltre, l'utilizzo di branch separati permette di sviluppare in parallelo incrementi diversi senza che essi interferiscano fra loro, e permette di tenere separata la versione di \emph{produzione} da quella di \emph{sviluppo}.
 
-\subsubsection{Approfondimento: WSGI}
+\subsection{Approfondimento: WSGI}
 
 \paragraph{} La \emph{Web Server Gateway Interface (WSGI)} \cite{wsgi} è una calling convention seguita dai server web per inoltrare le richieste ad applicazioni web o framework scritti in Python. 
 
@@ -809,7 +821,7 @@ def hello():
     return "Hello World!"
 \end{lstlisting}
 
-\subsection{Inizializzazione del contesto}
+\section{Inizializzazione del contesto}
 
 \paragraph{} Inanzitutto è stato scritto il codice relativo all'inizializzazione di Flask e alla connessione con database e cache.
 
@@ -838,7 +850,7 @@ redis_client = redis.StrictRedis(host=redis_host, port=int(redis_port)) if redis
 \end{lstlisting}
 
 
-\subsection{Costruzione libreria di supporto}
+\section{Costruzione libreria di supporto}
 
 \paragraph{} La libreria di supporto è stata costruita in modo da supportare al meglio lo sviluppo di questo progetto. Essendo però generica, potrà essere facilmente utilizzata dagli sviluppatori per eventuali progetti futuri.
 
@@ -1029,7 +1041,7 @@ def generate_crsd(table, fields, cond=None, returning=None, prefix="/api"):
     generate_set(table, fields, prefix=prefix)
 \end{lstlisting}
 
-\subsection{Implementazione API}
+\section{Implementazione API}
 
 \paragraph{} Una volta completata la libreria di supporto, è possibile implementare la logica dell'applicazione. 
 
@@ -1105,7 +1117,7 @@ def get_persona_dettagli():
     return do(f)
 \end{lstlisting}
 
-\subsection{Autenticazione}
+\section{Autenticazione}
 
 \paragraph{} L'autenticazione dell'utente avviene tramite credenziali \cite{password}. Per poter essere riconosciuto dal sistema, l'utente deve fornire una coppia \emph{username, password} valida. 
 
@@ -1379,7 +1391,7 @@ def do_recuperaPw():
 \end{lstlisting}
 
 
-\subsection{Testing}
+\section{Testing}
 
 \paragraph{} Il testing è immediato da eseguire: Flask mette a disposizione un suo server di test, richiamabile includendo all'interno dello script la funzione \emph{run}. La funzione di debug permette di leggere agevolmente i log e risalire ai punti in cui vengono lanciate delle eccezioni.
 
@@ -1403,7 +1415,7 @@ def do_recuperaPw():
 
 
 
-\subsection{Deploy locale}
+\section{Deploy locale}
 
 \paragraph{} Il deploy è stato nuovamente effettuato creando un'istanza Docker. Come server di produzione è stato scelto di usate \emph{gunicorn}, uno dei più famosi per Flask.
 
@@ -1432,8 +1444,8 @@ web:
 \end{lstlisting}
 
 
-\newpage
-\section{Suddivisione dei compiti tra app e website}
+
+\chapter{Suddivisione dei compiti tra app e website}
 
 \paragraph{} Applicazione e sito web sono complementari. Per questo sorge spontanea una domanda: per ogni funzionalità, dove metterla? 
 
@@ -1447,14 +1459,14 @@ web:
 
 
 
-\newpage
-\section{App}
+
+\chapter{App}
 
 \paragraph{} Lo sviluppo dell'app è una delle parti più ostiche. Oltre alle difficoltà di programmazione, è importante anche andare incontro ai gusti degli utilizzatori, per fornire una buona estetica ed usabilità. 
 
 \paragraph{} In questa sezione verrà affrontato l'intero processo di sviluppo dell'app, che quindi conterrà anche una parte meno "tecnica", ma altrettanto necessaria: il \emph{design} \cite{design}.
 
-\subsection{Design} 
+\section{Design} 
 
 \paragraph{} Inanzitutto, è stato fissato un incontro con il committente incentrato sul design dell'applicazione. Sposando la filosofia "user-centered", è importante includere il più possibile l'utilizzatore finale, in particolare per quanto riguarda il design di interfaccia. 
 
@@ -1573,7 +1585,7 @@ Conferma l'inserimento della nuova attivita'
 
 
 
-\subsubsection{Approfondimento: User-centered design}
+\subsection{Approfondimento: User-centered design}
 
 \paragraph{} Lo \emph{user-centered design} \cite{ucd} è una particolare filosofia di design che incentra la sua attenzione sugli utenti.
 
@@ -1597,7 +1609,7 @@ Conferma l'inserimento della nuova attivita'
     \caption{User-centered design}
 \end{figure}
 
-\subsection{Progettazione}
+\section{Progettazione}
 
 \paragraph{} Come piattaforma di sviluppo è stato scelto di utilizzare il framework \emph{React Native} \cite{react_n}. Esso permette di codificare una volta sola per ottenere contemporaneamente una versione adatta ad \emph{Android} e una ad \emph{iOS}. 
 
@@ -1637,7 +1649,7 @@ Conferma l'inserimento della nuova attivita'
 
 
 
-\subsection{Implementazione}
+\section{Implementazione}
 
 \paragraph{} Una volta terminata la progettazione di una schermata, è possibile passare alla sua implementazione. 
 
@@ -1679,7 +1691,7 @@ Conferma l'inserimento della nuova attivita'
 
 \paragraph{} Ad ogni integrazione, una approfondita fase di test mira a rimuovere tutti i difetti. Prima vengono eseguite le correzioni, più è probabile che esse siano circoscritte (non si diffondano ad altri componenti).
 
-\subsection{Testing}
+\section{Testing}
 
 \paragraph{} Il testing dell'app è stato effettuato tramite la piattaforma Expo \cite{expo}. Essa permette di mettere in comunicazione il dispositivo mobile con il server di sviluppo, caricando automaticamente tutte le modifiche \emph{on-the-fly} e gestendo il \emph{logging/debugging}.
 
@@ -1708,14 +1720,14 @@ Conferma l'inserimento della nuova attivita'
 
 \paragraph{} Sempre utilizzando Expo, è possibile pubblicare i propri progetti sul web. Basta compilare un breve form contenente nome dell'app e dati dello sviluppatore affinché Expo metta a disposizione automaticamente uno spazio in cloud. 
 
-\newpage
-\section{Website}
+
+\chapter{Website}
 
 \paragraph{} Questo capitolo si occuperà del processo di sviluppo del sito web. 
 
 \paragraph{} Sebbene esso sia utilizzato meno frequentemente dell'app, e per questo necessiti di minor cura dei dettagli, è comunque importante rispettare quanto stabilito nella \emph{politica di qualità}. Infatti, pur avendo un'interfaccia meno personalizzata, deve comunque essere utilizzabile con estrema semplicità (personale non specializzato) ed efficienza.
 
-\subsection{Struttura}
+\section{Struttura}
 
 \paragraph{} Il website è stato ulteriormente diviso in due parti: \emph{frontend} e \emph{backend} \cite{frontend_vs_backend}. 
 
@@ -1730,7 +1742,7 @@ Conferma l'inserimento della nuova attivita'
 \paragraph{} La libreria \emph{jQuery} \cite{jquery} invece è ottima per implementare la parte dinamica della pagina, permettendo di effettuare richieste ajax e manipolare il \emph{DOM}\footnote{Il \emph{Document Object Model} è un'interfaccia ad albero che, all'interno di un browser web, permette l'interazione con i contenuti della pagina.}.
 
 
-\subsection{Design}
+\section{Design}
 
 \paragraph{} Il primo passaggio della fase di design del sito web è, come nel caso dell'app, l'elencazione dei task che esso deve essere in grado di svolgere. 
 
@@ -1773,7 +1785,7 @@ Conferma l'inserimento della nuova attivita'
     \caption{Esempio di mockup - struttura pagina persone}
 \end{figure}
 
-\subsection{Implementazione}
+\section{Implementazione}
 
 \paragraph{} Per modularizzare il backend, è risultato conveniente sfruttare il \emph{template engine} di Flask, \emph{jinja 2} \cite{jinja}. In questo modo è possibile modificare i contenuti in un solo file per cambiarli in tutte le pagine che lo includono.
 
@@ -2139,7 +2151,7 @@ Conferma l'inserimento della nuova attivita'
 \end{lstlisting}
 
 
-\subsubsection{Approfondimento: Template con jinja 2}
+\subsection{Approfondimento: Template con jinja 2}
 
 \paragraph{} \emph{Jinja 2} \cite{jinja} è un famoso template engine, utilizzato da framework come Flask e Django.
 
@@ -2216,7 +2228,7 @@ Conferma l'inserimento della nuova attivita'
 {% endblock %}
 \end{lstlisting}
 
-\subsection{Testing}
+\section{Testing}
 
 \paragraph{} Per effettuare il testing durante lo sviluppo, risulta naturale utilizzare il server di test offerto da flask. 
 
@@ -2231,7 +2243,7 @@ Conferma l'inserimento della nuova attivita'
 \end{figure}
 
 
-\subsection{Deploy locale}
+\section{Deploy locale}
 
 \paragraph{} Il deploy è stato effettuato anche questa volta tramite Docker. Sfruttando il fatto che Flask (gunicorn) è già attivo per servire le API, è conveniente includere il website all'interno del container preesistente. 
 
@@ -2245,25 +2257,25 @@ Conferma l'inserimento della nuova attivita'
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/login.png}
+    \includegraphics[width=1\textwidth]{img/login.png}
     \caption{Login}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/recupero_screen.jpg}
+    \includegraphics[width=1\textwidth]{img/recupero_screen.jpg}
     \caption{Recupero password}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/new.png}
+    \includegraphics[width=1\textwidth]{img/new.png}
     \caption{Nuova persona}
 \end{figure}
 
 
-\newpage
-\section{Deploy}
+
+\chapter{Deploy}
 
 \paragraph{} Per il deploy si è scelto di utilizzare \emph{Google Cloud (GCP)}. 
 
@@ -2281,7 +2293,7 @@ Conferma l'inserimento della nuova attivita'
     \item \emph{Operazioni}: monitoraggio, logging, debugging e profiling dei servizi attivi.
 \end{itemize}
 
-\subsection{Deploy del database}
+\section{Deploy del database}
 
 \paragraph{} Per il deploy del database si è scelto di utilizzare \emph{SQL}. 
 
@@ -2292,7 +2304,7 @@ Conferma l'inserimento della nuova attivita'
 \paragraph{} Un modo semplice per effettuare l'importazione dei dati è collegarsi direttamente all'istanza tramite \emph{shell psql} e importare un dump del database locale. 
 \paragraph{} Per rendere i dati più sicuri, è stato attivato un backup periodico giornaliero.
 
-\subsection{Deploy delle API e website}
+\section{Deploy delle API e website}
 
 \paragraph{} Per il deploy delle API e website si è scelto di usare \emph{App Engine}.
 
@@ -2308,7 +2320,7 @@ gcloud app deploy
 
 \paragraph{} Di default la webapp è disponibile ad un indirizzo offerto dalla piattaforma. È possibile acquistare un dominio personalizzato sempre all'interno della piattaforma.
 
-\subsection{Pubblicazione dell'app}
+\section{Pubblicazione dell'app}
 
 \paragraph{} Per pubblicare le app Android e iOS sui relativi store, è necessario costruire delle app standalone, che non siano più legate alla piattaforma Expo. 
 
@@ -2342,10 +2354,10 @@ expo build:android -t app-bundle
 \paragraph{} Una volta terminato il build e relativi test, è sufficiente accedere al profilo personale degli store e caricare quanto necessario. 
 
 
-\newpage
-\section{Conclusioni e sviluppi futuri}
 
-\paragraph{} Svolgere questo progetto è stato particolarmente interessante perchè esso racchiude l'applicazione di conoscenze maturate nel corso dell'intero percorso di studi triennale. 
+\chapter{Conclusioni e sviluppi futuri}
+
+\paragraph{} Svolgere questo progetto è stato particolarmente interessante perché esso racchiude l'applicazione di conoscenze maturate nel corso dell'intero percorso di studi triennale. 
 
 \paragraph{} Le discipline maggiormente utilizzate sono:
 \begin{itemize}
@@ -2368,163 +2380,132 @@ expo build:android -t app-bundle
     \item il \emph{database} è implementato, completamente testato e funzionante;
     \item l'\emph{API} è implementata e funzionante. Necessità di ulteriori test, in particolare riguardo la sicurezza;
     \item il \emph{website} è implementato e in fase di testing. Necessita della validazione conclusiva da parte del committente e di piccole correzioni di bug;  
-    \item l'\emph{app} è completamente progettata ma ancora in fase di sviluppo. 
+    \item l'\emph{app} è completamente progettata, ma ancora in fase di sviluppo. 
 \end{itemize}
 
 \paragraph{} Ci sono stati alcuni ritardi ma, considerando gli impegni universitari e lavorativi dei membri del gruppo, oltre che la natura totalmente gratuita del progetto, il grado di sviluppo raggiunto è valutato soddisfacente da parte di tutti. In un tempo non troppo lungo sarà possibile consegnare al committente una versione completa. 
 
 \paragraph{} Altri possibili sviluppi, realizzabili a seguito del completamento delle attività, sono:
 \begin{itemize}
-    \item Utilizzare lo strumento \emph{query insights} di GCP SQL per ottimizzare le query su database;
-    \item Implementare l'utilizzo di Redis sulle API;
-    \item Progettare ed implementare le funzionalità mancanti dell'app;
-    \item Migliorare la grafica del sito web;
-    \item Effettuare ulteriori test, in particolare per quanto riguarda la sicurezza;
-    \item Eseguire test di profiling per individuare i bottleneck e ridurre i tempi di risposta;
-    \item Progettare test automatizzati per le future release.
+    \item utilizzare lo strumento \emph{query insights} di GCP SQL per ottimizzare le query su database;
+    \item implementare l'utilizzo di Redis sulle API;
+    \item progettare ed implementare le funzionalità mancanti dell'app;
+    \item migliorare la grafica del sito web;
+    \item effettuare ulteriori test, in particolare per quanto riguarda la sicurezza;
+    \item eseguire test di profiling per individuare i bottleneck e ridurre i tempi di risposta;
+    \item progettare test automatizzati per le future release.
 \end{itemize} 
 
+\def\UrlBreaks{\do\/\do-}
 
-\newpage
 \begin{thebibliography}{99}
+\frenchspacing
 
 \bibitem{protezionecivile}
-Sito web Protezione Civile San Vito al Tagliamento 
-\\\url{https://www.protezionecivile.fvg.it/it/comune/san-vito-al-tagliamento}
+Sito web Protezione Civile San Vito al Tagliamento, \\\url{https://www.protezionecivile.fvg.it/it/comune/san-vito-al-tagliamento}, 2021-06-01
 
 \bibitem{modelli_sviluppo}
-Software Development Life Cycle
-\\\url{https://www.tutorialspoint.com/sdlc/index.htm}
+Software Development Life Cycle, \\\url{https://www.tutorialspoint.com/sdlc/index.htm}, 2021-06-01
 
 \bibitem{agile_manifesto}
-Agile Manifesto
-\\\url{https://agilemanifesto.org/}
+Agile Manifesto, \\\url{https://agilemanifesto.org/}, 2021-06-01
 
 \bibitem{req_analysis}
-What Is Requirement Analysis: Overview, Applications, Techniques and Top Tools Used
-\\\url{https://www.simplilearn.com/what-is-requirement-analysis-article}
+What Is Requirement Analysis: Overview, Applications, Techniques and Top Tools Used, \\\url{https://www.simplilearn.com/what-is-requirement-analysis-article}, 2021-06-01
 
 \bibitem{req_document}
-Build Better Requirements Documentation: Why, Who, and How
-\\\url{https://www.uxbooth.com/articles/build-better-requirements-documentation-why-who-and-how/}
+Build Better Requirements Documentation: Why, Who, and How, \\\url{https://www.uxbooth.com/articles/build-better-requirements-
+	documentation-why-who-and-how/}, 2021-06-01
 
 \bibitem{risk_management}
-Risk management
-\\\url{https://searchcompliance.techtarget.com/definition/risk-management}
+Risk management,\\\url{https://searchcompliance.techtarget.com/definition/risk-management}, 2021-06-01
 
 \bibitem{prog_architetturale}
-Software Architecture \& Design
-\\\url{https://www.tutorialspoint.com/software_architecture_design/index.htm}
+Software Architecture \& Design,\\\url{https://www.tutorialspoint.com/software_architecture_design/index.htm}, 2021-06-01
 
 \bibitem{rest}
-RESTful Web Services
-\\\url{https://www.tutorialspoint.com/restful/index.htm}
+RESTful Web Services,\\\url{https://www.tutorialspoint.com/restful/index.htm}, 2021-06-01
 
 \bibitem{json}
-What is JSON? A better format for data exchange
-\\\url{https://www.infoworld.com/article/3222851/what-is-json-a-better-format-for-data-exchange.html}
+What is JSON? A better format for data exchange,\\\url{https://www.infoworld.com/article/3222851/what-is-json-a-better-format-for-data-exchange.html}, 2021-06-01
 
 \bibitem{dfd0}
-The Context Diagram and Data Flow Diagram
-\\\url{https://www.tasstudent.com/2015/10/15/the-context-diagram-and_data_flow_diagram/}
+The Context Diagram and Data Flow Diagram, \\\url{https://www.tasstudent.com/2015/10/15/the-context-diagram-and_data_flow_diagram/}, 2021-06-01
 
 \bibitem{quality}
-Software quality
-\\\url{https://en.wikipedia.org/wiki/Software_quality}
+Software quality, \\\url{https://en.wikipedia.org/wiki/Software_quality}, 2021-06-01
 
 \bibitem{testing}
-Software testing
-\\\url{https://en.wikipedia.org/wiki/Software_testing}
+Software testing, \\\url{https://en.wikipedia.org/wiki/Software_testing}, 2021-06-01
 
 \bibitem{db}
-Database Design – 2nd Edition
-\\\url{https://opentextbc.ca/dbdesign01/}
+Database Design – 2nd Edition, \\\url{https://opentextbc.ca/dbdesign01/}, 2021-06-01
 
 \bibitem{postgre}
-PostgreSQL: The World's Most Advanced Open Source Relational Database
-\\\url{https://www.postgresql.org/}
+PostgreSQL: The World's Most Advanced Open Source Relational Database, \\\url{https://www.postgresql.org/}, 2021-06-01
 
 \bibitem{docker}
-Docker
-\\\url{https://www.docker.com/}
+Docker, \\\url{https://www.docker.com/}, 2021-06-01
 
 \bibitem{pgadmin}
-pgAdmin
-\\\url{https://www.pgadmin.org/}
+pgAdmin, \\\url{https://www.pgadmin.org/}, 2021-06-01
 
 \bibitem{restapi}
-Understanding And Using REST APIs
-\\\url{https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/}
+Understanding And Using REST APIs, \\\url{https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/}, 2021-06-01
 
 \bibitem{redis}
-Redis
-\\\url{https://redis.io/}
+Redis, \\\url{https://redis.io/}, 2021-06-01
 
 \bibitem{python}
-Python
-\\\url{https://www.python.org/}
+Python, \\\url{https://www.python.org/}, 2021-06-01
 
 \bibitem{git}
-Git
-\\\url{https://git-scm.com/}
+Git, \\\url{https://git-scm.com/}, 2021-06-01
 
 \bibitem{wsgi}
-Web Server Gateway Interface
-\\\url{https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface}
+Web Server Gateway Interface, \\\url{https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface}, 2021-06-01
 
 \bibitem{flask}
-Flask
-\\\url{https://flask.palletsprojects.com/en/2.0.x/}
+Flask, \\\url{https://flask.palletsprojects.com/en/2.0.x/}, 2021-06-01
 
 \bibitem{password}
-Password Authentication: Avoiding 4 Common Vulnerabilities
-\\\url{https://swoopnow.com/password-authentication/}
+Password Authentication: Avoiding 4 Common Vulnerabilities, \\\url{https://swoopnow.com/password-authentication/}, 2021-06-01
 
 \bibitem{insomnia}
-Insomnia
-\\\url{https://insomnia.rest/}
+Insomnia, \\\url{https://insomnia.rest/}, 2021-06-01
 
 \bibitem{design}
-App Design Process: How to Design a Great Mobile App
-\\\url{https://www.iteratorshq.com/blog/app-design-process-design-a-great-mobile-app/}
+App Design Process: How to Design a Great Mobile App, \\\url{https://www.iteratorshq.com/blog/app-design-process-design-a-great-mobile-app/}, 2021-06-01
 
 \bibitem{ucd}
-User-Centered Design: Process and Benefits
-\\\url{https://uxplanet.org/user-centered-design-process-and-benefits-fd9e431eb5a9}
+User-Centered Design: Process and Benefits, \\\url{https://uxplanet.org/user-centered-design-process-and-benefits-fd9e431eb5a9}, 2021-06-01
 
 \bibitem{react_n}
-React Native
-\\\url{https://reactnative.dev/}
+React Native, \\\url{https://reactnative.dev/}, 2021-06-01
 
 \bibitem{expo}
-Expo
-\\\url{https://expo.io/}
+Expo, \\\url{https://expo.io/}, 2021-06-01
 
 \bibitem{frontend_vs_backend}
-What's The Difference Between Frontend And Backend Web Development?
-\\\url{https://careerfoundry.com/en/blog/web-development/whats-the-difference-between-frontend-and-backend/}
+What's The Difference Between Frontend And Backend Web Development?, \\\url{https://careerfoundry.com/en/blog/web-development/whats-the-difference-between-frontend-and-backend/}, 2021-06-01
 
 \bibitem{jinja}
-Jinja
-\\\url{https://jinja.palletsprojects.com/en/3.0.x/}
+Jinja, \\\url{https://jinja.palletsprojects.com/en/3.0.x/}, 2021-06-01
 
 \bibitem{ajax}
-Ajax calls
-\\\url{https://en.wikipedia.org/wiki/Ajax_(programming)}
+Ajax calls, \\\url{https://en.wikipedia.org/wiki/Ajax_(programming)}, 2021-06-01
 
 \bibitem{bootstrap}
-Boostrap
-\\\url{https://getbootstrap.com/}
+Boostrap, \\\url{https://getbootstrap.com/}, 2021-06-01
 
 \bibitem{jquery}
-jQuery
-\\\url{https://jquery.com/}
+jQuery, \\\url{https://jquery.com/}, 2021-06-01
 
 \bibitem{gcp}
-Google Cloud Platform
-\\\url{https://cloud.google.com/}
+Google Cloud Platform, \\\url{https://cloud.google.com/}, 2021-06-01
 
 
 \end{thebibliography}
+\nonfrenchspacing
 
 \end{document}
