@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  8 JUN 2021 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  9 JUN 2021 15:54
 entering extended mode
 **./main.tex
 (main.tex
@@ -1391,7 +1391,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
 ))
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 72
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75
 .
  (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1399,26 +1399,26 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Info: Redefining \it@ocap on input line 72.
-LaTeX Info: Redefining \it@ccap on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Info: Redefining \it@ocap on input line 75.
+LaTeX Info: Redefining \it@ccap on input line 75.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1445,10 +1445,10 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 72.
+ on input line 75.
 
 \c@lstlisting=\count366
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 75.
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1461,9 +1461,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1505,7 +1505,7 @@ LaTeX Info: Redefining \nameref on input line 72.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 72.
+alian.trsl' found. on input line 75.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -1513,15 +1513,15 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 72.
-LaTeX Info: Redefining \microtypecontext on input line 72.
+or `english'. on input line 75.
+LaTeX Info: Redefining \microtypecontext on input line 75.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 72.
+LaTeX Info: Redefining \showhyphens on input line 75.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1538,7 +1538,7 @@ Package epstopdf Info: Source file: <img/polloPallido.eps>
 (epstopdf)                    size: 47239 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/polloPallido-eps-conver
 ted-to.pdf img/polloPallido.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1548,41 +1548,41 @@ F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: img/polloPallido-eps-converted-to.pdf Graphic file (type pdf)
 <use img/polloPallido-eps-converted-to.pdf>
 Package pdftex.def Info: img/polloPallido-eps-converted-to.pdf  used on input l
-ine 79.
+ine 82.
 (pdftex.def)             Requested size: 370.45035pt x 370.46608pt.
 Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/17.28'.
+(microtype)             in font `T1/lmr/m/sc/20.74'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-3.
+6.
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-3.
+6.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-83.
+86.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-83.
+86.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 83.
+(Font)              <20.74> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 83.
+(Font)              <14.4> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 83.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+(Font)              <12> on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1591,7 +1591,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1600,15 +1600,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 92.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 92.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 96.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 89.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 89.
 
 [1
 
@@ -1634,7 +1632,7 @@ Capitolo 1.
 ]
 Capitolo 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 151.
+(Font)              <5> on input line 155.
 [3]
 
 pdfTeX warning: pdflatex.exe (file ./img/analisi_esplorativa.pdf): PDF inclusio
@@ -1642,480 +1640,394 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 <img/analisi_esplorativa.pdf, id=340, 845.1575pt x 597.23125pt>
 File: img/analisi_esplorativa.pdf Graphic file (type pdf)
 <use img/analisi_esplorativa.pdf>
-Package pdftex.def Info: img/analisi_esplorativa.pdf  used on input line 164.
-(pdftex.def)             Requested size: 398.33685pt x 281.49155pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-[5 <./img/analisi_esplorativa.pdf>]
+Package pdftex.def Info: img/analisi_esplorativa.pdf  used on input line 170.
+(pdftex.def)             Requested size: 318.67068pt x 225.19142pt.
+[4 <./img/analisi_esplorativa.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-79.
+85.
 
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [6]
-[7] [8
-
-]
+) [5]
+[6]
 Capitolo 3.
-<img/waterfall_vs_iterativo.jpeg, id=381, 858.95906pt x 258.21469pt>
+<img/waterfall_vs_iterativo.jpeg, id=373, 858.95906pt x 258.21469pt>
 File: img/waterfall_vs_iterativo.jpeg Graphic file (type jpg)
 <use img/waterfall_vs_iterativo.jpeg>
-Package pdftex.def Info: img/waterfall_vs_iterativo.jpeg  used on input line 21
-8.
+Package pdftex.def Info: img/waterfall_vs_iterativo.jpeg  used on input line 22
+4.
 (pdftex.def)             Requested size: 398.33685pt x 119.7455pt.
-[9 <./img/waterfall_vs_iterativo.jpeg>]
-<img/prototyping.jpg, id=392, 376.40625pt x 282.05376pt>
+[7
+
+ <./img/waterfall_vs_iterativo.jpeg>]
+<img/prototyping.jpg, id=383, 376.40625pt x 282.05376pt>
 File: img/prototyping.jpg Graphic file (type jpg)
 <use img/prototyping.jpg>
-Package pdftex.def Info: img/prototyping.jpg  used on input line 226.
+Package pdftex.def Info: img/prototyping.jpg  used on input line 232.
 (pdftex.def)             Requested size: 159.3323pt x 119.39568pt.
-<img/pianificazione iniziale.png, id=393, 924.45375pt x 292.09125pt>
+<img/pianificazione iniziale.png, id=384, 924.45375pt x 292.09125pt>
 File: img/pianificazione iniziale.png Graphic file (type png)
 <use img/pianificazione iniziale.png>
-Package pdftex.def Info: img/pianificazione iniziale.png  used on input line 23
-4.
+Package pdftex.def Info: img/pianificazione iniziale.png  used on input line 24
+0.
 (pdftex.def)             Requested size: 398.33685pt x 125.85974pt.
- [10 <./img/prototyping.jpg> <./img/pianificazione iniziale.png>]
+ [8 <./img/prototyping.jpg> <./img/pianificazione iniziale.png>]
 Capitolo 4.
+[9
 
+]
 
 pdfTeX warning: pdflatex.exe (file ./img/requisiti_dominio.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<img/requisiti_dominio.pdf, id=407, 847.9381pt x 517.56093pt>
+<img/requisiti_dominio.pdf, id=410, 847.9381pt x 517.56093pt>
 File: img/requisiti_dominio.pdf Graphic file (type pdf)
 <use img/requisiti_dominio.pdf>
-Package pdftex.def Info: img/requisiti_dominio.pdf  used on input line 254.
+Package pdftex.def Info: img/requisiti_dominio.pdf  used on input line 261.
 (pdftex.def)             Requested size: 278.83458pt x 170.19543pt.
-[11
-
-] [12 <./img/requisiti_dominio.pdf>]
-<img/data_dictionary.png, id=430, 1019.81pt x 451.01833pt>
+[10 <./img/requisiti_dominio.pdf>]
+<img/data_dictionary.png, id=422, 1019.81pt x 451.01833pt>
 File: img/data_dictionary.png Graphic file (type png)
 <use img/data_dictionary.png>
-Package pdftex.def Info: img/data_dictionary.png  used on input line 283.
+Package pdftex.def Info: img/data_dictionary.png  used on input line 290.
 (pdftex.def)             Requested size: 318.67068pt x 140.93599pt.
- [13 <./img/data_dictionary.png>]
-<img/risk_management.jpg, id=441, 501.875pt x 471.7625pt>
+ [11 <./img/data_dictionary.png>]
+<img/risk_management.jpg, id=433, 501.875pt x 471.7625pt>
 File: img/risk_management.jpg Graphic file (type jpg)
 <use img/risk_management.jpg>
-Package pdftex.def Info: img/risk_management.jpg  used on input line 317.
+Package pdftex.def Info: img/risk_management.jpg  used on input line 324.
 (pdftex.def)             Requested size: 159.3323pt x 149.77213pt.
-
-[14 <./img/risk_management.jpg>]
-<img/modello_spirale.png, id=460, 1094.0875pt x 615.29875pt>
+ [12 <./img/risk_management.jpg>]
+<img/modello_spirale.png, id=452, 1094.0875pt x 615.29875pt>
 File: img/modello_spirale.png Graphic file (type png)
 <use img/modello_spirale.png>
-Package pdftex.def Info: img/modello_spirale.png  used on input line 327.
+Package pdftex.def Info: img/modello_spirale.png  used on input line 334.
 (pdftex.def)             Requested size: 398.33685pt x 224.01416pt.
- [15 <./img/modello_spirale.png>] [16
+ [13 <./img/modello_spirale.png>] [14
 
 ]
 Capitolo 5.
-[17]
-<img/architettura.png, id=491, 743.77875pt x 251.94125pt>
+[15]
+<img/architettura.png, id=483, 743.77875pt x 251.94125pt>
 File: img/architettura.png Graphic file (type png)
 <use img/architettura.png>
-Package pdftex.def Info: img/architettura.png  used on input line 364.
+Package pdftex.def Info: img/architettura.png  used on input line 374.
 (pdftex.def)             Requested size: 398.33685pt x 134.9314pt.
- [18 <./img/architettura.png>]
-<img/rest.png, id=507, 671.50874pt x 286.06876pt>
+ [16 <./img/architettura.png>]
+<img/rest.png, id=499, 671.50874pt x 286.06876pt>
 File: img/rest.png Graphic file (type png)
 <use img/rest.png>
-Package pdftex.def Info: img/rest.png  used on input line 379.
-(pdftex.def)             Requested size: 318.67068pt x 135.75748pt.
-<img/json.jpeg, id=509, 426.62613pt x 373.00645pt>
+Package pdftex.def Info: img/rest.png  used on input line 390.
+(pdftex.def)             Requested size: 358.50073pt x 152.72444pt.
+<img/json.jpeg, id=501, 426.62613pt x 373.00645pt>
 File: img/json.jpeg Graphic file (type jpg)
 <use img/json.jpeg>
-Package pdftex.def Info: img/json.jpeg  used on input line 387.
+Package pdftex.def Info: img/json.jpeg  used on input line 398.
 (pdftex.def)             Requested size: 239.00453pt x 208.96187pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19 <./img/rest.png>] [20 <./img/json.jpeg>] [21] [22
+ [17 <./img/rest.png>] [18 <./img/json.jpeg>] [19] [20
 
 ]
 Capitolo 6.
-[23]
+[21]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 440.
+(hyperref)                than one, level fixed on input line 453.
 
-[24]
-<img/iso_9126.png, id=566, 1204.5pt x 1204.5pt>
+[22]
+<img/iso_9126.png, id=558, 1204.5pt x 1204.5pt>
 File: img/iso_9126.png Graphic file (type png)
 <use img/iso_9126.png>
-Package pdftex.def Info: img/iso_9126.png  used on input line 467.
+Package pdftex.def Info: img/iso_9126.png  used on input line 483.
 (pdftex.def)             Requested size: 318.67068pt x 318.67636pt.
-
-Underfull \vbox (badness 3260) has occurred while \output is active []
-
- [25]
-[26 <./img/iso_9126.png>] [27]
-<img/verifica_validazione.jpg, id=605, 552.0625pt x 305.14pt>
+ [23] [24 <./img/iso_9126.png>] [25]
+<img/verifica_validazione.jpg, id=596, 552.0625pt x 305.14pt>
 File: img/verifica_validazione.jpg Graphic file (type jpg)
 <use img/verifica_validazione.jpg>
-Package pdftex.def Info: img/verifica_validazione.jpg  used on input line 500.
+Package pdftex.def Info: img/verifica_validazione.jpg  used on input line 521.
 (pdftex.def)             Requested size: 318.67068pt x 176.14322pt.
- [28 <./img/verifica_validazione.jpg>]
+ [26 <./img/verifica_validazione.jpg>]
 Capitolo 7.
-<img/er-schema.png, id=613, 2109.8825pt x 2144.01pt>
+<img/er-schema.png, id=604, 2109.8825pt x 2144.01pt>
 File: img/er-schema.png Graphic file (type png)
 <use img/er-schema.png>
-Package pdftex.def Info: img/er-schema.png  used on input line 516.
+Package pdftex.def Info: img/er-schema.png  used on input line 539.
 (pdftex.def)             Requested size: 398.33685pt x 404.74895pt.
+[27
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29
-
-]
-<img/junction_table.png, id=621, 499.8675pt x 113.42375pt>
+] [28 <./img/er-schema.png>]
+<img/junction_table.png, id=620, 499.8675pt x 113.42375pt>
 File: img/junction_table.png Graphic file (type png)
 <use img/junction_table.png>
-Package pdftex.def Info: img/junction_table.png  used on input line 528.
+Package pdftex.def Info: img/junction_table.png  used on input line 551.
 (pdftex.def)             Requested size: 318.67068pt x 72.31056pt.
-
-[30 <./img/er-schema.png>]
-<img/tab_frequenze.png, id=632, 616.3025pt x 275.0275pt>
+<img/tab_frequenze.png, id=623, 616.3025pt x 275.0275pt>
 File: img/tab_frequenze.png Graphic file (type png)
 <use img/tab_frequenze.png>
-Package pdftex.def Info: img/tab_frequenze.png  used on input line 536.
-(pdftex.def)             Requested size: 239.00453pt x 106.65598pt.
-<img/tab_volumi.png, id=633, 570.13pt x 388.11667pt>
+Package pdftex.def Info: img/tab_frequenze.png  used on input line 559.
+(pdftex.def)             Requested size: 258.91652pt x 115.54433pt.
+ [29 <./img/junction_table.png> <./img/tab_frequenze.png>]
+<img/tab_volumi.png, id=636, 570.13pt x 388.11667pt>
 File: img/tab_volumi.png Graphic file (type png)
 <use img/tab_volumi.png>
-Package pdftex.def Info: img/tab_volumi.png  used on input line 542.
-(pdftex.def)             Requested size: 239.00453pt x 162.69992pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31 <./img/junction_table.png> <./img/tab_frequenze.png>]
-<img/tabella_accessi.png, id=645, 440.64626pt x 541.02126pt>
+Package pdftex.def Info: img/tab_volumi.png  used on input line 568.
+(pdftex.def)             Requested size: 258.91652pt x 176.25578pt.
+<img/tabella_accessi.png, id=637, 440.64626pt x 541.02126pt>
 File: img/tabella_accessi.png Graphic file (type png)
 <use img/tabella_accessi.png>
-Package pdftex.def Info: img/tabella_accessi.png  used on input line 548.
-(pdftex.def)             Requested size: 239.00453pt x 293.4432pt.
+Package pdftex.def Info: img/tabella_accessi.png  used on input line 574.
+(pdftex.def)             Requested size: 258.91652pt x 317.90369pt.
+ [30 <./img/tab_volumi.png> <./img/tabella_accessi.png>]
 <img/er-ristrutturato.png, id=646, 2506.36375pt x 2348.775pt>
 File: img/er-ristrutturato.png Graphic file (type png)
 <use img/er-ristrutturato.png>
-Package pdftex.def Info: img/er-ristrutturato.png  used on input line 556.
-(pdftex.def)             Requested size: 318.67068pt x 298.61366pt.
- [32 <./img/tab_volumi.png> <./img/tabella_accessi.png>]
+Package pdftex.def Info: img/er-ristrutturato.png  used on input line 585.
+(pdftex.def)             Requested size: 398.33685pt x 373.26709pt.
+
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[33 <./img/er-ristrutturato.png>]
-Underfull \vbox (badness 1721) has occurred while \output is active []
-
- [34]
-[35] [36]
-<img/docker.png, id=775, 939.17542pt x 541.69041pt>
+[31 <./img/er-ristrutturato.png>] [32] [33] [34]
+<img/docker.png, id=765, 939.17542pt x 541.69041pt>
 File: img/docker.png Graphic file (type png)
 <use img/docker.png>
-Package pdftex.def Info: img/docker.png  used on input line 684.
+Package pdftex.def Info: img/docker.png  used on input line 713.
 (pdftex.def)             Requested size: 318.67068pt x 183.80035pt.
- [37 <./img/docker.png>]
-<img/query_esempio.png, id=789, 574.81416pt x 281.71916pt>
+ [35 <./img/docker.png>]
+<img/query_esempio.png, id=779, 574.81416pt x 281.71916pt>
 File: img/query_esempio.png Graphic file (type png)
 <use img/query_esempio.png>
-Package pdftex.def Info: img/query_esempio.png  used on input line 699.
+Package pdftex.def Info: img/query_esempio.png  used on input line 728.
 (pdftex.def)             Requested size: 318.67068pt x 156.17973pt.
- [38 <./img/query_esempio.png>]
+
+[36 <./img/query_esempio.png>]
 Capitolo 8.
-
-Underfull \vbox (badness 1616) has occurred while \output is active []
-
- [39
+[37
 
 ]
-<img/git-history.png, id=816, 349.305pt x 145.54375pt>
+<img/git-history.png, id=805, 349.305pt x 145.54375pt>
 File: img/git-history.png Graphic file (type png)
 <use img/git-history.png>
-Package pdftex.def Info: img/git-history.png  used on input line 731.
+Package pdftex.def Info: img/git-history.png  used on input line 760.
 (pdftex.def)             Requested size: 278.83458pt x 116.18863pt.
-
-[40 <./img/git-history.png>]
-<img/git-condiviso.png, id=830, 315.1775pt x 161.60374pt>
+ [38 <./img/git-history.png>]
+<img/git-condiviso.png, id=819, 315.1775pt x 161.60374pt>
 File: img/git-condiviso.png Graphic file (type png)
 <use img/git-condiviso.png>
-Package pdftex.def Info: img/git-condiviso.png  used on input line 744.
-(pdftex.def)             Requested size: 239.00453pt x 122.5464pt.
-<img/git-ops.png, id=831, 1704.3675pt x 1597.97pt>
+Package pdftex.def Info: img/git-condiviso.png  used on input line 773.
+(pdftex.def)             Requested size: 199.16843pt x 102.1216pt.
+<img/git-ops.png, id=820, 1704.3675pt x 1597.97pt>
 File: img/git-ops.png Graphic file (type png)
 <use img/git-ops.png>
-Package pdftex.def Info: img/git-ops.png  used on input line 753.
-(pdftex.def)             Requested size: 318.67068pt x 298.76523pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41 <./img/git-condiviso.png>] [42 <./img/git-ops.png>]
+Package pdftex.def Info: img/git-ops.png  used on input line 782.
+(pdftex.def)             Requested size: 239.00453pt x 224.08002pt.
+ [39 <./img/git-condiviso.png> <./img/git-ops.png>]
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[43] [44] [45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46]
-[47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
-[49] [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-[52] [53]
-<img/Login (success).png, id=1246, 804.00375pt x 759.83875pt>
+[40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
+<img/Login (success).png, id=1216, 804.00375pt x 759.83875pt>
 File: img/Login (success).png Graphic file (type png)
 <use img/Login (success).png>
-Package pdftex.def Info: img/Login (success).png  used on input line 1189.
-(pdftex.def)             Requested size: 318.67068pt x 301.1591pt.
- [54 <./img/Login (success).png>] [55]
-<img/Operazione protetta (success).png, id=1296, 713.66624pt x 758.835pt>
+Package pdftex.def Info: img/Login (success).png  used on input line 1219.
+(pdftex.def)             Requested size: 278.83458pt x 263.51276pt.
+ [51 <./img/Login (success).png>] [52] [53]
+<img/Operazione protetta (success).png, id=1311, 713.66624pt x 758.835pt>
 File: img/Operazione protetta (success).png Graphic file (type png)
 <use img/Operazione protetta (success).png>
 Package pdftex.def Info: img/Operazione protetta (success).png  used on input l
-ine 1276.
+ine 1306.
 (pdftex.def)             Requested size: 318.67068pt x 338.83261pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
-[57 <./img/Operazione protetta (success).png>]
-<img/Logout (success).png, id=1354, 638.385pt x 583.17876pt>
+ [54 <./img/Operazione protetta (success).png>]
+<img/Logout (success).png, id=1326, 638.385pt x 583.17876pt>
 File: img/Logout (success).png Graphic file (type png)
 <use img/Logout (success).png>
-Package pdftex.def Info: img/Logout (success).png  used on input line 1300.
+Package pdftex.def Info: img/Logout (success).png  used on input line 1332.
 (pdftex.def)             Requested size: 318.67068pt x 291.10814pt.
- [58 <./img/Logout (success).png>]
-<img/email_recupero.jpg, id=1371, 697.60625pt x 363.3575pt>
+ [55 <./img/Logout (success).png>]
+<img/email_recupero.jpg, id=1348, 697.60625pt x 363.3575pt>
 File: img/email_recupero.jpg Graphic file (type jpg)
 <use img/email_recupero.jpg>
-Package pdftex.def Info: img/email_recupero.jpg  used on input line 1362.
+Package pdftex.def Info: img/email_recupero.jpg  used on input line 1390.
 (pdftex.def)             Requested size: 239.00453pt x 124.48799pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59]
-Underfull \vbox (badness 1648) has occurred while \output is active []
-
- [60 <./img/email_recupero.jpg>]
-<img/api_debug.png, id=1444, 864.89792pt x 277.36958pt>
+ [56] [57 <./img/email_recupero.jpg>]
+<img/api_debug.png, id=1426, 864.89792pt x 277.36958pt>
 File: img/api_debug.png Graphic file (type png)
 <use img/api_debug.png>
-Package pdftex.def Info: img/api_debug.png  used on input line 1405.
+Package pdftex.def Info: img/api_debug.png  used on input line 1433.
 (pdftex.def)             Requested size: 318.67068pt x 102.19766pt.
-<img/insomnia.png, id=1445, 1026.16708pt x 413.87958pt>
+<img/insomnia.png, id=1427, 1026.16708pt x 413.87958pt>
 File: img/insomnia.png Graphic file (type png)
 <use img/insomnia.png>
-Package pdftex.def Info: img/insomnia.png  used on input line 1412.
+Package pdftex.def Info: img/insomnia.png  used on input line 1440.
 (pdftex.def)             Requested size: 318.67068pt x 128.52869pt.
+ [58 <./img/api_debug.png> <./img/insomnia.png>] [59] [60
 
-Underfull \vbox (badness 2538) has occurred while \output is active []
-
- [61 <./img/api_debug.png> <./img/insomnia.png>] [62]
+]
 Capitolo 9.
-[63
-
-] [64
+[61] [62
 
 ]
 Capitolo 10.
-[65] [66]
-<img/concetti task app.png, id=1564, 1014.79124pt x 473.77pt>
+[63] [64]
+<img/concetti task app.png, id=1550, 1014.79124pt x 473.77pt>
 File: img/concetti task app.png Graphic file (type png)
 <use img/concetti task app.png>
-Package pdftex.def Info: img/concetti task app.png  used on input line 1555.
+Package pdftex.def Info: img/concetti task app.png  used on input line 1583.
 (pdftex.def)             Requested size: 318.67068pt x 148.77567pt.
- [67 <./img/concetti task app.png>]
-<img/sidebar-example.png, id=1580, 676.5275pt x 907.39pt>
+ [65 <./img/concetti task app.png>]
+<img/sidebar-example.png, id=1565, 676.5275pt x 907.39pt>
 File: img/sidebar-example.png Graphic file (type png)
 <use img/sidebar-example.png>
-Package pdftex.def Info: img/sidebar-example.png  used on input line 1574.
+Package pdftex.def Info: img/sidebar-example.png  used on input line 1603.
 (pdftex.def)             Requested size: 119.50226pt x 160.27711pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/wireframe app.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/wireframe app.pdf, id=1581, 572.22786pt x 713.44545pt>
+<img/wireframe app.pdf, id=1566, 572.22786pt x 713.44545pt>
 File: img/wireframe app.pdf Graphic file (type pdf)
 <use img/wireframe app.pdf>
-Package pdftex.def Info: img/wireframe app.pdf  used on input line 1582.
+Package pdftex.def Info: img/wireframe app.pdf  used on input line 1611.
 (pdftex.def)             Requested size: 318.67068pt x 397.3168pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68 <./img/sidebar-example.png>] [69 <./img/wireframe app.pdf>]
-<img/user-centered-design.png, id=1602, 673.76718pt x 319.94531pt>
+[66 <./img/sidebar-example.png>] [67 <./img/wireframe app.pdf>]
+<img/user-centered-design.png, id=1587, 673.76718pt x 319.94531pt>
 File: img/user-centered-design.png Graphic file (type png)
 <use img/user-centered-design.png>
-Package pdftex.def Info: img/user-centered-design.png  used on input line 1608.
+Package pdftex.def Info: img/user-centered-design.png  used on input line 1637.
 
 (pdftex.def)             Requested size: 318.67068pt x 151.3263pt.
- [70 <./img/user-centered-design.png>]
-<img/componenti home.pdf, id=1616, 793.96625pt x 451.6875pt>
+ [68 <./img/user-centered-design.png>]
+<img/componenti home.pdf, id=1601, 793.96625pt x 451.6875pt>
 File: img/componenti home.pdf Graphic file (type pdf)
 <use img/componenti home.pdf>
-Package pdftex.def Info: img/componenti home.pdf  used on input line 1622.
+Package pdftex.def Info: img/componenti home.pdf  used on input line 1651.
 (pdftex.def)             Requested size: 318.67068pt x 181.29208pt.
- [71 <./img/componenti home.pdf, page is rotated 270 degrees>]
+ [69 <./img/componenti home.pdf, page is rotated 270 degrees>]
 
 pdfTeX warning: pdflatex.exe (file ./img/componenti home dati.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<img/componenti home dati.pdf, id=1632, 806.27223pt x 478.99953pt>
+<img/componenti home dati.pdf, id=1618, 806.27223pt x 478.99953pt>
 File: img/componenti home dati.pdf Graphic file (type pdf)
 <use img/componenti home dati.pdf>
-Package pdftex.def Info: img/componenti home dati.pdf  used on input line 1636.
+Package pdftex.def Info: img/componenti home dati.pdf  used on input line 1665.
 
 (pdftex.def)             Requested size: 318.67068pt x 189.32333pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/navigation.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/navigation.pdf, id=1633, 806.61348pt x 373.51544pt>
+<img/navigation.pdf, id=1619, 806.61348pt x 373.51544pt>
 File: img/navigation.pdf Graphic file (type pdf)
 <use img/navigation.pdf>
-Package pdftex.def Info: img/navigation.pdf  used on input line 1646.
+Package pdftex.def Info: img/navigation.pdf  used on input line 1675.
 (pdftex.def)             Requested size: 318.67068pt x 147.56831pt.
-[72 <./img/componenti home dati.pdf> <./img/navigation.pdf>]
-<img/app_1.jpeg, id=1651, 950.55125pt x 1606.0pt>
+[70 <./img/componenti home dati.pdf> <./img/navigation.pdf>]
+<img/app_1.jpeg, id=1637, 950.55125pt x 1606.0pt>
 File: img/app_1.jpeg Graphic file (type jpg)
 <use img/app_1.jpeg>
-Package pdftex.def Info: img/app_1.jpeg  used on input line 1666.
+Package pdftex.def Info: img/app_1.jpeg  used on input line 1695.
 (pdftex.def)             Requested size: 159.3323pt x 269.19353pt.
- [73 <./img/app_1.jpeg>]
-<img/app_2.jpeg, id=1662, 952.55875pt x 1606.0pt>
+ [71 <./img/app_1.jpeg>]
+<img/app_2.jpeg, id=1648, 952.55875pt x 1606.0pt>
 File: img/app_2.jpeg Graphic file (type jpg)
 <use img/app_2.jpeg>
-Package pdftex.def Info: img/app_2.jpeg  used on input line 1676.
+Package pdftex.def Info: img/app_2.jpeg  used on input line 1705.
 (pdftex.def)             Requested size: 159.3323pt x 268.6299pt.
-<img/app_3.jpeg, id=1663, 740.7675pt x 1606.0pt>
+<img/app_3.jpeg, id=1649, 740.7675pt x 1606.0pt>
 File: img/app_3.jpeg Graphic file (type jpg)
 <use img/app_3.jpeg>
-Package pdftex.def Info: img/app_3.jpeg  used on input line 1686.
+Package pdftex.def Info: img/app_3.jpeg  used on input line 1715.
 (pdftex.def)             Requested size: 159.3323pt x 345.43031pt.
- [74 <./img/app_2.jpeg>] [75 <./img/app_3.jpeg>]
-<img/debug_app_pc.png, id=1684, 1152.63959pt x 461.39041pt>
+ [72 <./img/app_2.jpeg>] [73 <./img/app_3.jpeg>]
+<img/debug_app_pc.png, id=1669, 1152.63959pt x 461.39041pt>
 File: img/debug_app_pc.png Graphic file (type png)
 <use img/debug_app_pc.png>
-Package pdftex.def Info: img/debug_app_pc.png  used on input line 1702.
-(pdftex.def)             Requested size: 358.50073pt x 143.50124pt.
-<img/debug_app_1.jpeg, id=1685, 740.7675pt x 1606.0pt>
+Package pdftex.def Info: img/debug_app_pc.png  used on input line 1731.
+(pdftex.def)             Requested size: 318.67068pt x 127.5551pt.
+<img/debug_app_1.jpeg, id=1670, 740.7675pt x 1606.0pt>
 File: img/debug_app_1.jpeg Graphic file (type jpg)
 <use img/debug_app_1.jpeg>
-Package pdftex.def Info: img/debug_app_1.jpeg  used on input line 1710.
-(pdftex.def)             Requested size: 127.46632pt x 276.34915pt.
-<img/debug_app_2.jpeg, id=1686, 740.7675pt x 1606.0pt>
+Package pdftex.def Info: img/debug_app_1.jpeg  used on input line 1739.
+(pdftex.def)             Requested size: 111.53212pt x 241.79631pt.
+<img/debug_app_2.jpeg, id=1671, 740.7675pt x 1606.0pt>
 File: img/debug_app_2.jpeg Graphic file (type jpg)
 <use img/debug_app_2.jpeg>
-Package pdftex.def Info: img/debug_app_2.jpeg  used on input line 1715.
-(pdftex.def)             Requested size: 127.46632pt x 276.34915pt.
- [76 <./img/debug_app_pc.png> <./img/debug_app_1.jpeg> <./img/debug_app_2.jpeg>
-] [77] [78
-
+Package pdftex.def Info: img/debug_app_2.jpeg  used on input line 1744.
+(pdftex.def)             Requested size: 111.53212pt x 241.79631pt.
+ [74 <./img/debug_app_pc.png> <./img/debug_app_1.jpeg> <./img/debug_app_2.jpeg>
 ]
 Capitolo 11.
-[79]
-<img/bootstrap-sidebar.jpg, id=1723, 1368.11125pt x 987.69pt>
+[75
+
+] [76]
+<img/bootstrap-sidebar.jpg, id=1720, 1368.11125pt x 582.175pt>
 File: img/bootstrap-sidebar.jpg Graphic file (type jpg)
 <use img/bootstrap-sidebar.jpg>
-Package pdftex.def Info: img/bootstrap-sidebar.jpg  used on input line 1766.
-(pdftex.def)             Requested size: 318.67068pt x 230.05754pt.
- [80]
-<img/mockup_web_persone.pdf, id=1743, 845.1575pt x 597.23125pt>
+Package pdftex.def Info: img/bootstrap-sidebar.jpg  used on input line 1797.
+(pdftex.def)             Requested size: 278.83458pt x 118.65375pt.
+<img/mockup_web_persone.pdf, id=1721, 845.1575pt x 597.23125pt>
 File: img/mockup_web_persone.pdf Graphic file (type pdf)
 <use img/mockup_web_persone.pdf>
-Package pdftex.def Info: img/mockup_web_persone.pdf  used on input line 1776.
+Package pdftex.def Info: img/mockup_web_persone.pdf  used on input line 1807.
 (pdftex.def)             Requested size: 398.33685pt x 281.49155pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81 <./img/bootstrap-sidebar.jpg>]
+ [77 <./img/bootstrap-sidebar.jpg> <./img/mockup_web_persone.pdf, page is rotat
+ed 270 degrees>]
 
 pdfTeX warning: pdflatex.exe (file ./img/mockup_web_persone_2.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<img/mockup_web_persone_2.pdf, id=1752, 845.1575pt x 597.23125pt>
+<img/mockup_web_persone_2.pdf, id=1733, 845.1575pt x 597.23125pt>
 File: img/mockup_web_persone_2.pdf Graphic file (type pdf)
 <use img/mockup_web_persone_2.pdf>
-Package pdftex.def Info: img/mockup_web_persone_2.pdf  used on input line 1784.
+Package pdftex.def Info: img/mockup_web_persone_2.pdf  used on input line 1815.
 
 (pdftex.def)             Requested size: 398.33685pt x 281.49155pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82 <./img/mockup_web_persone.pdf, page is rotated 270 degrees>]
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-[83 <./img/mockup_web_persone_2.pdf, page is rotated 270 degrees>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [85]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86]
-[87] [88]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90]
-[91] [92]
+[78 <./img/mockup_web_persone_2.pdf, page is rotated 270 degrees>] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88]
 <img/prova_chrome.png, id=2185, 1121.18875pt x 534.99875pt>
 File: img/prova_chrome.png Graphic file (type png)
 <use img/prova_chrome.png>
-Package pdftex.def Info: img/prova_chrome.png  used on input line 2241.
-(pdftex.def)             Requested size: 318.67068pt x 152.05989pt.
- [93]
-<img/persona.jpg, id=2221, 3811.23875pt x 1711.39375pt>
+Package pdftex.def Info: img/prova_chrome.png  used on input line 2271.
+(pdftex.def)             Requested size: 398.33685pt x 190.0769pt.
+ [89 <./img/prova_chrome.png>]
+<img/persona.jpg, id=2196, 3811.23875pt x 1711.39375pt>
 File: img/persona.jpg Graphic file (type jpg)
 <use img/persona.jpg>
-Package pdftex.def Info: img/persona.jpg  used on input line 2254.
-(pdftex.def)             Requested size: 318.67068pt x 143.07713pt.
-<img/login.png, id=2222, 1284.8pt x 722.7pt>
+Package pdftex.def Info: img/persona.jpg  used on input line 2286.
+(pdftex.def)             Requested size: 398.33685pt x 178.85295pt.
+<img/login.png, id=2197, 1284.8pt x 722.7pt>
 File: img/login.png Graphic file (type png)
 <use img/login.png>
-Package pdftex.def Info: img/login.png  used on input line 2260.
+Package pdftex.def Info: img/login.png  used on input line 2292.
 (pdftex.def)             Requested size: 398.33685pt x 224.05673pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [94 <./img/prova_chrome.png> <./img/persona.jpg>]
-<img/recupero_screen.jpg, id=2232, 1584.92125pt x 834.11626pt>
+<img/recupero_screen.jpg, id=2198, 1584.92125pt x 834.11626pt>
 File: img/recupero_screen.jpg Graphic file (type jpg)
 <use img/recupero_screen.jpg>
-Package pdftex.def Info: img/recupero_screen.jpg  used on input line 2266.
+Package pdftex.def Info: img/recupero_screen.jpg  used on input line 2298.
 (pdftex.def)             Requested size: 398.33685pt x 209.63585pt.
-<img/new.png, id=2233, 1284.8pt x 722.7pt>
+
+[90 <./img/persona.jpg> <./img/login.png>]
+<img/new.png, id=2206, 1284.8pt x 722.7pt>
 File: img/new.png Graphic file (type png)
 <use img/new.png>
-Package pdftex.def Info: img/new.png  used on input line 2272.
+Package pdftex.def Info: img/new.png  used on input line 2304.
 (pdftex.def)             Requested size: 398.33685pt x 224.05673pt.
+ [91 <./img/recupero_screen.jpg> <./img/new.png>] [92
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [95 <./img/login.png> <./img/recupero_screen.jpg>] [96 <./img/new.png>]
+]
 Capitolo 12.
-[97
-
-] [98] [99] [100
+[93] [94] [95] [96
 
 ]
 Capitolo 13.
-[101] [102]
+[97] [98]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-405.
-
-(C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+439.
+ (C:\Users\aless\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2123,97 +2035,97 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2405--2406
+Underfull \hbox (badness 10000) in paragraph at lines 2439--2440
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 protezionec
 ivile\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 fvg\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 it 
 / it / comune / san -[] vito -[] al -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2414--2415
+Underfull \hbox (badness 10000) in paragraph at lines 2448--2449
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 simplilearn
 \OML/lmm/m/it/12 :\T1/lmtt/m/n/12 com / what -[] is -[] requirement -[] analysi
 s -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2417--2419
+Underfull \hbox (badness 10000) in paragraph at lines 2451--2453
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 uxbooth\OML
 /lmm/m/it/12 :\T1/lmtt/m/n/12 com / articles / build -[] better -[] requirement
 s -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2455--2456
 []$\T1/lmtt/m/n/12 https : / / searchcompliance\OML/lmm/m/it/12 :\T1/lmtt/m/n/1
 2 techtarget\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 com / definition / risk -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2424--2425
+Underfull \hbox (badness 10000) in paragraph at lines 2458--2459
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 tutorialspo
 int\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 com / software[]architecture[]design /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2430--2431
+Underfull \hbox (badness 10000) in paragraph at lines 2464--2465
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 infoworld\O
 ML/lmm/m/it/12 :\T1/lmtt/m/n/12 com / article / 3222851 / what -[] is -[] json 
 -[] a -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2433--2434
+Underfull \hbox (badness 10000) in paragraph at lines 2467--2468
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 tasstudent\
 OML/lmm/m/it/12 :\T1/lmtt/m/n/12 com / 2015 / 10 / 15 / the -[] context -[] dia
 gram -[]
  []
 
-[103
+[99
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2454--2455
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2489
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 smashingmag
 azine\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 com / 2018 / 01 / understanding -[] usin
 g -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2466--2467
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2501
 []$\T1/lmtt/m/n/12 https : / / en\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 wikipedia\OM
 L/lmm/m/it/12 :\T1/lmtt/m/n/12 org / wiki / Web[]Server[]Gateway[]Interface$[]\
 T1/lmr/m/n/12 (+20) ,
  []
 
-[104]
-Underfull \hbox (badness 10000) in paragraph at lines 2478--2479
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 2512--2513
 []$\T1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 iteratorshq
 \OML/lmm/m/it/12 :\T1/lmtt/m/n/12 com / blog / app -[] design -[] process -[] d
 esign -[] a -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2481--2482
+Underfull \hbox (badness 10000) in paragraph at lines 2515--2516
 []$\T1/lmtt/m/n/12 https : / / uxplanet\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 org / 
 user -[] centered -[] design -[] process -[] and -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2490--2491
+Underfull \hbox (badness 10000) in paragraph at lines 2524--2525
 []$\T1/lmtt/m/n/12 https : / / careerfoundry\OML/lmm/m/it/12 :\T1/lmtt/m/n/12 c
 om / en / blog / web -[] development / whats -[] the -[]
  []
 
-[105] (main.aux)
+[101] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 532610B5E5DF5FCB81D368EDF8A525B5;9265.
  ) 
 Here is how much of TeX's memory you used:
- 48058 strings out of 479334
- 1032210 string characters out of 2857085
- 1860216 words of memory out of 3000000
- 62808 multiletter control sequences out of 15000+200000
- 525359 words of font info for 251 fonts, out of 3000000 for 9000
+ 48031 strings out of 479334
+ 1031757 string characters out of 2857085
+ 1767520 words of memory out of 3000000
+ 62796 multiletter control sequences out of 15000+200000
+ 521327 words of font info for 246 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,8n,103p,890b,4149s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/aless/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
@@ -2234,9 +2146,9 @@ ss/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/aless
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/aless
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/aless
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (109 pages, 8640786 bytes).
+Output written on main.pdf (105 pages, 8577028 bytes).
 PDF statistics:
- 2771 PDF objects out of 2984 (max. 8388607)
- 1583 named destinations out of 1728 (max. 500000)
- 69845 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2740 PDF objects out of 2984 (max. 8388607)
+ 1569 named destinations out of 1728 (max. 500000)
+ 67797 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -43,6 +43,9 @@
 \graphicspath{{./img/}}
 %\usepackage{epstopdf}
 
+
+\raggedbottom
+
 \makeatletter
 \newcommand{\HEADER}[1]{\ALC@it\underline{\textsc{#1}}\begin{ALC@g}}
 	\newcommand{\ENDHEADER}{\end{ALC@g}}
@@ -61,7 +64,7 @@
 	stringstyle=\color{red} % string color
 }
 
-\DeclareRobustCommand{\univsc}[1]{\Large\textsc{\textls[75]{#1}}}
+\DeclareRobustCommand{\univsc}[1]{\LARGE\textsc{\textls[75]{#1}}}
 \DeclareRobustCommand{\titlesc}[1]{\linespread{1.2}\LARGE{\textls[35]{\uppercase{#1}}\linespread{1}}}
 \DeclareRobustCommand{\namesc}[1]{\large\textsc{\textls[35]{#1}}} 
 
@@ -83,6 +86,7 @@
 		\univsc{Universit\`a degli Studi di Udine}
 		\medskip   
 		\rule{10cm}{.4pt}\\
+		\namesc{Dipartimento di Scienze matematiche, informatiche e fisiche\\}
 		\medskip\begin{Large}
 			\medskip
 			\vspace{\stretch{0.6}}
@@ -152,6 +156,8 @@
 
 \paragraph{} In genere viene effettuata mediante un singolo incontro preliminare, possibilmente di persona, tra un rappresentante del committente e il responsabile del gruppo operativo per quanto riguarda le relazioni esterne. Essendo molto sommaria, non necessita di una presenza massiccia, lasciando liberi gli altri membri del gruppo. 
 
+\newpage
+
 \paragraph{} La discussione è informale e priva di schemi. Inizialmente il committente viene lasciato libero di presentare il contesto e le difficoltà attuali. Proseguendo nella conversazione, si chiede in linea generica quali siano le soluzioni precedenti che il cliente ha provato (se ce ne sono), quale sia la soluzione che il committente si immagina (se ce n'è una) e quali siano le sue aspettative su di essa. A questo punto il rappresentante del gruppo di lavoro dispone di abbastanza informazioni per poter formulare alcune soluzioni ipotetiche, e le presenta al committente, discutendone pregi e difetti. È importante concordare sull'ordine di grandezza di tempi, risorse e costi riguardanti il progetto, e se possibile elencare tutti i requisiti più stringenti (ad esempio la consegna rigorosamente entro una certa data, se richiesta). 
 
 \paragraph{} Il tutto è effettuato in via approssimativa, quindi non è necessario avere conoscenze tecniche troppo specifiche. È però fondamentale che il rappresentante del gruppo operativo abbia conoscenze adeguate in modo da poter formulare soluzioni ragionevoli.
@@ -161,7 +167,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{img/analisi_esplorativa.pdf}
+    \includegraphics[width=.8\textwidth]{img/analisi_esplorativa.pdf}
     \caption{Appunti della raccolta requisiti esplorativa}
 \end{figure}
 
@@ -248,6 +254,7 @@
 
 \paragraph{} Dopo il termine di ogni incontro sono stati organizzati dei meeting tra tutti i membri del team in modo da discutere, analizzare e sintetizzare quanto appreso, e di conseguenza preparare le domande per l'incontro successivo con il committente.
 
+\newpage
 
 \begin{figure}[H]
     \centering
@@ -345,6 +352,9 @@
 \begin{itemize}
     \item \emph{Database}: si occupa di memorizzare i dati. Ha una piccola capacità di elaborazione: può ad esempio controllare che non ci siano duplicati o generare valori per nuovi inserimenti.
     \item \emph{Sito web}: utilizzato dagli amministratori per la parte di \emph{content management}\footnote{I \emph{content management systems}, per quanto riguarda i siti web, servono per gestire le impostazioni e i contenuti dei siti web lato amministrativo.} e in parte dagli utenti per una migliore consultazione di alcuni dati (es. analisi dei dati).
+    
+    \newpage
+    
     \item \emph{Applicazione per smartphone}: utilizzato dagli utenti per interfacciarsi con il sistema.
     \item \emph{API web}: si frappone tra database e i client, in modo da implementare la logica del sistema. È anche il principale controllore della sicurezza (effettua l'autenticazione, protegge le risorse). 
 \end{itemize}
@@ -365,6 +375,7 @@
     \caption{Diagramma di contesto del sistema}
 \end{figure}
 
+\newpage
 
 \subsection{Approfondimento: Architettura REST e formato JSON}
 
@@ -376,7 +387,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/rest.png}
+    \includegraphics[width=0.9\textwidth]{img/rest.png}
     \caption{Struttura dell'architettura REST}
 \end{figure}
 
@@ -396,6 +407,8 @@
 \paragraph{} Dato che i subsystems individuati sono altamente indipendenti, il loro sviluppo potrebbe procedere in parallelo. Non avendo però necessità di terminare il progetto in tempi ristretti, risulta conveniente sviluppare prima il database, poi l'API, poi concorrentemente l'app e il website. In questo modo, è possibile evitare di sviluppare parte degli \emph{stub}\footnote{Gli \emph{stub} sono porzioni di codice che simulano la chiamata ad un modulo di livello inferiore. Sono utilizzati per il testing quando il modulo di livello inferiore non è ancora stato sviluppato.}, in quanto il modulo chiamato è già (in buona parte) implementato.
 
 \paragraph{} Lo sviluppo verrà effettuato in modo incrementale. Il primo incremento sarà di grosse dimensioni, in modo da includere tutto quanto richiesto dal committente. Incrementi successivi verranno usati per effettuare le modifiche necessarie, individuate durante l'attività di validazione oppure non strettamente necessarie per avere un prototipo funzionante (ad esempio, la cifratura dei dati). 
+
+\newpage
 
 \paragraph{} Il committente verrà costantemente tenuto aggiornato rispetto agli sviluppi del progetto. Ad ogni iterazione del ciclo di sviluppo, gli verrà mostrato quanto prodotto per procedere alla validazione. I suoi commenti verranno utilizzati come base per la pianificazione dell'incremento successivo.
 
@@ -446,6 +459,9 @@
 
 \paragraph{} La \emph{ISO 9000 series} contiene le guideline riguardanti \emph{quality management} e \emph{quality assurance}. In particolare, \emph{ISO 9000-3} si occupa dell'applicazione di \emph{ISO 9001} per lo sviluppo, fornitura e manutenzione del software. 
 
+
+\newpage
+
 \paragraph{} Il processo di \emph{quality assurance} è il processo generale relativo all'organizzazione attuata per raggiungere i requisiti di qualità contenuti nella \emph{quality policy}. Il processo di \emph{quality control} è composto dalle tecniche specifiche e attività svolte nel \emph{quality system} per soddisfare i \emph{quality requirements} del singolo progetto. In particolare, le \emph{quality review} sono le azioni specifiche che valutano uno o più quality requirement. 
 
 \paragraph{} La \emph{ISO 9000 certification} viene assegnata da particolari commissioni di valutazione alle società che dimostrano di comprendere ed applicare le norme ISO nel loro operato. Essa è una delle cerificazioni più importanti e di valore per dimostrare ai propri clienti di applicare elevati standard di qualità.
@@ -477,6 +493,9 @@
 
 \paragraph{} Esso permette di \emph{verificare} e \emph{valutare}\footnote{La \emph{verifica} è il processo che compara il software con le specifiche, in modo da individuare errori di programmazione e controllare che il software faccia \emph{quanto stabilito} ("stiamo costruendo bene il sistema richiesto?"). La \emph{validazione} invece controlla che il software incontri davvero le \emph{necessità del committente}, anche se esse dovessero discostarsi dai requisiti ("stiamo costruento il sistema giusto per il committente?").} il sistema durante tutte le fasi, dalla progettazione alla consegna. 
 
+
+\newpage
+
 \paragraph{} La principale distinzione tra tipologie di testing è tra \emph{software inspections} e \emph{verifiche in esecuzione}. Le prime consistono nell'esaminazione diretta del codice da parte di un programmatore, e quindi possono essere eseguite durante tutto il ciclo di vita. Le verifiche in esecuzione sono eseguite valutando la risposta del sistema a particolari input, e quindi necessitano di avere un eseguibile funzionante.
 
 \paragraph{} Il \emph{component testing} si occupa del testing di un singolo componente, o sottosistema. L'\emph{integration testing} testa invece le interazioni tra i componenti, mettendoli assieme. Affinché l'integration testing abbia successo, è necessario prima aver verificato il funzionamento di tutti i componenti. 
@@ -492,6 +511,8 @@
 \paragraph{} Lo \emph{stress test} carica il sistema o una parte oltre il suo limite in modo da verificarne il funzionamento e il degrado delle performance.
 
 \paragraph{} Per effettuare i test spesso è necessario utilizzare degli \emph{stub} o \emph{test driver}. Gli stub sono parti di codice che simulano moduli di livello inferiore (chiamati), mentre i test driver simulano moduli di livello superiore (chiamanti).
+
+\newpage
 
 \paragraph{} Il \emph{validation testing} viene usato al termine dello sviluppo per validare il software, e decidere se sono necessarie modifiche o si può consegnare. Il modo migliore per svolgerlo è far provare il sistema da quelli che saranno gli utilizzatori finali per un congruo lasso di tempo e senza dare indicazioni (perché poi nell'effettivo utilizzo non saranno seguiti dal vivo). 
 
@@ -511,13 +532,15 @@
 
 \paragraph{} Il primo passaggio nella progettazione di una base di dati è la \emph{progettazione concettuale}. Essa si basa sui requisiti e produce una prima rappresentazione del contenuto della base di dati, svincolata dalla sua effettiva implementazione. Il suo risultato è lo \emph{schema Entità-Relazioni}. 
 
+\paragraph{} Per modellare la base di dati, si è scelto di utilizzare il modello \emph{relazionale}, in quanto la base di dati è fortemente strutturata.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{img/er-schema.png}
     \caption{Schema ER}
 \end{figure}
 
-\paragraph{} Per modellare la base di dati, si è scelto di utilizzare il modello \emph{relazionale}, in quanto la base di dati è fortemente strutturata.
+\newpage
 
 \section{Progettazione logica}
 
@@ -533,27 +556,33 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{img/tab_frequenze.png}
+    \includegraphics[width=.65\textwidth]{img/tab_frequenze.png}
     \caption{Frammento della tabella delle frequenze}
 \end{figure}
 
+\newpage
+
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{img/tab_volumi.png}
+    \includegraphics[width=.65\textwidth]{img/tab_volumi.png}
     \caption{Frammento della tabella dei volumi}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{img/tabella_accessi.png}
+    \includegraphics[width=.65\textwidth]{img/tabella_accessi.png}
     \caption{Esempio di tabella degli accessi per l'analisi delle ridondanze}
 \end{figure}
+
+
+\newpage
 
 \paragraph{} Il risultato complessivo è lo \emph{schema ER ristrutturato}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/er-ristrutturato.png}
+    \includegraphics[width=1\textwidth]{img/er-ristrutturato.png}
     \caption{Schema ER ristrutturato}
 \end{figure}
 
@@ -613,7 +642,7 @@ CREATE INDEX idx_persona_partecipante ON persona(id_partecipante);
 \paragraph{} Mediante la codifica di opportuni \emph{trigger}\footnote{I \emph{trigger} sono particolari script eseguibili all'interno di un dbms, a seguito della modifica dei suoi contenuti.} in linguaggio \emph{plpgsql}, abbiamo realizzato i principali controlli di integrità non verificabili dal dbms tramite i soli \emph{constraints}. Inoltre, trigger aggiuntivi sono stati aggiunti per facilitare l'inserimento di alcuni dati.
 
 \begin{lstlisting}[language=SQL, caption=Esempio di implementazione di trigger]
--- Vincolo di esclusivita' attrezzatura (no duplicati) in inserimento
+-- Vincolo di esclusivita' attrezzatura in inserimento
 CREATE OR REPLACE FUNCTION check_id_attrezzatura()
 RETURNS TRIGGER
 LANGUAGE plpgsql AS $$
@@ -667,7 +696,7 @@ postgres:
 
 \subsection{Approfondimento: Utilizzo di Docker}
 
-\paragraph{} \emph{Docker} \cite{docker} è una piattaforma software che permette di creare, testare e distribuire applicazioni in modo semplice e sicuro.\footnote{https://aws.amazon.com/it/docker/} 
+\paragraph{} \emph{Docker} \cite{docker} è una piattaforma software che permette di creare, testare e distribuire applicazioni in modo semplice e sicuro.
 
 \paragraph{} Esso raccoglie il software in unità standardizzate chiamate \emph{container}, le quali offrono tutto il necessario per la loro corretta esecuzione, incluse librerie, strumenti di sistema, codice e runtime. 
 
@@ -741,7 +770,7 @@ postgres:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{img/git-condiviso.png}
+    \includegraphics[width=0.5\textwidth]{img/git-condiviso.png}
     \caption{Esempio dell'uso di git in un progetto condiviso}
 \end{figure}
 
@@ -750,7 +779,7 @@ postgres:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/git-ops.png}
+    \includegraphics[width=0.6\textwidth]{img/git-ops.png}
     \caption{Operazioni principali durante l'utilizzo di git}
 \end{figure}
 
@@ -1030,6 +1059,7 @@ def generate_get(table, query=None, prefix="/api"):
 
 \paragraph{} La funzione \emph{generate\_crsd} genera gli endpoint per effettuare le operazioni \emph{create}, \emph{read}, \emph{update} e \emph{delete} su una singola entità.
 
+\newpage
 \begin{lstlisting}[language=python, caption=generate\_crsd]
 def generate_crsd(table, fields, cond=None, returning=None, prefix="/api"):
     if cond is None:
@@ -1186,7 +1216,7 @@ def doLogin():
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/Login (success).png}
+    \includegraphics[width=0.7\textwidth]{img/Login (success).png}
     \caption{Creazione di un nuovo access token (successo)}
 \end{figure}
 
@@ -1280,6 +1310,8 @@ generate_crsd("categoria_attrezzatura", ["nome_categoria"], auth="cms")
 
 \paragraph{} Il logout è effettuabile mediante l'endpoint \emph{do\_logout}. L'unico parametro richiesto è il token da eliminare. 
 
+\newpage
+
 \begin{lstlisting}[language=Python, caption=POST do\_logout]
 @app.route("/api/do_logout", methods=["POST"])
 def doLogout():
@@ -1318,9 +1350,7 @@ def get_recuperaPw():
         d["email"] = data["email"]
 
         cursor_insert(cursor, d, "token", ["token", "email"])
-        
         ...
-
         me, you = "pc.cms.sanvito@gmail.com", d["email"]
 
         msg = MIMEMultipart('alternative')
@@ -1342,9 +1372,7 @@ def get_recuperaPw():
           </body>
         </html>
         """
-
         ...
-
         server = smtplib.SMTP(smtp_server, port)
         server.starttls(context=context)  # Secure the connection
         server.login(sender_email, password)
@@ -1556,6 +1584,7 @@ Conferma l'inserimento della nuova attivita'
     \caption{Grafo dei concetti}
 \end{figure}
 
+\newpage
 
 \paragraph{} Come interfaccia di navigazione principale. è stato scelto di usare una sidebar. Il suo contenuto è il seguente: 
 \begin{itemize}
@@ -1699,7 +1728,7 @@ Conferma l'inserimento della nuova attivita'
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{img/debug_app_pc.png}
+    \includegraphics[width=0.8\textwidth]{img/debug_app_pc.png}
     \caption{Testing - Dispositivo di sviluppo}
 \end{figure}
 
@@ -1707,12 +1736,12 @@ Conferma l'inserimento della nuova attivita'
     \centering
     \begin{subfigure}{.4\textwidth}
       \centering
-      \includegraphics[width=0.8\linewidth]{img/debug_app_1.jpeg}
+      \includegraphics[width=0.7\linewidth]{img/debug_app_1.jpeg}
       \caption{App Expo}
     \end{subfigure}%
     \begin{subfigure}{.4\textwidth}
       \centering
-      \includegraphics[width=0.8\linewidth]{img/debug_app_2.jpeg}
+      \includegraphics[width=0.7\linewidth]{img/debug_app_2.jpeg}
       \caption{Opzioni di debugging con Expo}
     \end{subfigure}
     \caption{Testing - dispositivo mobile}
@@ -1761,9 +1790,11 @@ Conferma l'inserimento della nuova attivita'
 
 \paragraph{} Si è scelto di implementare la navigazione utilizzando una \emph{responsive sidebar}. Per ogni task della lista è presente la voce corrispondente nella sidebar. 
 
+\newpage
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/bootstrap-sidebar.jpg}
+    \includegraphics[width=0.7\textwidth]{img/bootstrap-sidebar.jpg}
     \caption{Esempio di navigazione con sidebar}
 \end{figure}
 
@@ -1971,6 +2002,8 @@ Conferma l'inserimento della nuova attivita'
 
 \end{lstlisting}
 
+\newpage
+
 \paragraph{} Il template \emph{base\_table} estende \emph{base}, introducendo una \emph{datatable} generica nella sezione \emph{content}. 
 
 \begin{lstlisting}[language=html, caption=Template base\_table.html]
@@ -2025,11 +2058,6 @@ Conferma l'inserimento della nuova attivita'
             {
                 data: "numero_tessera",
                 title: "Tessera",
-                unique: true
-            },
-            {
-                data: "codice_fiscale",
-                title: "Cod. fiscale",
                 unique: true
             },
             ...
@@ -2228,6 +2256,8 @@ Conferma l'inserimento della nuova attivita'
 {% endblock %}
 \end{lstlisting}
 
+\newpage
+
 \section{Testing}
 
 \paragraph{} Per effettuare il testing durante lo sviluppo, risulta naturale utilizzare il server di test offerto da flask. 
@@ -2238,7 +2268,7 @@ Conferma l'inserimento della nuova attivita'
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/prova_chrome.png}
+    \includegraphics[width=1\textwidth]{img/prova_chrome.png}
     \caption{Testing con il browser \emph{Google chrome} durante lo sviluppo del website}
 \end{figure}
 
@@ -2247,11 +2277,13 @@ Conferma l'inserimento della nuova attivita'
 
 \paragraph{} Il deploy è stato effettuato anche questa volta tramite Docker. Sfruttando il fatto che Flask (gunicorn) è già attivo per servire le API, è conveniente includere il website all'interno del container preesistente. 
 
+\newpage
+
 \paragraph{} Di seguito alcuni screenshot del risultato finale. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/persona.jpg}
+    \includegraphics[width=1\textwidth]{img/persona.jpg}
     \caption{Persona}
 \end{figure}
 
@@ -2319,6 +2351,8 @@ gcloud app deploy
 \end{lstlisting}
 
 \paragraph{} Di default la webapp è disponibile ad un indirizzo offerto dalla piattaforma. È possibile acquistare un dominio personalizzato sempre all'interno della piattaforma.
+
+\newpage
 
 \section{Pubblicazione dell'app}
 
